@@ -4,7 +4,7 @@ description: >-
   Innovative mobile applications for location-based services and solutions.
   Location Science GmbH delivers cutting-edge technology for your mobile needs.
 baseurl: ""
-url: ""
+url: "https://location-science.com"
 github_username: location-science
 
 # Build settings
