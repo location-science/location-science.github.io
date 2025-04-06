@@ -5,9 +5,22 @@ description: >-
   Location Science GmbH delivers cutting-edge technology for your mobile needs.
 baseurl: ""
 url: "https://location-science.com"
-github_username: location-science
 
 # Build settings
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+# Social media
+github_username: location-science
+
+# Legal information
+company_name: Location Science GmbH
+company_address: "Purrbachstr. 7c Jetzendorf"
+company_phone: "015204938192"
+company_email: "contact@location-science.com"
+company_registration: "Handelsregister B Ingolstadt - HRB 12011"
+company_vat: "DE451272391"
+legal_representative: "Tobias Neumann"
