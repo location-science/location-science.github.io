@@ -52,7 +52,7 @@ You agree to:
 
 2. Content Licenses:
    - The content presented in StoryMapp is subject to various open source and creative commons licenses
-   - Detailed information about content sources and their respective licenses can be found on our [Sources and Licenses](/sources/) page
+   - Detailed information about content sources and their respective licenses can be found on our [Sources and Licenses](/attribution/) page
    - Users are responsible for complying with the terms of these licenses when using or sharing content
 
 ## 7. Intellectual Property
@@ -60,7 +60,7 @@ You agree to:
 1. All intellectual property rights in the app and its content (excluding user-generated content) belong to Location Science GmbH.
 2. You may not copy, modify, or distribute the app or its content without express permission.
 3. User-generated content remains the property of the respective users.
-4. Third-party content is subject to the licenses specified on our [Sources and Licenses](/sources/) page.
+4. Third-party content is subject to the licenses specified on our [Sources and Licenses](/attribution/) page.
 
 ## 8. Data Protection
 
