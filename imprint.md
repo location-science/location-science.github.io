@@ -10,8 +10,8 @@ permalink: /imprint/
 
 ### Company Information
 Location Science GmbH  
-Purrbachstr. 7c 
-85305 Jetzendorf
+Purrbachstr. 7c  
+85305 Jetzendorf  
 Germany
 
 ### Contact Information
@@ -44,4 +44,6 @@ All content on this website has been created with the utmost care. However, we c
 
 All content and works created by the site operators on these pages are subject to German copyright law. Duplication, processing, distribution, or any form of commercialization of such material beyond the scope of the copyright law shall require the prior written consent of its respective author or creator.
 
-For information about third-party content and licenses, please see our [Attribution](/attribution/) page. 
+For information about third-party content and licenses, please see our [Attribution](/attribution/) page.
+
+Last Updated: [Current Date] 

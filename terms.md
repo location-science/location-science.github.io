@@ -94,3 +94,5 @@ These Terms are governed by German law. Any disputes shall be subject to the exc
 
 For questions about these Terms, please contact us at:
 [contact@locationscience.com](mailto:contact@locationscience.com) 
+
+Last Updated: [Current Date] 

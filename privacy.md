@@ -85,6 +85,11 @@ For privacy-related inquiries or to exercise your rights under GDPR/BDSG, please
 
 You have the right to lodge a complaint with a supervisory authority, in particular in the Member State of your habitual residence, place of work, or place of the alleged infringement. The competent supervisory authority for our company is:
 
-[Name of the competent supervisory authority]
-[Address of the supervisory authority]
-[Contact information of the supervisory authority] 
+Bayerisches Landesamt für Datenschutzaufsicht (BayLDA)  
+Promenade 18  
+91522 Ansbach  
+Germany  
+Email: poststelle@lda.bayern.de  
+Website: www.lda.bayern.de
+
+Last Updated: [Current Date] 

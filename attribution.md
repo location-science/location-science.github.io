@@ -53,4 +53,6 @@ When using Wikipedia or Wikidata content, you must:
 - We maintain records of data sources and their usage to ensure compliance with licensing requirements
 - If you have any questions about our use of these data sources, please contact us
 
-For more information about our data usage and privacy practices, please see our [Data Privacy Policy](/privacy/) and [Terms of Usage](/terms/). 
+For more information about our data usage and privacy practices, please see our [Data Privacy Policy](/privacy/) and [Terms of Usage](/terms/).
+
+Last Updated: [Current Date] 
