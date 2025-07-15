@@ -1,8 +1,9 @@
 title: Location Science GmbH
 email: contact@location-science.com
 description: >-
-  Innovative mobile applications for location-based services and solutions.
-  Location Science GmbH delivers cutting-edge technology for your mobile needs.
+  We are passionate about this planet full of hidden stories. Location Science GmbH creates meaningful technology 
+  that helps people rediscover the wonder, beauty, and stories of our world. Creators of StoryMapp - discover 
+  location-based stories around you.
 baseurl: ""
 url: "https://location-science.com"
 
@@ -16,7 +17,19 @@ plugins:
 # Social media
 github_username: location-science
 
-# Legal information
+# StoryMapp information
+app_name: "StoryMapp"
+app_store_url: "https://apps.apple.com/de/app/storymapp/id6746046187"
+google_play_url: "https://play.google.com/store/apps/details?id=app.storym"
+app_id_ios: "6746046187"
+app_id_android: "app.storym"
+
+# SEO and social
+twitter_username: location-science
+logo: /assets/images/logo.png
+author: Location Science GmbH
+
+# Legal information (required for German/EU compliance)
 company_name: Location Science GmbH
 company_address: "Purrbachstr. 7c Jetzendorf"
 company_phone: "015204938192"

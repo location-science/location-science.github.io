@@ -1,0 +1,58 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {%- seo -%}
+
+    <!-- Enhanced meta tags for StoryMapp and Location Science -->
+    <meta name="description"
+        content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta name="keywords"
+        content="StoryMapp, location-based stories, cartography, navigation, data science, open data, mobile app, GDPR, privacy-first">
+    <meta name="author" content="Location Science GmbH">
+
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+    <meta property="og:description"
+        content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
+    <meta name="twitter:description"
+        content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+    <!-- App Store meta tags -->
+    <meta name="apple-itunes-app" content="app-id=6746046187">
+    <meta name="google-play-app" content="app-id=app.storym">
+
+    <!-- Favicon and icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Feed -->
+    {%- feed_meta -%}
+
+    <!-- Language and canonical -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <meta name="robots" content="index, follow">
+
+    <!-- EU/German compliance -->
+    <meta name="dc.language" content="en">
+    <meta name="dc.creator" content="Location Science GmbH">
+    <meta name="dc.publisher" content="Location Science GmbH">
+    <meta name="dc.rights" content="© {{ 'now' | date: '%Y' }} Location Science GmbH. All rights reserved.">
+</head>
