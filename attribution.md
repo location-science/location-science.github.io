@@ -55,4 +55,4 @@ When using Wikipedia or Wikidata content, you must:
 
 For more information about our data usage and privacy practices, please see our [Data Privacy Policy](/privacy/) and [Terms of Usage](/terms/).
 
-Last Updated: [Current Date] 
+**Last updated: {{ site.time | date: "%B %d, %Y" }}**

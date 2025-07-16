@@ -39,4 +39,4 @@ We may update this Cookie Policy from time to time. We will notify you of any ch
 
 If you have any questions about our Cookie Policy, please contact us at [contact@location-science.com](mailto:contact@location-science.com).
 
-Last Updated: [Current Date] 
+**Last updated: {{ site.time | date: "%B %d, %Y" }}**
