@@ -134,40 +134,59 @@ p {
 }
 
 .primary-button {
-    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-light) 100%);
-    color: white;
-    box-shadow: var(--shadow-md);
+    background: linear-gradient(135deg, 
+        rgba(255, 255, 255, 0.95) 0%, 
+        rgba(248, 250, 252, 0.9) 100%);
+    color: #1e293b;
+    box-shadow: 
+        0 10px 40px rgba(0, 0, 0, 0.1),
+        0 4px 20px rgba(0, 0, 0, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px) saturate(120%);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-shadow: none;
 }
 
 .primary-button:hover {
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    background: linear-gradient(135deg, 
+        rgba(255, 255, 255, 1) 0%, 
+        rgba(248, 250, 252, 0.95) 100%);
     text-decoration: none;
-    color: white;
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-xl);
+    color: #0f172a;
+    transform: translateY(-2px);
+    box-shadow: 
+        0 20px 60px rgba(0, 0, 0, 0.15),
+        0 8px 30px rgba(0, 0, 0, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 0.8);
 }
 
 .secondary-button {
     background-color: transparent;
-    color: var(--secondary-color);
-    border-color: var(--secondary-color);
+    color: rgba(255, 255, 255, 0.8);
+    border-color: rgba(255, 255, 255, 0.6);
     box-shadow: var(--shadow-sm);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .secondary-button:hover {
-    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-light) 100%);
+    background: rgba(255, 255, 255, 0.1);
     color: white;
     text-decoration: none;
-    transform: translateY(-3px);
+    transform: translateY(-2px);
     box-shadow: var(--shadow-lg);
+    border-color: rgba(255, 255, 255, 0.8);
 }
 
 // Hero section styling
 .hero-section {
-    background: linear-gradient(135deg, 
-        var(--background-light) 0%, 
-        var(--background-white) 50%, 
-        var(--background-light) 100%);
+    background-image: url('/assets/images/earth-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 3rem 0 4rem;
     margin: 0 0 4rem;
     position: relative;
@@ -181,8 +200,10 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e2e8f0' fill-opacity='0.3'%3E%3Ccircle cx='30' cy='30' r='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
-    opacity: 0.5;
+    background: linear-gradient(135deg, 
+        rgba(255, 255, 255, 0.3) 0%, 
+        rgba(248, 250, 252, 0.4) 50%, 
+        rgba(255, 255, 255, 0.3) 100%);
 }
 
 .hero-content {
@@ -194,12 +215,35 @@ p {
     padding: 0 2rem;
 }
 
+.hero-content h1 {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 600;
+}
+
 .hero-subtitle {
     font-size: 1.5rem;
-    color: var(--text-medium);
+    color: rgba(255, 255, 255, 0.9);
     margin-bottom: 2.5rem;
     font-weight: 400;
     line-height: 1.6;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+// StoryMapp page specific hero styling
+.page-content .hero-section h1 {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+    font-weight: 600 !important;
+}
+
+.page-content .hero-subtitle {
+    color: rgba(255, 255, 255, 0.9) !important;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 // Enhanced StoryMapp download section
@@ -243,150 +287,27 @@ p {
     font-weight: 400;
 }
 
-// QR Code and download buttons layout
+// Official app store badges layout
 .download-options {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 3rem;
-    margin-top: 3rem;
-    align-items: start;
-}
-
-.download-option {
-    background: var(--background-white);
-    border: 1px solid var(--border-light);
-    border-radius: 20px;
-    padding: 2.5rem 2rem;
-    transition: all 0.3s ease;
-    position: relative;
-}
-
-.download-option:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-lg);
-    border-color: var(--secondary-light);
-}
-
-.download-option::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    border-radius: 20px 20px 0 0;
-    transition: all 0.3s ease;
-}
-
-.download-option.ios::before {
-    background: linear-gradient(135deg, #000000, #333333);
-}
-
-.download-option.android::before {
-    background: linear-gradient(135deg, #01875f, #4285f4);
-}
-
-.download-platform {
-    font-size: 1.25rem;
-    font-weight: 500;
-    margin-bottom: 1.5rem;
-    color: var(--primary-color);
-}
-
-.qr-code-container {
-    margin: 1.5rem 0;
-    padding: 1rem;
-    background: var(--background-white);
-    border-radius: 12px;
-    border: 2px solid var(--border-lighter);
-    display: inline-block;
-}
-
-.qr-code {
-    width: 150px;
-    height: 150px;
-    display: block;
-    margin: 0 auto;
-    border-radius: 8px;
-}
-
-.qr-instructions {
-    font-size: 0.9rem;
-    color: var(--text-light);
-    margin: 1rem 0;
-    font-style: italic;
-}
-
-.download-buttons {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1rem;
     justify-content: center;
-    margin-top: 2rem;
-}
-
-.download-button {
-    display: inline-flex;
     align-items: center;
-    padding: 16px 24px;
-    border-radius: 16px;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    border: 2px solid transparent;
-    min-width: 200px;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-    box-shadow: var(--shadow-md);
+    margin-top: 3rem;
 }
 
-.download-button::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-        90deg,
-        transparent,
-        rgba(255, 255, 255, 0.2),
-        transparent
-    );
-    transition: left 0.5s;
+.download-options a {
+    transition: all 0.2s ease;
+    display: block;
 }
 
-.download-button:hover::before {
-    left: 100%;
-}
-
-.apple-button {
-    background: linear-gradient(135deg, #000000 0%, #333333 100%);
-    color: white;
-}
-
-.apple-button:hover {
-    background: linear-gradient(135deg, #333333 0%, #555555 100%);
-    text-decoration: none;
-    color: white;
+.download-options a:hover {
     transform: translateY(-2px);
-    box-shadow: var(--shadow-xl);
+    opacity: 0.9;
 }
 
-.google-button {
-    background: linear-gradient(135deg, #01875f 0%, #4285f4 100%);
-    color: white;
-}
 
-.google-button:hover {
-    background: linear-gradient(135deg, #4285f4 0%, #01875f 100%);
-    text-decoration: none;
-    color: white;
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-xl);
-}
 
 // Alternative layout for traditional button approach
 .download-buttons-traditional {

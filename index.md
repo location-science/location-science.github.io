@@ -47,33 +47,17 @@ title: Welcome to Location Science
   </div>
   
   <div class="download-options">
-    <div class="download-option ios">
-      <div class="download-platform">📱 iOS App Store</div>
-      <div class="qr-code-container">
-        <img src="https://qrcode.chooyee.co/qr?data=https://apps.apple.com/de/app/storymapp/id6746046187&width=150&height=150&foregroundcolor=000000&backgroundcolor=ffffff" 
-             alt="iOS App Store QR Code" class="qr-code">
-      </div>
-      <p class="qr-instructions">Scan with your iPhone camera to download</p>
-      <div class="download-buttons">
-        <a href="https://apps.apple.com/de/app/storymapp/id6746046187" class="download-button apple-button" target="_blank" rel="noopener">
-          📱 Download on App Store
-        </a>
-      </div>
-    </div>
-
-    <div class="download-option android">
-      <div class="download-platform">🤖 Google Play Store</div>
-      <div class="qr-code-container">
-        <img src="https://qrcode.chooyee.co/qr?data=https://play.google.com/store/apps/details?id=app.storym&width=150&height=150&foregroundcolor=000000&backgroundcolor=ffffff" 
-             alt="Google Play Store QR Code" class="qr-code">
-      </div>
-      <p class="qr-instructions">Scan with your Android camera to download</p>
-      <div class="download-buttons">
-        <a href="https://play.google.com/store/apps/details?id=app.storym" class="download-button google-button" target="_blank" rel="noopener">
-          📲 Get it on Google Play
-        </a>
-      </div>
-    </div>
+    <a href="https://apps.apple.com/de/app/storymapp/id6746046187" target="_blank" rel="noopener">
+      <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1262304000" 
+           alt="Download on the App Store" 
+           style="border-radius: 13px; width: 200px; height: auto;">
+    </a>
+    
+    <a href="https://play.google.com/store/apps/details?id=app.storym" target="_blank" rel="noopener">
+      <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
+           alt="Get it on Google Play" 
+           style="width: 230px; height: auto;">
+    </a>
   </div>
 </div>
 
