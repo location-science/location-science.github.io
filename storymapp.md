@@ -109,6 +109,57 @@ permalink: /storymapp/
       <h3>Unmatched Story Map Accuracy</h3>
       <p>Our carefully fine-tuned story providing model minimizes LLM hallucination, delivering the most accurate and reliable <strong>place-based storytelling</strong> content available in any <strong>story map platform</strong>.</p>
     </div>
+
+    <div class="feature-card">
+      <span class="feature-emoji">🌐</span>
+      <h3>Multilingual Story Map Experience</h3>
+      <p>Enjoy <strong>location-based stories</strong> in your native language with support for English, German, and Chinese—both text and audio content. More languages coming soon to make <strong>place-based storytelling</strong> accessible to everyone worldwide.</p>
+    </div>
+  </div>
+</div>
+
+<div class="content-section">
+  <h2>Multilingual Story Map Experience - Stories in Your Language</h2>
+  <p>We believe that <strong>location-based storytelling</strong> should be accessible to everyone, regardless of language barriers. That's why StoryMapp delivers all story content—both text and audio—in your native language, making <strong>place-based narratives</strong> truly accessible to global audiences.</p>
+
+  <div style="margin: 3rem 0;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem;">
+      <div style="background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%); padding: 2.5rem; border-radius: 20px; border: 1px solid #e2e8f0; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); position: relative; overflow: hidden;">
+        <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(135deg, #1e40af, #3b82f6);"></div>
+        <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+          <div style="font-size: 3rem; margin-right: 1rem;">🌐</div>
+          <div>
+            <h3 style="color: #2563eb; margin: 0; font-size: 1.4rem; font-weight: 500;">Currently Supported Languages</h3>
+            <p style="color: #64748b; margin: 0; font-size: 0.9rem;">Text and audio content available</p>
+          </div>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; margin: 1.5rem 0;">
+          <span style="background: rgba(43, 108, 176, 0.1); color: #1e40af; padding: 0.5rem 1rem; border-radius: 12px; font-size: 1rem; font-weight: 600;">🇺🇸 English</span>
+          <span style="background: rgba(43, 108, 176, 0.1); color: #1e40af; padding: 0.5rem 1rem; border-radius: 12px; font-size: 1rem; font-weight: 600;">🇩🇪 German</span>
+          <span style="background: rgba(43, 108, 176, 0.1); color: #1e40af; padding: 0.5rem 1rem; border-radius: 12px; font-size: 1rem; font-weight: 600;">🇨🇳 Chinese</span>
+        </div>
+        <p style="color: #64748b; margin: 0; font-size: 1rem; line-height: 1.5;">Experience <strong>location-based stories</strong> in your preferred language, with both written narratives and audio storytelling available.</p>
+      </div>
+      
+      <div style="background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%); padding: 2.5rem; border-radius: 20px; border: 1px solid #e2e8f0; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); position: relative; overflow: hidden;">
+        <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(135deg, #1e40af, #3b82f6);"></div>
+        <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+          <div style="font-size: 3rem; margin-right: 1rem;">🚀</div>
+          <div>
+            <h3 style="color: #2563eb; margin: 0; font-size: 1.4rem; font-weight: 500;">More Languages Coming Soon</h3>
+            <p style="color: #64748b; margin: 0; font-size: 0.9rem;">Expanding global accessibility</p>
+          </div>
+        </div>
+        <p style="color: #1f2937; margin-bottom: 1.5rem; font-size: 1rem; line-height: 1.5;">We're continuously working to add more languages to make <strong>place-based storytelling</strong> accessible to even more people around the world.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+          <span style="background: rgba(43, 108, 176, 0.1); color: #1e40af; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.85rem; font-weight: 500;">Spanish</span>
+          <span style="background: rgba(43, 108, 176, 0.1); color: #1e40af; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.85rem; font-weight: 500;">French</span>
+          <span style="background: rgba(43, 108, 176, 0.1); color: #1e40af; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.85rem; font-weight: 500;">Portuguese</span>
+          <span style="background: rgba(43, 108, 176, 0.1); color: #1e40af; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.85rem; font-weight: 500;">Arabic</span>
+          <span style="background: rgba(43, 108, 176, 0.1); color: #1e40af; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.85rem; font-weight: 500;">And more...</span>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 

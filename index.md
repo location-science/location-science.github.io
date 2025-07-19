@@ -52,6 +52,12 @@ keywords: StoryMapp, story map, story maps, storymap, storymaps, location-based 
       <h3>Unmatched Accuracy</h3>
       <p>Our carefully fine-tuned models minimize LLM hallucination, delivering the most accurate and reliable location-based content available.</p>
     </div>
+
+    <div class="feature-card">
+      <span class="feature-emoji">🌐</span>
+      <h3>Multilingual Experience</h3>
+      <p>Enjoy location-based stories in your native language with support for English, German, and Chinese—both text and audio content. More languages coming soon.</p>
+    </div>
   </div>
 </div>
 
