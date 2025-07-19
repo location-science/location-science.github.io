@@ -1,8 +1,9 @@
-title: Location Science GmbH
+title: Location Science
 email: contact@location-science.com
 description: >-
-  Innovative mobile applications for location-based services and solutions.
-  Location Science GmbH delivers cutting-edge technology for your mobile needs.
+  StoryMapp - Discover location-based stories around you. The world's most comprehensive platform for story maps 
+  and place-based storytelling. Download our mobile app to explore 7.5M+ stories worldwide. Created by Location 
+  Science GmbH, experts in cartography and data science.
 baseurl: ""
 url: "https://location-science.com"
 
@@ -12,11 +13,47 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO enhancements
+lang: en_US
+timezone: Europe/Berlin
 
 # Social media
 github_username: location-science
 
-# Legal information
+# StoryMapp information
+app_name: "StoryMapp"
+app_tagline: "Discover location-based stories around you"
+app_store_url: "https://apps.apple.com/de/app/storymapp/id6746046187"
+google_play_url: "https://play.google.com/store/apps/details?id=app.storym"
+app_id_ios: "6746046187"
+app_id_android: "app.storym"
+
+# SEO and social
+twitter_username: location-science
+logo: /assets/images/storymapp-logo.png
+author: Location Science GmbH
+
+# Enhanced SEO settings
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      image: /assets/images/storymapp-logo.png
+      author: Location Science GmbH
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      image: /assets/images/storymapp-logo.png
+      author: Location Science GmbH
+
+# Primary keywords for SEO
+keywords: "StoryMapp, story map, story maps, storymap, storymaps, location-based stories, place-based storytelling, mobile storytelling app, location stories, travel stories, historical places, cultural stories, narrative mapping, interactive maps"
+
+# Legal information (required for German/EU compliance)
 company_name: Location Science GmbH
 company_address: "Purrbachstr. 7c Jetzendorf"
 company_phone: "015204938192"

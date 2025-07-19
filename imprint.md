@@ -46,4 +46,4 @@ All content and works created by the site operators on these pages are subject t
 
 For information about third-party content and licenses, please see our [Attribution](/attribution/) page.
 
-Last Updated: [Current Date] 
+**Last updated: {{ site.time | date: "%B %d, %Y" }}**

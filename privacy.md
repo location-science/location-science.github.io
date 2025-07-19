@@ -92,4 +92,4 @@ Germany
 Email: poststelle@lda.bayern.de  
 Website: www.lda.bayern.de
 
-Last Updated: [Current Date] 
+**Last updated: {{ site.time | date: "%B %d, %Y" }}**
