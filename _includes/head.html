@@ -9,7 +9,7 @@
     <meta name="description"
         content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <meta name="keywords"
-        content="StoryMapp, location-based stories, cartography, navigation, data science, open data, mobile app, GDPR, privacy-first">
+        content="{% if page.keywords %}{{ page.keywords }}, {% endif %}{{ site.keywords }}">
     <meta name="author" content="Location Science GmbH">
 
     <!-- Open Graph meta tags -->
@@ -20,16 +20,82 @@
     <meta property="og:site_name" content="{{ site.title | escape }}">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="{{ page.image | default: site.logo | absolute_url }}">
+    <meta property="og:image:alt" content="StoryMapp - Location-based storytelling platform">
 
     <!-- Twitter Card meta tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
     <meta name="twitter:description"
         content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta name="twitter:image" content="{{ page.image | default: site.logo | absolute_url }}">
+    <meta name="twitter:site" content="@{{ site.twitter_username }}">
 
     <!-- App Store meta tags -->
     <meta name="apple-itunes-app" content="app-id=6746046187">
     <meta name="google-play-app" content="app-id=app.storym">
+
+    <!-- Structured Data for StoryMapp -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "StoryMapp",
+      "description": "Discover location-based stories around you. The world's most comprehensive platform for story maps and place-based storytelling with 7.5M+ stories worldwide.",
+      "operatingSystem": ["iOS", "Android"],
+      "applicationCategory": "TravelApplication",
+      "author": {
+        "@type": "Organization",
+        "name": "Location Science GmbH",
+        "url": "https://location-science.com"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "downloadUrl": [
+        "{{ site.app_store_url }}",
+        "{{ site.google_play_url }}"
+      ],
+      "screenshot": "{{ site.logo | absolute_url }}",
+      "keywords": "story map, story maps, storymap, storymaps, location stories, place-based storytelling, travel stories, mobile app",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1500"
+      }
+    }
+    </script>
+
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Location Science GmbH",
+      "url": "https://location-science.com",
+      "logo": "{{ site.logo | absolute_url }}",
+      "description": "Creators of StoryMapp - the world's most comprehensive platform for location-based storytelling and story maps.",
+      "email": "{{ site.email }}",
+      "foundingDate": "2023",
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Germany"
+      },
+      "sameAs": [
+        "https://github.com/{{ site.github_username }}",
+        "https://twitter.com/{{ site.twitter_username }}"
+      ],
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "SoftwareApplication",
+          "name": "StoryMapp"
+        }
+      }
+    }
+    </script>
 
     <!-- Favicon and icons -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -42,6 +108,8 @@
     <!-- Preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://apps.apple.com">
+    <link rel="preconnect" href="https://play.google.com">
 
     <!-- Feed -->
     {%- feed_meta -%}
@@ -49,6 +117,7 @@
     <!-- Language and canonical -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
     <meta name="robots" content="index, follow">
+    <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
 
     <!-- EU/German compliance -->
     <meta name="dc.language" content="en">

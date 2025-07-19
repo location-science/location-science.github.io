@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# StoryMapp app pages
+Allow: /storymapp/
+Allow: /story-map/
+Allow: /story-maps/
+Allow: /storymap/
+Allow: /storymaps/
+
+# Important pages
+Allow: /about/
+Allow: /privacy/
+Allow: /terms/
+
+# Exclude admin and private files
+Disallow: /_site/
+Disallow: /vendor/
+Disallow: /.git/
+Disallow: /docs/
+
+# Sitemap location
+Sitemap: https://location-science.com/sitemap.xml 
