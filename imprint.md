@@ -15,11 +15,7 @@ Purrbachstr. 7c
 Germany
 
 ### Contact Information
-Phone: 015204938192  
 Email: contact@location-science.com
-
-### Legal Representatives
-Managing Director: Tobias Neumann
 
 ### Commercial Register
 Registered at: Handelsregister B Ingolstadt
