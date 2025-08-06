@@ -46,10 +46,9 @@ We process your personal data based on:
 
 ## Data Protection Officer
 
-In accordance with Article 37 GDPR and § 38 BDSG, we have appointed a Data Protection Officer:
+In accordance with Article 37 GDPR and § 38 BDSG, we have appointed a Data Protection Officer.
 
-Tobias Neumann
-Email: [contact@locationscience.com](mailto:contact@locationscience.com)
+Contact Email: [contact@locationscience.com](mailto:contact@locationscience.com)
 
 ## Your Rights
 
