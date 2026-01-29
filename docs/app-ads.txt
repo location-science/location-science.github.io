@@ -1,3 +1,5 @@
+# app-ads from /docs
+
 greenadexchange.com, 12345, DIRECT, d75815a79
 
 silverssp.com, 9675, RESELLER, 496211
@@ -10,6 +12,4 @@ silverssp.com, ABE679, RESELLER
 
 google.com, pub-5950681041727922, DIRECT, f08c47fec0942fa0
 
-smartadserver.com, 4194-OB, RESELLER, 060d053dcf45cbf3
-
-smartadserver.com, 4194, RESELLER, 060d053dcf45cbf3
+vungle.com, 6979a9363eafeed3e7b2b682, DIRECT, c107d686becd2d77
