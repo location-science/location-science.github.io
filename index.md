@@ -115,6 +115,15 @@ keywords: StoryMapp, story map, story maps, storymap, storymaps, location-based 
 </div>
 
 <div class="content-section">
+  <h2>For Organizations: Share Your Tours & Stories</h2>
+  <p>StoryMapp is now open to <strong>third-party organizations</strong>. Museums, city marketing, tourism boards, zoos, and art collectives can share their own <strong>tours and location-based stories</strong> — discoverable on the map and in search, told in every visitor's language, and enriched with vouchers and story-integrated advertisements for local partners.</p>
+
+  <div style="text-align: center; margin-top: 2rem;">
+    <a href="/storymapp/#share" class="button primary-button">Share Your Tours on StoryMapp</a>
+  </div>
+</div>
+
+<div class="content-section">
   <h2>Why We Started: Meaningful Story Maps in a Noisy World</h2>
   <p>In today's noisy and restless AI era, we've chosen to start over—with a few small, meaningful creations. We believe that <strong>story mapping technology</strong> should enhance human connection with the world around us, not overwhelm it.</p>
   

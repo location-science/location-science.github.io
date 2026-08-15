@@ -240,6 +240,77 @@ permalink: /storymapp/
   </div>
 </div>
 
+<div class="content-section" id="share">
+  <h2>Share Your Tours & Stories - StoryMapp for Organizations</h2>
+  <p>Every organization has stories rooted in places: the mural a collective painted, the trail a town is proud of, the animals a zoo cares for, the history a museum keeps alive. We've opened StoryMapp so that <strong>third-party organizations</strong> can now share their own <strong>tours and location-based stories</strong> with explorers around the world — on the same <strong>story map platform</strong> that already connects millions of places with the people walking past them.</p>
+
+  <p>Imagine a visitor scanning a QR code at a mural and stepping straight into your curated art walk. A guest following your heritage trail stop by stop, listening to your stories in their own language. A zoo telling its animal stories to every family, whatever language they speak. Your tours appear right on the <strong>story map</strong> and in the search dialogue, so people nearby become aware of your local project — and follow through to your own website to learn more, book, or get involved.</p>
+
+  <p>And storytelling is only the beginning: showcase your local business partners and cooperations with vouchers and story-integrated advertisements. There are endless ways to inspire customers with genuine local knowledge — delivered exactly where it matters, <em>at the place itself</em>.</p>
+
+  <div class="features-grid">
+    <div class="feature-card">
+      <span class="feature-emoji">🧭</span>
+      <h3>Curated Tours & Routes</h3>
+      <p>Build ordered <strong>story map tours</strong> with a walking route on the map — visitors follow your stops one by one, each with its own story.</p>
+    </div>
+
+    <div class="feature-card">
+      <span class="feature-emoji">✍️</span>
+      <h3>Your Stories, Your Voice</h3>
+      <p>Publish your own <strong>place-based stories</strong> with text, audio, and images — with proper credits and licensing, managed in an easy web dashboard.</p>
+    </div>
+
+    <div class="feature-card">
+      <span class="feature-emoji">🔎</span>
+      <h3>Discovered on the Map & in Search</h3>
+      <p>Your tours are found directly on the <strong>story map</strong> and through the search dialogue — making users aware of your local project and routing them on to your website.</p>
+    </div>
+
+    <div class="feature-card">
+      <span class="feature-emoji">🎨</span>
+      <h3>Your Brand in the App</h3>
+      <p>Your logo and colors accompany your tours, so your organization stays visible while visitors explore your <strong>story maps</strong>.</p>
+    </div>
+
+    <div class="feature-card">
+      <span class="feature-emoji">🌐</span>
+      <h3>Reach Every Visitor</h3>
+      <p>Built-in translation brings your <strong>location-based stories</strong> to international audiences — you keep editorial control over every language.</p>
+    </div>
+
+    <div class="feature-card">
+      <span class="feature-emoji">🦁</span>
+      <h3>Stories for Every Kind of Place</h3>
+      <p>Zoos, wildlife parks, botanical gardens, open-air museums — tell your animal stories and nature narratives to visitors in their own language, right at the enclosure.</p>
+    </div>
+
+    <div class="feature-card">
+      <span class="feature-emoji">📲</span>
+      <h3>Share Links & QR Codes</h3>
+      <p>Every place and tour gets a durable share link — print a QR code on site and visitors jump straight into your story, app or no app.</p>
+    </div>
+
+    <div class="feature-card">
+      <span class="feature-emoji">🎟️</span>
+      <h3>Vouchers & Local Partnerships</h3>
+      <p>Advertise local businesses and your local cooperations with vouchers and <strong>story-integrated advertisements</strong> — turning stories into visits for your whole neighborhood.</p>
+    </div>
+
+    <div class="feature-card">
+      <span class="feature-emoji">🤝</span>
+      <h3>For Every Storyteller</h3>
+      <p>Museums, city marketing, tourism boards, art collectives, heritage associations — if your stories belong to places, they belong on StoryMapp.</p>
+    </div>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #2b6cb0 0%, #1e40af 100%); color: white; padding: 2.5rem; border-radius: 16px; margin: 3rem 0; text-align: center;">
+    <h3 style="margin-bottom: 1rem; font-size: 1.5rem; color: white; font-weight: 600;">Become a StoryMapp Partner Organization</h3>
+    <p style="font-size: 1.1rem; margin-bottom: 1.5rem; color: white; font-weight: 400;">Bring your tours and stories to the world's most comprehensive <strong>story map platform</strong>. We'll set you up personally and walk you through your first tour.</p>
+    <a href="mailto:contact@location-science.com?subject=StoryMapp%20Partner%20Organization" style="display: inline-block; padding: 1rem 2rem; background: rgba(255, 255, 255, 0.2); color: white; text-decoration: none; border-radius: 12px; font-weight: 500; border: 1px solid rgba(255, 255, 255, 0.3);">Start Sharing Your Tours</a>
+  </div>
+</div>
+
 <div class="content-section">
   <h2>Enterprise Story Map Solutions & B2B Services</h2>
   <p>Our <strong>story mapping technology</strong> isn't just for individual users. We offer powerful API services that enable tourism platforms, travel companies, and location-based services to enhance their offerings with rich, accurate, and engaging <strong>place-based storytelling</strong> content through our enterprise <strong>story map solutions</strong>.</p>
