@@ -47,6 +47,10 @@ When using Wikipedia or Wikidata content, you must:
 3. Indicate if changes were made
 4. License your contributions under the same terms
 
+## Web fonts on this website
+
+This website uses the typefaces Space Grotesk (Florian Karsten), Geist (Vercel) and JetBrains Mono (JetBrains), all licensed under the [SIL Open Font License 1.1](/assets/fonts/OFL.txt). The font files are served from our own hosting.
+
 ## Additional Notes
 
 - All data used in our product is properly attributed in accordance with the respective licenses
@@ -55,4 +59,4 @@ When using Wikipedia or Wikidata content, you must:
 
 For more information about our data usage and privacy practices, please see our [Data Privacy Policy](/privacy/) and [Terms of Usage](/terms/).
 
-**Last updated: {{ site.time | date: "%B %d, %Y" }}**
+**Last updated: 19 October 2026**

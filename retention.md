@@ -17,15 +17,15 @@ This Data Retention Policy outlines how Location Science GmbH retains and dispos
 - **Data Type**: User profiles, authentication data
 - **Basis**: Contractual necessity and legitimate interest
 
-### 2.2 Analytics Data
-- **Retention Period**: 26 months
-- **Data Type**: Usage statistics, behavior data
-- **Basis**: Legitimate interest
+### 2.2 Usage Statistics and Crash Reports (app, Firebase)
+- **Retention Period**: Usage statistics 26 months; crash reports 90 days
+- **Data Type**: Pseudonymous usage statistics (Google Analytics for Firebase) and crash reports (Firebase Crashlytics), not linked to an account
+- **Basis**: Consent for usage statistics (Art. 6 (1) (a) GDPR); legitimate interest for crash reports (Art. 6 (1) (f) GDPR); see section 3.6 of the [privacy policy](/privacy/)
 
 ### 2.3 Location Data
-- **Retention Period**: 0 days
-- **Data Type**: User location information
-- **Basis**: User consent
+- **Retention Period**: Not stored by us; processed on the device only and cleared when the app is closed
+- **Data Type**: Device location
+- **Basis**: Processing on the device under the permission you grant in the operating system
 
 ### 2.4 Communication Data
 - **Retention Period**: 3 years
@@ -49,7 +49,7 @@ Data is automatically deleted after the retention period expires, unless:
 Users can request deletion of their data at any time by:
 - Using the account deletion feature
 - Contacting our support team
-- Emailing our Data Protection Officer
+- Emailing us at contact@location-science.com
 
 ## 4. Data Archiving
 
@@ -75,4 +75,4 @@ This policy is reviewed annually and updated as necessary to ensure compliance w
 
 For questions about this policy, please refer to our [Imprint](/imprint/).
 
-Last Updated: 06.04.2025
+**Last updated: 19 October 2026**

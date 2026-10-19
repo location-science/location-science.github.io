@@ -1,0 +1,143 @@
+---
+layout: home
+title: Software and data for places
+description: Location Science GmbH is a software and data company in Upper Bavaria. Application development, software engineering, data pipelines, GeoAI, data science, spatial intelligence, mobile engineering and navigation. Makers of StoryMapp.
+---
+
+<section class="wrap hero2">
+  <h1>Location software, from pipeline to pocket.</h1>
+  <div class="hero2__side">
+    <p class="lede">Location Science is a software and data company in Upper Bavaria. We build location-aware applications, the data pipelines and GeoAI behind them, and ship them to Desktop, Web, iOS and Android. StoryMapp is our proof.</p>
+    <p class="hero2__actions">
+      <a class="btn btn--primary" href="mailto:{{ site.email }}">Write to us</a>
+      <a class="link" href="{{ "/storymapp/" | relative_url }}">See StoryMapp →</a>
+    </p>
+  </div>
+</section>
+
+<section class="wrap" aria-labelledby="competencies">
+  <h2 id="competencies" class="visually-hidden">Competencies</h2>
+  <ul class="bento">
+    <li class="cell span-2x1">
+      <h3>Application development and software engineering</h3>
+      <p>Web and mobile applications, APIs and the services behind them, from requirement to release. Engineered to be maintained for years, not demonstrated once.</p>
+    </li>
+    <li class="cell span-1x2 cell--tint">
+      <h3>Database engineering and data pipelines</h3>
+      <p>Spatial databases, ETL and automated pipelines. The ones behind StoryMapp keep more than 7.5 million places current, unattended.</p>
+      <p>PostGIS-class spatial storage, batch and streaming ingestion, and the monitoring to know when a source changes shape.</p>
+    </li>
+    <li class="cell">
+      <h3>GeoAI</h3>
+      <p>Language and vision models applied to places: fine-tuned, grounded in their sources, built to minimise hallucination.</p>
+    </li>
+    <li class="cell span-2x1">
+      <h3>Spatial intelligence</h3>
+      <p>Turning coordinates into context: what is here, what is nearby, and what matters to the person standing there.</p>
+      <svg class="nodes" viewBox="0 0 320 110" role="img" aria-label="Diagram: a highlighted point linked to nearby places, each linked to context.">
+        <line x1="40" y1="60" x2="120" y2="30"/>
+        <line x1="40" y1="60" x2="130" y2="80"/>
+        <line x1="40" y1="60" x2="110" y2="55" class="is-live"/>
+        <line x1="120" y1="30" x2="210" y2="22"/>
+        <line x1="110" y1="55" x2="220" y2="58" class="is-live"/>
+        <line x1="130" y1="80" x2="215" y2="92"/>
+        <line x1="210" y1="22" x2="280" y2="40"/>
+        <line x1="220" y1="58" x2="280" y2="40" class="is-live"/>
+        <circle cx="40" cy="60" r="6" class="is-here"/>
+        <circle cx="120" cy="30" r="4"/>
+        <circle cx="110" cy="55" r="4"/>
+        <circle cx="130" cy="80" r="4"/>
+        <circle cx="210" cy="22" r="4"/>
+        <circle cx="220" cy="58" r="4"/>
+        <circle cx="215" cy="92" r="4"/>
+        <circle cx="280" cy="40" r="5"/>
+        <text x="20" y="84">here</text>
+        <text x="100" y="104">nearby</text>
+        <text x="256" y="66">context</text>
+      </svg>
+    </li>
+    <li class="cell">
+      <h3>Data science</h3>
+      <p>Analytics and machine learning on geographic and social data: matching, extraction, ranking, evaluation.</p>
+    </li>
+    <li class="cell">
+      <h3>Mobile engineering</h3>
+      <p>Native iOS and Android. Offline-capable, multilingual text and audio, location handled on the device.</p>
+    </li>
+    <li class="cell">
+      <h3>Navigation</h3>
+      <p>Positioning, routing and guidance, from global car navigation to walking tours. Processed on the device, not on a server.</p>
+    </li>
+    <li class="cell span-2x1 cell--proof">
+      <img class="proof__logo" src="{{ "/assets/images/logo_512_transp.png" | relative_url }}" alt="StoryMapp app icon" width="72" height="72" loading="lazy">
+      <div>
+        <h3>StoryMapp, our first product</h3>
+        <p>Free on iOS and Android. More than 7.5 million places with stories, in English, German, French, Spanish, Portuguese and Chinese. <a class="link" href="{{ "/storymapp/" | relative_url }}">About StoryMapp →</a></p>
+        <ul class="badges">
+          <li><a href="{{ site.app_store_url }}" rel="noopener" target="_blank"><img src="{{ "/assets/images/badges/apple-appstore.svg" | relative_url }}" alt="Download StoryMapp on the App Store" width="150" height="44" loading="lazy"></a></li>
+          <li><a href="{{ site.google_play_url }}" rel="noopener" target="_blank"><img src="{{ "/assets/images/badges/googleplay.svg" | relative_url }}" alt="Get StoryMapp on Google Play" width="150" height="44" loading="lazy"></a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="cell">
+      <h3>Open data</h3>
+      <p>Long-time contributors to OpenStreetMap and open map data. We build on it and give back to it.</p>
+      <div class="cell__foot"><a class="link" href="{{ "/attribution/" | relative_url }}">Attribution →</a></div>
+    </li>
+    <li class="cell">
+      <h3>Operations</h3>
+      <p>We run what we build: deployment, monitoring and DevOps for pipelines that have to work unattended.</p>
+    </li>
+    <li class="cell">
+      <h3>Privacy by design</h3>
+      <p>GDPR from the first commit. Developed and operated in Germany; location never leaves the phone.</p>
+      <div class="cell__foot"><a class="link" href="{{ "/privacy/" | relative_url }}">Privacy policy →</a></div>
+    </li>
+    <li class="cell cell--tint">
+      <h3>Story content, by API</h3>
+      <p>Accurate place-based stories inside your own product, for tourism, travel and location platforms.</p>
+      <div class="cell__foot"><a class="link" href="mailto:{{ site.email }}?subject=Story%20content%20API">Ask about the API →</a></div>
+    </li>
+  </ul>
+</section>
+
+<section class="band" aria-labelledby="founders">
+  <div class="wrap band__grid">
+    <div>
+      <h2 id="founders">Three founders, engineering first.</h2>
+      <p>Backgrounds in geoinformatics, cartography and signal processing. The company came after the careers, in start-ups and international companies, on systems where a wrong answer has consequences.</p>
+    </div>
+    <div>
+      <ul class="founders">
+        <li><b>Geoinformatics</b></li>
+        <li><b>Cartography</b></li>
+        <li><b>Signal processing</b></li>
+      </ul>
+      <p class="band__exp">Working experience in public-safety organisations (BOS, Behörden und Organisationen mit Sicherheitsaufgaben), defensive weapon systems, global car navigation, and DevOps.</p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap offers-section" aria-labelledby="work">
+  <div>
+    <h2 id="work">Work with us</h2>
+    <p>Three ways to put our work into yours. Each starts with an email, answered by a person who built the thing.</p>
+  </div>
+  <ul class="offers">
+    <li>
+      <h3>Software, maps and data, built for you</h3>
+      <p>Applications, pipelines, GeoAI and mobile apps, scoped and delivered by the founders themselves.</p>
+      <a class="btn btn--outline" href="mailto:{{ site.email }}?subject=Project%20enquiry">Start a conversation</a>
+    </li>
+    <li>
+      <h3>Consulting</h3>
+      <p>Digitalisation, software engineering, adoption of AI services and spatial data management. Experienced engineers, not a slide deck.</p>
+      <a class="btn btn--outline" href="mailto:{{ site.email }}?subject=Consulting">Ask for a consultation</a>
+    </li>
+    <li>
+      <h3>Your tours, on StoryMapp</h3>
+      <p>For museums, city marketing, tourism boards, zoos and art collectives who want their tours found on the map, in every visitor’s language.</p>
+      <a class="btn btn--outline" href="{{ "/storymapp/#share" | relative_url }}">Share your tours</a>
+    </li>
+  </ul>
+</section>

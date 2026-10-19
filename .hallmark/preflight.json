@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-19",
+  "framework": "Jekyll 4.3 + minima 2.5 (GitHub Pages legacy builder)",
+  "fonts_before": "system stack only (assets/css/style.scss L30); Google Fonts preconnect present but unused",
+  "palette_before": "hex custom properties, navy/blue + red accent (assets/css/style.scss L7-26)",
+  "motion": "none (motion-cut)",
+  "spacing_before": "no scale; raw values and inline styles",
+  "preserved": "routes, permalinks, SEO metadata intent, legal content, cookie banner behaviour, store badges, app logo",
+  "introduced": "tokens.css, design.md, macrostructure families, Fraunces + IBM Plex pairing, masthead nav, colophon footer, slop-test discipline"
+}

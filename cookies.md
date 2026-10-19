@@ -6,37 +6,24 @@ permalink: /cookies/
 
 # Cookie Policy
 
-## What Are Cookies
+This page explains what this website stores in your browser and why.
 
-Cookies are small text files that are placed on your computer or mobile device when you visit our website. They are widely used to make websites work more efficiently and provide useful information to website owners.
+## What we store
 
-## How We Use Cookies
+**Consent choice (strictly necessary).** When you answer the consent banner, your choice is saved in your browser's local storage so that the banner does not reappear on every page. This is required to honour your decision (§ 25 (2) no. 2 TDDDG) and needs no consent. It contains nothing but your choice.
 
-We use cookies for the following purposes:
+**Analytics cookies (only with your consent).** The banner lets you allow analytics cookies. At present no analytics tool is loaded on this website, whatever you choose. Should we introduce one, it will only be loaded after you allow it, and this page and our [privacy policy](/privacy/) will name the tool, the data it collects and how long it is kept before it goes live.
 
-### Necessary Cookies
-These cookies are essential for the website to function properly. They enable basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.
+**Preference cookies (only with your consent).** The banner also lets you allow preference cookies, which would remember settings such as a preferred language. At present this website sets none.
 
-### Analytics Cookies
-These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously. This helps us improve our website's functionality and user experience.
+We set no other cookies. Our hosting provider does not set cookies for this site either.
 
-### Preference Cookies
-These cookies enable the website to remember information that changes the way the website behaves or looks, like your preferred language or region.
+## Changing your choice
 
-## Your Cookie Choices
+To change or withdraw your choice, delete this site's data in your browser settings (usually under privacy or site data). The banner will appear again on your next visit. You can also set your browser to block cookies and site data altogether.
 
-You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. However, if you do this, you may have to manually adjust some preferences every time you visit our site, and some services and functionalities may not work.
+## Contact
 
-## How to Manage Cookies
+Questions about this page: [contact@location-science.com](mailto:contact@location-science.com).
 
-Most web browsers allow you to control cookies through their settings preferences. However, limiting cookies may impact your experience of our website. To learn more about cookies and how to manage them, visit [AboutCookies.org](http://www.aboutcookies.org/).
-
-## Changes to This Policy
-
-We may update this Cookie Policy from time to time. We will notify you of any changes by posting the new Cookie Policy on this page and updating the "Last Updated" date.
-
-## Contact Us
-
-If you have any questions about our Cookie Policy, please contact us at [contact@location-science.com](mailto:contact@location-science.com).
-
-**Last updated: {{ site.time | date: "%B %d, %Y" }}**
+**Last updated: 19 October 2026**

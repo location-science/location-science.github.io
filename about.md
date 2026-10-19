@@ -1,142 +1,59 @@
 ---
 layout: page
-title: About Us
+title: About
+description: Location Science GmbH is a software and data company in Upper Bavaria, founded by three engineers with backgrounds in signal processing, cartography and geoinformatics.
 permalink: /about/
 ---
 
-<div class="hero-section" style="padding: 2rem 0 4rem;">
-  <div class="hero-content">
-    <h1>About Location Science GmbH</h1>
-    <p class="hero-subtitle">We are passionate about this planet full of hidden stories, and we care deeply about the vibrant society we live in.</p>
-  </div>
-</div>
+# About Location Science
 
-<div class="content-section">
-  <h2>Our Story</h2>
-  <p>Founded in Germany, Location Science GmbH brings together a team of seasoned veterans in cartography, navigation, and data science. We are firm supporters and long-time contributors to open data—especially open map data.</p>
+Location Science GmbH is a software and data company in Jetzendorf, Upper Bavaria. We build location-aware applications, the data pipelines and GeoAI behind them, and ship them to Desktop, Web, iOS and Android. We have contributed to open map data for most of our working lives.
 
-  <p>In today's noisy and restless AI era, we've chosen to start over—with a few small, meaningful creations. We believe that technology should enhance human connection with the world around us, not overwhelm it.</p>
-</div>
+In a restless and noisy era of AI we chose to start over with a few small, meaningful products. We believe technology should deepen a person’s connection to the world around them, not drown it out.
 
-<div class="content-section">
-  <h2>Our Expertise</h2>
-  <p>Our diverse team brings together deep expertise across multiple domains:</p>
+## The founders
 
-  <div class="features-grid">
-    <div class="feature-card">
-      <span class="feature-emoji">🗺️</span>
-      <h3>Cartography & Navigation</h3>
-      <p>Years of experience in mapping technologies and location-based services</p>
-    </div>
+Three founders, engineering first. Our backgrounds:
 
-    <div class="feature-card">
-      <span class="feature-emoji">📊</span>
-      <h3>Data Science</h3>
-      <p>Advanced analytics and machine learning applied to geographical and social data</p>
-    </div>
+- Geoinformatics.
+- Cartography.
+- Signal processing.
 
-    <div class="feature-card">
-      <span class="feature-emoji">🌐</span>
-      <h3>Open Data Advocacy</h3>
-      <p>Long-time contributors to open map data initiatives</p>
-    </div>
+Between us: start-ups and international companies, public-safety organisations (BOS, Behörden und Organisationen mit Sicherheitsaufgaben), defensive weapon systems, global car navigation, and DevOps.
 
-    <div class="feature-card">
-      <span class="feature-emoji">🔐</span>
-      <h3>Privacy & Security</h3>
-      <p>Committed to GDPR compliance and user data protection</p>
-    </div>
+## What we do
 
-    <div class="feature-card">
-      <span class="feature-emoji">🎨</span>
-      <h3>User Experience Design</h3>
-      <p>Creating intuitive interfaces that connect people with place-based stories</p>
-    </div>
+**Application development and software engineering.** Web and mobile applications, APIs and the services behind them, from requirement to release.
 
-    <div class="feature-card">
-      <span class="feature-emoji">💡</span>
-      <h3>Innovation</h3>
-      <p>Thoughtful technology solutions that genuinely enhance human experience</p>
-    </div>
-  </div>
-</div>
+**Database engineering and data pipelines.** Spatial databases, ETL and automated pipelines that run unattended.
 
-<div class="app-download-section">
-  <div class="app-download-header">
-    <img src="/assets/images/storymapp-logo.png" alt="StoryMapp Logo" class="storymapp-logo" style="margin: 0 auto;">
-    <h3>Meet StoryMapp</h3>
-    <p class="app-download-subtitle">So far, we've launched just one product: <strong>StoryMapp</strong> (yes, with two "p"s). It's our contribution to bringing the countless stories scattered across the world to more people, helping users rediscover the hidden narratives that exist in every corner of our planet.</p>
-  </div>
-  
-  <div class="download-options">
-    <div class="download-option ios">
-      <div class="download-platform">📱 iOS App Store</div>
-      <div class="qr-code-container">
-        <img src="https://qrcode.chooyee.co/qr?data=https://apps.apple.com/de/app/storymapp/id6746046187&width=150&height=150&foregroundcolor=000000&backgroundcolor=ffffff" 
-             alt="iOS App Store QR Code" class="qr-code">
-      </div>
-      <p class="qr-instructions">Scan with your iPhone camera to download</p>
-      <div class="download-buttons">
-        <a href="https://apps.apple.com/de/app/storymapp/id6746046187" class="download-button apple-button" target="_blank" rel="noopener">
-          📱 Download on App Store
-        </a>
-      </div>
-    </div>
+**GeoAI and data science.** Language and vision models applied to places, grounded in their sources; analytics and machine learning on geographic and social data.
 
-    <div class="download-option android">
-      <div class="download-platform">🤖 Google Play Store</div>
-      <div class="qr-code-container">
-        <img src="https://qrcode.chooyee.co/qr?data=https://play.google.com/store/apps/details?id=app.storym&width=150&height=150&foregroundcolor=000000&backgroundcolor=ffffff" 
-             alt="Google Play Store QR Code" class="qr-code">
-      </div>
-      <p class="qr-instructions">Scan with your Android camera to download</p>
-      <div class="download-buttons">
-        <a href="https://play.google.com/store/apps/details?id=app.storym" class="download-button google-button" target="_blank" rel="noopener">
-          📲 Get it on Google Play
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
+**Spatial intelligence and navigation.** Turning coordinates into context; positioning, routing and guidance, from global car navigation to walking tours.
 
-<div class="content-section">
-  <h2>Our Commitment to Open Data</h2>
-  <p>We believe that knowledge should be freely accessible. As long-time contributors to open data initiatives, particularly in the mapping and geographical information space, we're committed to:</p>
+**Mobile engineering.** Native iOS and Android, offline-capable, multilingual, with location handled on the device.
 
-  <div style="margin: 2rem 0;">
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
-      <div style="padding: 1.5rem; background: var(--background-light); border-radius: 12px; border-left: 4px solid var(--secondary-color);">
-        <h4 style="margin-top: 0; color: var(--primary-color);">🌍 Supporting open map data projects</h4>
-        <p style="margin-bottom: 0; font-size: 0.95rem;">Contributing to initiatives that make geographical data freely available to everyone.</p>
-      </div>
-      <div style="padding: 1.5rem; background: var(--background-light); border-radius: 12px; border-left: 4px solid var(--secondary-color);">
-        <h4 style="margin-top: 0; color: var(--primary-color);">🔧 Contributing to open-source technologies</h4>
-        <p style="margin-bottom: 0; font-size: 0.95rem;">Developing and maintaining mapping technologies that benefit the broader community.</p>
-      </div>
-      <div style="padding: 1.5rem; background: var(--background-light); border-radius: 12px; border-left: 4px solid var(--secondary-color);">
-        <h4 style="margin-top: 0; color: var(--primary-color);">🤝 Ensuring community benefit</h4>
-        <p style="margin-bottom: 0; font-size: 0.95rem;">Making sure our work contributes positively to the global mapping community.</p>
-      </div>
-      <div style="padding: 1.5rem; background: var(--background-light); border-radius: 12px; border-left: 4px solid var(--secondary-color);">
-        <h4 style="margin-top: 0; color: var(--primary-color);">🔍 Maintaining transparency</h4>
-        <p style="margin-bottom: 0; font-size: 0.95rem;">Being open about our data practices and methodologies.</p>
-      </div>
-    </div>
-  </div>
-</div>
+**Privacy and security.** GDPR by design. We collect what the product needs and nothing else, and we publish how we handle it.
 
-<div class="content-section">
-  <h2>Get in Touch</h2>
-  <p>Ready to learn more about our work or discuss potential collaborations?</p>
+## Consulting
 
-  <div style="background: var(--background-light); padding: 3rem; border-radius: 16px; text-align: center; margin: 2rem 0;">
-    <h3 style="color: var(--primary-color); margin-bottom: 1.5rem;">{{ site.company_name }}</h3>
-    <p style="font-size: 1.1rem; margin-bottom: 2rem;">
-      <strong>Email:</strong> <a href="mailto:{{ site.email }}" style="color: var(--secondary-color); font-weight: 500;">{{ site.email }}</a>
-    </p>
-    <p style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 0;">
-      Registered in Germany - {{ site.company_registration }}<br>
-      {{ site.company_address }}
-    </p>
-  </div>
-</div>
+We also work as consultants. Digitalisation, software engineering, the adoption of AI services, and spatial data management: we help teams decide what to build, what to buy, and how to run it afterwards. The people in the room are the engineers who build our own products. [Write to us](mailto:{{ site.email }}?subject=Consulting) to talk about your situation.
+
+## Our commitment to open data
+
+Knowledge should be freely accessible. As contributors to open data initiatives in the mapping and geographic information space, we commit to:
+
+- supporting open map data projects that make geographic data freely available to everyone;
+- contributing to open-source mapping technologies that benefit the wider community;
+- making sure our work adds to, rather than takes from, the global mapping community;
+- being transparent about our data practices and methods. Our [attribution page](/attribution/) lists every source we use.
+
+## StoryMapp
+
+So far we have launched one product: [StoryMapp](/storymapp/), with two p’s. It brings the countless stories scattered across the world to more people. Museums, tourism boards, zoos and other organisations can [publish their own tours](/storymapp/#share) on it.
+
+## Get in touch
+
+Write to [{{ site.email }}](mailto:{{ site.email }}). We answer our own email.
+
+{{ site.company_name }}, {{ site.company_address }}. Registered in Germany, {{ site.company_registration }}.

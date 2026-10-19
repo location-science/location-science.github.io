@@ -6,34 +6,16 @@ permalink: /dispute/
 
 # Dispute Resolution
 
-## 1. Online Dispute Resolution
+## 1. Complaints
 
-The European Commission provides a platform for online dispute resolution (ODR) which is available at [https://ec.europa.eu/consumers/odr/](https://ec.europa.eu/consumers/odr/). This platform serves as a point of entry for consumers who wish to resolve disputes arising from online contracts out of court.
+We want to resolve any complaint directly and amicably. If you have a complaint about our services, write to [contact@location-science.com](mailto:contact@location-science.com). We acknowledge receipt within five business days and aim to resolve the matter within thirty days.
 
-## 2. Alternative Dispute Resolution
+## 2. Consumer arbitration
 
-Location Science GmbH is willing to participate in alternative dispute resolution proceedings before a consumer dispute resolution body. The competent body is:
+We are neither obliged nor willing to take part in dispute resolution proceedings before a consumer arbitration board (§ 36 VSBG).
 
-[Name of the competent consumer dispute resolution body]
-[Address]
-[Website]
-[Email]
+## 3. Applicable law and courts
 
-## 3. Internal Complaint Handling
+Our services are governed by German law. If you are a consumer, the mandatory consumer protection provisions of the country in which you habitually reside remain unaffected, and you may bring proceedings before the courts of that country or before the German courts.
 
-We strive to resolve any complaints or disputes amicably. If you have a complaint, please contact us:
-
-- Email: [contact@locationscience.com](mailto:contact@locationscience.com)
-- Phone: +49 (0) 15204938192
-
-We will acknowledge receipt of your complaint within 5 business days and aim to resolve it within 30 days.
-
-## 4. Legal Jurisdiction
-
-Any disputes arising from the use of our services shall be subject to the jurisdiction of the courts of Germany, unless mandatory consumer protection laws of your country of residence provide otherwise.
-
-## 5. Consumer Rights
-
-As a consumer, you have the right to bring proceedings in the courts of your country of residence or the courts of Germany.
-
-Last Updated: 06.04.2025 
+**Last updated: 19 October 2026**

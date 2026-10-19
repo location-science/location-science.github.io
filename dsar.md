@@ -46,8 +46,8 @@ As a data subject, you have the following rights under the General Data Protecti
 ## 2. How to Submit a Request
 
 ### 2.1 Contact Information
-Please submit your request to our Data Protection Officer:
-- Email: [contact@locationscience.com](mailto:contact@locationscience.com)
+Please submit your request to:
+- Email: [contact@location-science.com](mailto:contact@location-science.com)
 - Subject: "Data Subject Access Request"
 
 ### 2.2 Required Information
@@ -83,7 +83,7 @@ We may refuse your request if:
 ## 6. Appeal Process
 
 If you are dissatisfied with our response:
-1. Contact our Data Protection Officer
-2. If unresolved, you may lodge a complaint with the supervisory authority
+1. Write to us again and tell us what is missing
+2. If unresolved, you may lodge a complaint with the supervisory authority named in our [privacy policy](/privacy/)
 
-Last Updated: 06.04.2025 
+**Last updated: 19 October 2026** 

@@ -6,89 +6,112 @@ permalink: /privacy/
 
 # Data Privacy Policy
 
-## Our Commitment to Privacy
+This policy explains how Location Science GmbH processes personal data on this website and in the StoryMapp app, in accordance with the General Data Protection Regulation (GDPR), the German Federal Data Protection Act (BDSG) and the German Telecommunications-Digital-Services Data Protection Act (TDDDG).
 
-At Location Science GmbH, we take your privacy seriously. This policy outlines how we handle your personal data when you use our mobile application in compliance with the General Data Protection Regulation (GDPR) and the German Federal Data Protection Act (BDSG).
+## 1. Controller
 
-## Information We Collect
+Location Science GmbH  
+Purrbachstr. 7c, 85305 Jetzendorf, Germany  
+Represented by the managing director Tobias Neumann  
+Email: [contact@location-science.com](mailto:contact@location-science.com)
 
-### Authentication Data
-- Email address (only when you choose to log in via Google or Facebook through Keycloak)
-- Authentication tokens from third-party services
+We have not appointed a data protection officer, as we are not required to do so. For all questions about data protection, write to the address above.
 
-### Usage Data (Only for Logged-in Users)
-- Interaction history within the app
-- Selected favorites and preferences
-- Basic device information (device type, operating system version)
+## 2. This website
 
-### Location Data
-We want to emphasize that our application processes location data entirely on your device. We do not collect, store, or transmit any location information to our servers. Location data is:
-- Processed locally on your device
-- Used only for the immediate functionality of the application
-- Stored temporarily in the device's application cache
-- Automatically cleared when the application is closed
-- Never transmitted to our servers or any third parties
+### 2.1 Hosting and server logs
 
-## How We Use Your Information
+This website is hosted on GitHub Pages, a service of GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. When you open a page, your browser sends a request to GitHub's servers. GitHub processes the technical data needed to deliver the page and to keep the service secure: your IP address, the date and time of the request, the requested URL, the referring page, and your browser and operating system. We ourselves do not receive these logs.
 
-We use your data to:
-- Provide and maintain our app's functionality
-- Display your usage history and favorites
-- Improve our services
-- Ensure compliance with legal requirements
+Legal basis: Art. 6 (1) (f) GDPR, our legitimate interest in operating a secure and reliable website. GitHub, Inc. is certified under the EU-US Data Privacy Framework; transfers to the USA rest on the adequacy decision of the European Commission for that framework (Art. 45 GDPR). GitHub's privacy statement: [docs.github.com/site-policy/privacy-policies](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).
 
-## Legal Basis for Processing (GDPR/BDSG)
+### 2.2 Fonts
 
-We process your personal data based on:
-- Your consent (Article 6(1)(a) GDPR)
-- Contractual necessity (Article 6(1)(b) GDPR)
-- Legitimate interest (Article 6(1)(f) GDPR)
+The fonts used on this website are stored on our own hosting. No request is made to third-party font servers.
 
-## Data Protection Officer
+### 2.3 Consent banner
 
-In accordance with Article 37 GDPR and § 38 BDSG, we have appointed a Data Protection Officer.
+When you first visit, a banner asks whether you allow optional cookies. Your choice is stored in your browser's local storage so that the banner does not reappear. This storage is strictly necessary to honour your choice (§ 25 (2) no. 2 TDDDG). It contains no personal data beyond the choice itself. To change your choice, delete this site's data in your browser settings; the banner will then appear again.
 
-Contact Email: [contact@locationscience.com](mailto:contact@locationscience.com)
+### 2.4 Web analytics
 
-## Your Rights
+We only use web analytics with your consent, given through the banner (Art. 6 (1) (a) GDPR, § 25 (1) TDDDG). At present no analytics tool is loaded on this website, whatever you choose. If we introduce one, it will load only after you have allowed analytics in the banner, and this policy will name the provider, the data processed and the retention period before that happens. You can withdraw consent at any time by deleting this site's data in your browser.
 
-Under the GDPR and BDSG, you have the right to:
-- Access your personal data (Article 15 GDPR)
-- Request correction of inaccurate data (Article 16 GDPR)
-- Request deletion of your data (Article 17 GDPR)
-- Restrict or object to processing (Articles 18 and 21 GDPR)
-- Data portability (Article 20 GDPR)
-- Withdraw consent (Article 7(3) GDPR)
-- Lodge a complaint with a supervisory authority (Article 77 GDPR)
+### 2.5 Links to app stores and other websites
 
-## Data Security
+This website links to the Apple App Store, Google Play and GitHub. Data is only transmitted to these providers when you click a link; from then on, their privacy policies apply.
 
-We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, or destruction, in accordance with Article 32 GDPR.
+### 2.6 Contact by email
 
-## Data Retention
+If you write to us, we process your email address, the content of your message and any data you provide in order to answer you. Legal basis: Art. 6 (1) (b) GDPR where the message concerns a contract or a request for one, otherwise Art. 6 (1) (f) GDPR, our legitimate interest in answering enquiries. Correspondence is kept in line with our [data retention policy](/retention/).
 
-We retain your personal data only for as long as necessary to fulfill the purposes outlined in this policy, in compliance with Article 5(1)(e) GDPR.
+## 3. The StoryMapp app
 
-## Third-Party Services
+### 3.1 Location data
 
-Our app uses:
-- Keycloak for secure authentication
-- Google and Facebook for login services
+The app processes your device's location entirely on the device. Location data is used only for the immediate functionality of the app (showing places around you), stored temporarily in the app's cache, cleared when the app is closed, and never transmitted to our servers or to third parties. You can revoke the app's location permission at any time in your device settings.
 
-## Contact Us
+### 3.2 Account and login
 
-For privacy-related inquiries or to exercise your rights under GDPR/BDSG, please contact us at:
-[contact@locationscience.com](mailto:contact@locationscience.com)
+You can use the app without an account. If you choose to sign in via Google or Facebook, our authentication service (Keycloak) receives your email address and an authentication token from the provider you chose. We use this data to create and secure your account. Legal basis: Art. 6 (1) (b) GDPR. Google and Facebook process your data under their own privacy policies when you sign in with them.
 
-## Supervisory Authority
+### 3.3 Usage data for signed-in users
 
-You have the right to lodge a complaint with a supervisory authority, in particular in the Member State of your habitual residence, place of work, or place of the alleged infringement. The competent supervisory authority for our company is:
+For signed-in users we store the interaction history within the app, saved favourites and preferences, and basic device information (device type, operating system version), so that your history and favourites are available to you. Legal basis: Art. 6 (1) (b) GDPR. You can delete your account and this data at any time in the app or by writing to us.
+
+### 3.4 Map display
+
+To display the map, the app loads map tiles from map providers. When tiles are loaded, the provider receives your IP address and the requests for the map area you are viewing. Providers used: MapTiler AG (Switzerland, a country with an adequacy decision), Mapbox, Inc. (USA, certified under the EU-US Data Privacy Framework) and the OpenStreetMap Foundation (United Kingdom, a country with an adequacy decision). Legal basis: Art. 6 (1) (b) GDPR, as the map is the core function of the app.
+
+### 3.5 Advertising
+
+The app is free of charge and shows advertisements. Advertising is delivered through Google AdMob, a service of Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland, together with partner networks. The full list of networks authorised to sell advertising space in the app is published at [app-ads.txt](/app-ads.txt).
+
+When an advertisement is loaded, the advertising provider receives technical data such as your IP address, device type and operating system, the app name, and the advertising identifier of your device, and records whether an advertisement was shown or tapped.
+
+- **Personalised advertising** is only shown if you consent to it in the dialogue displayed in the app (on iOS also via the App Tracking Transparency prompt). Legal basis: Art. 6 (1) (a) GDPR and § 25 (1) TDDDG. You can withdraw consent at any time in the app's settings or by resetting or restricting the advertising identifier in your device settings.
+- **Non-personalised advertising** is shown without consent and is based on Art. 6 (1) (f) GDPR, our legitimate interest in financing a free app. It uses only the technical data needed to deliver and count advertisements.
+
+Google and its partners may transfer data to the USA; Google LLC is certified under the EU-US Data Privacy Framework. Further information: [Google's privacy policy](https://policies.google.com/privacy) and [Google's advertising settings](https://adssettings.google.com/).
+
+### 3.6 Usage statistics and crash reports (Firebase)
+
+The app uses Firebase, a service of Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland, for two purposes:
+
+- **Usage statistics (Google Analytics for Firebase).** Which screens are opened, which features are used, app version, device type and operating system version, together with a pseudonymous app-instance identifier. We use this to understand how the app is used and to improve it. This data is collected only if you consent to it in the dialogue displayed in the app. Legal basis: Art. 6 (1) (a) GDPR and § 25 (1) TDDDG. You can withdraw consent at any time in the app's settings.
+- **Crash reports (Firebase Crashlytics).** If the app crashes, a report with the app version, device type, operating system version, the state of the app at the time and a pseudonymous identifier is sent to Firebase so that we can find and fix the error. Legal basis: Art. 6 (1) (f) GDPR, our legitimate interest in a stable app.
+
+Neither data set is linked to your account. Usage statistics are kept for 26 months, crash reports for 90 days. Google may transfer this data to the USA; Google LLC is certified under the EU-US Data Privacy Framework. Further information: [Firebase privacy and security](https://firebase.google.com/support/privacy).
+
+## 4. Recipients and transfers
+
+We pass personal data to third parties only where this policy says so: our hosting and authentication providers, the map providers, Firebase, and the advertising providers named above. Where data is transferred to countries outside the EU, this rests on an adequacy decision of the European Commission (Switzerland, the United Kingdom, and the EU-US Data Privacy Framework for certified US companies).
+
+## 5. Retention
+
+We keep personal data only as long as needed for the purposes described here or as required by law. The specific periods are set out in our [data retention policy](/retention/).
+
+## 6. Your rights
+
+Under the GDPR you have the right to access your personal data (Art. 15), to rectification (Art. 16), to erasure (Art. 17), to restriction of processing (Art. 18), to data portability (Art. 20), to object to processing based on legitimate interests (Art. 21), and to withdraw consent at any time with effect for the future (Art. 7 (3)). To exercise these rights, write to [contact@location-science.com](mailto:contact@location-science.com). Our [data subject requests page](/dsar/) explains how we handle requests.
+
+You also have the right to lodge a complaint with a supervisory authority. The authority responsible for us is:
 
 Bayerisches Landesamt für Datenschutzaufsicht (BayLDA)  
-Promenade 18  
-91522 Ansbach  
-Germany  
+Promenade 18, 91522 Ansbach, Germany  
 Email: poststelle@lda.bayern.de  
-Website: www.lda.bayern.de
+Website: [www.lda.bayern.de](https://www.lda.bayern.de)
 
-**Last updated: {{ site.time | date: "%B %d, %Y" }}**
+## 7. Partner organisations and API customers
+
+Where we process personal data on behalf of a partner organisation publishing tours on StoryMapp, or on behalf of a customer of our content API, we do so as a processor under a data processing agreement in accordance with Art. 28 GDPR. The agreement, including the list of sub-processors, is available on request from [contact@location-science.com](mailto:contact@location-science.com).
+
+## 8. No automated decision-making
+
+We do not use automated decision-making or profiling within the meaning of Art. 22 GDPR.
+
+## 9. Changes to this policy
+
+We update this policy when our processing changes or the law requires it. The current version is always available at this address.
+
+**Last updated: 19 October 2026**

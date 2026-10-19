@@ -1,0 +1,15 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "StoryMapp",
+  "url": "{{ '/storymapp/' | absolute_url }}",
+  "description": "A free app for iOS and Android that shows you location-based stories around you: 7.5 million places and counting, in English, German, French, Spanish, Portuguese and Chinese, as text and audio.",
+  "operatingSystem": ["iOS", "Android"],
+  "applicationCategory": "TravelApplication",
+  "author": { "@type": "Organization", "name": "{{ site.company_name }}", "url": "{{ site.url }}" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+  "downloadUrl": ["{{ site.app_store_url }}", "{{ site.google_play_url }}"],
+  "image": "{{ "/assets/images/logo_512_transp.png" | absolute_url }}"
+}
+</script>

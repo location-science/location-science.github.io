@@ -6,40 +6,48 @@ permalink: /imprint/
 
 # Imprint (Impressum)
 
-## Legal Information
+Information in accordance with § 5 DDG (Digitale-Dienste-Gesetz).
 
-### Company Information
+## Provider
+
 Location Science GmbH  
 Purrbachstr. 7c  
 85305 Jetzendorf  
 Germany
 
-### Contact Information
-Email: contact@location-science.com
+**Represented by the managing director (Geschäftsführer):** Tobias Neumann
 
-### Commercial Register
-Registered at: Handelsregister B Ingolstadt
-Registration Number: HRB 12011
+## Contact
 
-### VAT Identification Number
-VAT ID: DE451272391
+Email: [contact@location-science.com](mailto:contact@location-science.com)
 
-### Responsible for Content
-Location Science GmbH
-Purrbachstr. 7c Jetzendorf 
-contact@location-science.com
+## Commercial register
 
-### Dispute Resolution
-The European Commission provides a platform for online dispute resolution (OS) which is available at https://ec.europa.eu/consumers/odr/. We are not obliged and not willing to participate in dispute settlement proceedings before a consumer arbitration board.
+Registered at: Handelsregister B, Amtsgericht Ingolstadt  
+Registration number: HRB 12011
 
-## Legal Notice
+## VAT identification number
 
-All content on this website has been created with the utmost care. However, we cannot guarantee the accuracy, completeness, and timeliness of the content. As a service provider, we are responsible for our own content on these pages according to general laws. However, we are not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.
+VAT ID in accordance with § 27a UStG: DE451272391
 
-## Copyright Notice
+## Responsible for content
 
-All content and works created by the site operators on these pages are subject to German copyright law. Duplication, processing, distribution, or any form of commercialization of such material beyond the scope of the copyright law shall require the prior written consent of its respective author or creator.
+Responsible for content in accordance with § 18 (2) MStV: Tobias Neumann, Purrbachstr. 7c, 85305 Jetzendorf, Germany.
 
-For information about third-party content and licenses, please see our [Attribution](/attribution/) page.
+## Consumer dispute resolution
 
-**Last updated: {{ site.time | date: "%B %d, %Y" }}**
+We are neither obliged nor willing to take part in dispute resolution proceedings before a consumer arbitration board (§ 36 VSBG).
+
+## Liability for content
+
+The content of this website has been created with care. We cannot, however, guarantee that it is accurate, complete or current. As a service provider we are responsible for our own content on these pages under general law. We are not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.
+
+## Liability for links
+
+This website contains links to external websites operated by third parties, over whose content we have no influence. The respective provider is responsible for the content of linked pages. The linked pages were checked for possible legal violations at the time of linking; illegal content was not recognisable at that time.
+
+## Copyright
+
+Content and works created by the site operator on these pages are subject to German copyright law. Duplication, processing, distribution or any form of commercialisation beyond the scope of copyright law requires the prior written consent of the respective author. Third-party content and its licences are listed on our [attribution page](/attribution/).
+
+**Last updated: 19 October 2026**

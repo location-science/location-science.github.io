@@ -1,50 +1,37 @@
 ---
 layout: page
-title: Accessibility Statement
+title: Accessibility
 permalink: /accessibility/
 ---
 
 # Accessibility Statement
 
-## 1. Commitment to Accessibility
+Location Science GmbH wants this website to be usable by everyone, including people who use assistive technology. This statement applies to the website location-science.com.
 
-Location Science GmbH is committed to ensuring digital accessibility for people with disabilities. We are continually improving the user experience for everyone and applying the relevant accessibility standards.
+## Standard and conformance
 
-## 2. Conformance Status
+We aim to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 at level AA, as referenced by EN 301 549 and the German Barrierefreiheitsstärkungsgesetz (BFSG). The website is **partially conformant**: most of the content meets the standard, and the parts listed below do not yet.
 
-The Web Content Accessibility Guidelines (WCAG) defines requirements for designers and developers to improve accessibility for people with disabilities. Our website is partially conformant with WCAG 2.1 level AA. Partially conformant means that some parts of the content do not fully conform to the accessibility standard.
+## Known limitations
 
-## 3. Technical Specifications
+- The four older landing pages about story maps have not yet been fully re-tested after the redesign; heading structure and link text there may be less clear.
+- Links to the Apple App Store and Google Play lead to third-party sites whose accessibility we do not control.
+- The consent banner is operated with the keyboard and screen readers, but it cannot yet be reopened from the page once a choice has been made; see the [cookie policy](/cookies/) for how to reset it.
 
-Accessibility of our website relies on the following technologies to work with the particular combination of web browser and any assistive technologies or plugins installed on your computer:
+## How the website is built
 
-- HTML
-- CSS
-- JavaScript
+The website uses semantic HTML, a visible keyboard focus on every interactive element, text that can be resized, colour contrast of at least 4.5:1 for text, no motion that cannot be switched off, and a "skip to content" link at the top of every page.
 
-These technologies are relied upon for conformance with the accessibility standards used.
+## Assessment
 
-## 4. Limitations and Alternatives
+This statement is based on a self-evaluation carried out on 19 October 2026. We will review it at least once a year and after significant changes.
 
-Despite our best efforts to ensure accessibility of our website, there may be some limitations. Please contact us if you observe an issue.
+## Feedback
 
-## 5. Assessment Approach
+If you encounter a barrier on this website, tell us at [contact@location-science.com](mailto:contact@location-science.com). We try to respond within five business days.
 
-Location Science GmbH assessed the accessibility of our website by the following approaches:
-- Self-evaluation
-- External evaluation
+## Enforcement
 
-## 6. Feedback
+If you are not satisfied with our response, you can contact the market surveillance authority responsible for the Barrierefreiheitsstärkungsgesetz, the Marktüberwachungsstelle der Länder für die Barrierefreiheit von Produkten und Dienstleistungen (MLBF), Magdeburg, Germany.
 
-We welcome your feedback on the accessibility of our website. Please let us know if you encounter accessibility barriers:
-
-- Email: [contact@locationscience.com](mailto:contact@locationscience.com)
-- Phone: +49 (0) 15204938192
-
-We try to respond to feedback within 5 business days.
-
-## 7. Formal Complaints
-
-If you are not satisfied with our response, you can contact the relevant supervisory authority in your country.
-
-Last Updated: 06.04.2025 
+**Last updated: 19 October 2026**
