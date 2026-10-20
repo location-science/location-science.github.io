@@ -10,19 +10,24 @@
 (function () {
   var dlg = document.getElementById('lightbox'); if (!dlg || !dlg.showModal) return;
   var img = dlg.querySelector('.lightbox__img'), closeBtn = document.getElementById('lightbox-close');
-  var downAt = null;
+  var downAt = null, openedByPointer = false;
   document.addEventListener('pointerdown', function (e) { var a = e.target.closest('a.zoom'); downAt = a ? [e.clientX, e.clientY] : null; });
   document.addEventListener('click', function (e) {
     var a = e.target.closest('a.zoom'); if (!a) return;
     /* a swipe inside the carousel must not open the image */
     if (downAt && Math.hypot(e.clientX - downAt[0], e.clientY - downAt[1]) > 8) { e.preventDefault(); return; }
     e.preventDefault();
+    openedByPointer = e.detail > 0; /* keyboard activation reports detail 0 */
     var small = a.querySelector('img');
     img.src = a.getAttribute('href'); img.alt = small ? small.alt : '';
     dlg.showModal(); closeBtn.focus();
   });
   closeBtn.addEventListener('click', function () { dlg.close(); });
   dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
-  dlg.addEventListener('close', function () { img.removeAttribute('src'); });
+  dlg.addEventListener('close', function () {
+    img.removeAttribute('src');
+    /* a mouse user gets no focus ring and no paused carousel after closing; keyboard users keep their focus */
+    if (openedByPointer && document.activeElement && document.activeElement.blur) document.activeElement.blur();
+  });
 })();
 </script>

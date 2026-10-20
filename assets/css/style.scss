@@ -694,3 +694,5 @@ body { background: transparent; }
 /* samples carousel: one slide per view so the dots mean something; the image keeps its height and sits centred */
 .carousel--samples .carousel__slide { flex: 0 0 100%; display: flex; justify-content: center; align-items: center; scroll-snap-align: center; }
 .carousel--samples .carousel__slide img { max-width: 100%; height: 100%; width: auto; object-fit: contain; }
+.pipe__node--cloud rect { fill: var(--color-paper-2); stroke: var(--color-ink); stroke-dasharray: 3 2; }
+.pipe { max-width: 17rem; }

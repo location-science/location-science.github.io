@@ -23,7 +23,7 @@ Drei Gründer, zuerst Ingenieure. Unsere Fachrichtungen:
 - Kartographie.
 - Signalverarbeitung.
 
-Gearbeitet haben wir in Start-ups und in Konzernen, bei Behörden und Organisationen mit Sicherheitsaufgaben (BOS), in der Wehrtechnik, in der globalen Fahrzeugnavigation und im DevOps. Wir sind genau drei, und wer mit uns arbeitet, arbeitet mit den Gründern.
+Gearbeitet haben wir in Start-ups und in Konzernen, für Behörden und Organisationen mit Sicherheitsaufgaben (BOS), in der Wehrtechnik, in der globalen Fahrzeugnavigation und im DevOps. Bei uns sitzen die Gründer selbst am Tisch, vom ersten Gespräch bis zur Übergabe.
 
 ## Was wir tun
 

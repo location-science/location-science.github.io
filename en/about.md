@@ -25,7 +25,7 @@ Three founders, engineers first. Our fields:
 - Cartography.
 - Signal processing.
 
-We have worked in start-ups and in large companies, at public-safety organisations, in defence engineering, in global car navigation and in DevOps. We are exactly three, and whoever works with us works with the founders.
+We have worked in start-ups and in large companies, for public-safety organisations, in defence engineering, in global car navigation and in DevOps. The founders themselves sit at the table, from the first conversation to the handover.
 
 ## What we do
 

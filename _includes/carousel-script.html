@@ -40,13 +40,22 @@
     var start = function () { if (!timer) timer = setInterval(tick, 4000); };
     var stop = function () { stopped = true; if (timer) { clearInterval(timer); timer = null; } setBtn(); };
     var resume = function () { stopped = false; start(); setBtn(); };
-    c.addEventListener('mouseenter', function () { hovered = true; });
-    c.addEventListener('mouseleave', function () { hovered = false; });
-    c.addEventListener('focusin', function () { focused = true; });
+    /* pause while the pointer rests on the controls or a control has keyboard focus; the image itself does not pause */
+    var nav = c.querySelector('.carousel__nav');
+    if (nav) {
+      nav.addEventListener('mouseenter', function () { hovered = true; });
+      nav.addEventListener('mouseleave', function () { hovered = false; });
+    }
+    /* keyboard focus pauses; focus that merely lands on the image after a mouse click (or after the lightbox closes) does not */
+    var isKeyboardFocus = function (el) { try { return el.matches(':focus-visible'); } catch (e) { return true; } };
+    c.addEventListener('focusin', function (e) { focused = isKeyboardFocus(e.target); });
     c.addEventListener('focusout', function () { focused = false; });
     var userTook = function () { if (!stopped) stop(); };
-    track.addEventListener('pointerdown', userTook);
-    track.addEventListener('wheel', userTook, { passive: true });
+    var px = null;
+    track.addEventListener('pointerdown', function (e) { px = e.clientX; });
+    track.addEventListener('pointermove', function (e) { if (px !== null && Math.abs(e.clientX - px) > 8) { userTook(); px = null; } });
+    track.addEventListener('pointerup', function () { px = null; });
+    track.addEventListener('wheel', function (e) { if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) userTook(); }, { passive: true });
     track.addEventListener('keydown', userTook);
     c.querySelectorAll('.carousel__btn:not(.carousel__pause)').forEach(function (b) {
       b.addEventListener('click', function () { userTook(); go(current() + Number(b.getAttribute('data-dir'))); });
@@ -56,7 +65,7 @@
       pauseBtn.addEventListener('click', function () { if (stopped) { resume(); } else { stop(); } });
       if (reduce) pauseBtn.hidden = true;
     }
-    new IntersectionObserver(function (entries) { visible = entries[0].isIntersecting; }, { threshold: 0.5 }).observe(c);
+    new IntersectionObserver(function (entries) { visible = entries[0].isIntersecting; }, { threshold: 0.25 }).observe(c);
     /* active dot and caption follow the real scroll position (works for slides of different widths) */
     var sync = function () {
       var i = current();
