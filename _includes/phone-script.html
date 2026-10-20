@@ -1,0 +1,11 @@
+<script>
+(function () {
+  document.addEventListener('click', function (ev) {
+    var b = ev.target.closest('.phone__btn'); if (!b) return;
+    var digits = b.getAttribute('data-p').replace(/[a-j]/g, function (c) { return 'abcdefghij'.indexOf(c); });
+    var shown = '+' + digits.slice(0, 2) + ' ' + digits.slice(2, 5) + ' ' + digits.slice(5);
+    var a = document.createElement('a'); a.href = 'tel:+' + digits; a.textContent = shown; a.className = 'phone__link';
+    b.replaceWith(a); a.focus();
+  });
+})();
+</script>

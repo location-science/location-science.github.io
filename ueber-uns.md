@@ -55,6 +55,8 @@ Unser eigenes Produkt heißt [StoryMapp](/storymapp/), mit zwei p. Die App zeigt
 
 ## Kontakt
 
-Schreiben Sie an [{{ site.email }}](mailto:{{ site.email }}). Wir beantworten unsere E-Mails selbst.
+Schreiben Sie an [{{ site.email }}](mailto:{{ site.email }}) oder rufen Sie an: {% include phone-reveal.html %}
+
+Wir beantworten unsere E-Mails und Anrufe selbst.
 
 {{ site.company_name }}, {{ site.company_address }}. {{ site.company_registration }}.

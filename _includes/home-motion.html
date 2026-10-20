@@ -1,0 +1,32 @@
+<script>
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  /* 1 · one-shot reveal of tiles and strip cards (progressive: classes only added when JS runs) */
+  if (!reduce && 'IntersectionObserver' in window) {
+    var items = Array.prototype.slice.call(document.querySelectorAll('.bento .cell, .strip__card'));
+    var show = function (el) { el.classList.add('is-in'); };
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { show(e.target); io.unobserve(e.target); } });
+    }, { rootMargin: '0px 0px -5% 0px' });
+    items.forEach(function (el, i) {
+      el.classList.add('reveal'); el.style.setProperty('--i', i % 4);
+      /* already in view at load: reveal straight away, no observer needed */
+      if (el.getBoundingClientRect().top < window.innerHeight) show(el); else io.observe(el);
+    });
+    /* safety net: nothing stays hidden, whatever the browser does with the observer */
+    setTimeout(function () { items.forEach(show); }, 2000);
+  }
+  /* 2 · strip: previous / next buttons scroll by one card; only shown while the strip can scroll */
+  var strip = document.querySelector('.strip'), nav = document.querySelector('.strip__nav');
+  if (strip && nav) {
+    var update = function () { nav.hidden = strip.scrollWidth <= strip.clientWidth + 2; };
+    update(); window.addEventListener('resize', update);
+    nav.addEventListener('click', function (ev) {
+      var b = ev.target.closest('[data-dir]'); if (!b) return;
+      var card = strip.querySelector('.strip__card');
+      var step = card ? card.getBoundingClientRect().width + 16 : strip.clientWidth * 0.8;
+      strip.scrollBy({ left: step * Number(b.getAttribute('data-dir')), behavior: reduce ? 'auto' : 'smooth' });
+    });
+  }
+})();
+</script>

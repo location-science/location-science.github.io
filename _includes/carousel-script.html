@@ -1,0 +1,65 @@
+<script>
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.carousel').forEach(function (c) {
+    var track = c.querySelector('.carousel__track');
+    var slides = Array.prototype.slice.call(track.children);
+    var dots = Array.prototype.slice.call(c.querySelectorAll('.carousel__dot'));
+    var pauseBtn = c.querySelector('.carousel__pause');
+    var captionEl = c.querySelector('.carousel__caption');
+    var ICON_PAUSE = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M8 5h3v14H8zM13 5h3v14h-3z" fill="currentColor"/></svg>';
+    var ICON_PLAY = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M8 5l11 7-11 7z" fill="currentColor"/></svg>';
+    var go = function (i) {
+      i = (i + slides.length) % slides.length;
+      track.scrollTo({ left: slides[i].offsetLeft - track.offsetLeft, behavior: reduce ? 'auto' : 'smooth' });
+    };
+    var current = function () {
+      var x = track.scrollLeft, best = 0, d = Infinity;
+      slides.forEach(function (s, i) { var dd = Math.abs(s.offsetLeft - track.offsetLeft - x); if (dd < d) { d = dd; best = i; } });
+      return best;
+    };
+    /* auto-rotation: every 4 s, only while visible, never under reduced motion;
+       pauses on hover and focus, stops for good once the visitor takes over */
+    var timer = null, stopped = reduce, visible = false, hovered = false, focused = false;
+    var setBtn = function () {
+      if (!pauseBtn) return;
+      pauseBtn.innerHTML = stopped ? ICON_PLAY : ICON_PAUSE;
+      pauseBtn.setAttribute('aria-label', stopped ? pauseBtn.getAttribute('data-play-label') : pauseBtn.getAttribute('data-pause-label'));
+      pauseBtn.setAttribute('aria-pressed', stopped ? 'true' : 'false');
+    };
+    var tick = function () { if (!stopped && visible && !hovered && !focused && !document.hidden) go(current() + 1); };
+    var start = function () { if (!timer) timer = setInterval(tick, 4000); };
+    var stop = function () { stopped = true; if (timer) { clearInterval(timer); timer = null; } setBtn(); };
+    var resume = function () { stopped = false; start(); setBtn(); };
+    c.addEventListener('mouseenter', function () { hovered = true; });
+    c.addEventListener('mouseleave', function () { hovered = false; });
+    c.addEventListener('focusin', function () { focused = true; });
+    c.addEventListener('focusout', function () { focused = false; });
+    var userTook = function () { if (!stopped) stop(); };
+    track.addEventListener('pointerdown', userTook);
+    track.addEventListener('wheel', userTook, { passive: true });
+    track.addEventListener('keydown', userTook);
+    c.querySelectorAll('.carousel__btn:not(.carousel__pause)').forEach(function (b) {
+      b.addEventListener('click', function () { userTook(); go(current() + Number(b.getAttribute('data-dir'))); });
+    });
+    dots.forEach(function (dot, i) { dot.addEventListener('click', function () { userTook(); go(i); }); });
+    if (pauseBtn) {
+      pauseBtn.addEventListener('click', function () { if (stopped) { resume(); } else { stop(); } });
+      if (reduce) pauseBtn.hidden = true;
+    }
+    new IntersectionObserver(function (entries) { visible = entries[0].isIntersecting; }, { threshold: 0.5 }).observe(c);
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.intersectionRatio >= 0.6) {
+          var i = slides.indexOf(e.target);
+          dots.forEach(function (dot, j) { if (j === i) dot.setAttribute('aria-current', 'true'); else dot.removeAttribute('aria-current'); });
+          if (captionEl) captionEl.textContent = e.target.getAttribute('data-caption') || '';
+        }
+      });
+    }, { root: track, threshold: 0.6 });
+    slides.forEach(function (s) { io.observe(s); });
+    if (captionEl) captionEl.textContent = slides[0].getAttribute('data-caption') || '';
+    setBtn(); if (!reduce) start();
+  });
+})();
+</script>

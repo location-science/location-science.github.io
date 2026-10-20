@@ -48,5 +48,7 @@ keywords: "Location Science, consulting, digitalisation, AI adoption, spatial da
 company_name: Location Science GmbH
 company_address: "Purrbachstr. 7c, 85305 Jetzendorf, Germany"
 company_email: "contact@location-science.com"
+# phone number, letter-encoded (a=0 … j=9) so it is not machine-readable in the HTML; decoded on click
+company_phone_enc: "ejbfcaejdfbjc"
 company_registration: "Handelsregister B Ingolstadt, HRB 12011"
 company_vat: "DE451272391"

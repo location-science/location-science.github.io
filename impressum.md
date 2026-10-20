@@ -23,6 +23,8 @@ Deutschland
 
 E-Mail: [contact@location-science.com](mailto:contact@location-science.com)
 
+Telefon: {% include phone-reveal.html %}
+
 ## Registereintrag
 
 Eintragung im Handelsregister B des Amtsgerichts Ingolstadt  

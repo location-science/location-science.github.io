@@ -57,6 +57,8 @@ Our own product is [StoryMapp](/en/storymapp/), with two p's. The app shows stor
 
 ## Contact
 
-Write to [{{ site.email }}](mailto:{{ site.email }}). We answer our own email.
+Write to [{{ site.email }}](mailto:{{ site.email }}) or call us: {% include phone-reveal.html %}
+
+We answer our own email and calls.
 
 {{ site.company_name }}, {{ site.company_address }}. {{ site.company_registration }}.

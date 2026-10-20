@@ -18,7 +18,10 @@ de:
     public: /behoerden/
     companies: /unternehmen/
     about: /ueber-uns/
+    contact: /kontakt/
   cta: Schreiben Sie uns
+  phone_show: Telefonnummer anzeigen
+  phone_hint: Die Nummer erscheint erst nach dem Klick, damit sie nicht automatisch abgegriffen wird.
   vat: USt-IdNr.
   rights: Alle Rechte vorbehalten.
   legal:
@@ -69,7 +72,10 @@ en:
     public: /en/public-sector/
     companies: /en/companies/
     about: /en/about/
+    contact: /en/contact/
   cta: Write to us
+  phone_show: Show phone number
+  phone_hint: The number appears only after the click, so it cannot be harvested automatically.
   vat: VAT
   rights: All rights reserved.
   legal:

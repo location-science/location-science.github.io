@@ -27,6 +27,8 @@ Germany
 
 Email: [contact@location-science.com](mailto:contact@location-science.com)
 
+Phone: {% include phone-reveal.html %}
+
 ## Commercial register
 
 Registered at: Handelsregister B, Amtsgericht Ingolstadt  

@@ -15,7 +15,7 @@
         <li><a href="{{ t.nav_urls.public | relative_url }}"{% if page.url == t.nav_urls.public %} aria-current="page"{% endif %}>{{ t.nav.public }}</a></li>
         <li><a href="{{ t.nav_urls.companies | relative_url }}"{% if page.url == t.nav_urls.companies %} aria-current="page"{% endif %}>{{ t.nav.companies }}</a></li>
         <li><a href="{{ t.nav_urls.about | relative_url }}"{% if page.url == t.nav_urls.about %} aria-current="page"{% endif %}>{{ t.nav.about }}</a></li>
-        <li><a href="mailto:{{ site.email }}">{{ t.nav.contact }}</a></li>
+        <li><a href="{{ t.nav_urls.contact | relative_url }}"{% if page.url == t.nav_urls.contact %} aria-current="page"{% endif %}>{{ t.nav.contact }}</a></li>
         <li><a class="bar__switch" href="{{ alt | relative_url }}" lang="{{ t.switch_code | downcase }}" hreflang="{{ t.switch_code | downcase }}" data-lang-switch="{{ t.switch_code | downcase }}" aria-label="{{ t.switch }}">{{ t.switch_code }}</a></li>
       </ul>
     </nav>
