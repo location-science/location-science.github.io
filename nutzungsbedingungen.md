@@ -10,11 +10,11 @@ translation: /en/terms/
 
 # StoryMapp — Allgemeine Geschäftsbedingungen für Endnutzer (Endnutzer-AGB)
 
-**Version 1.1 — gültig ab 4. August 2026**
+**Version 1.2 — gültig ab 20. Oktober 2026**
 
 ## 1. Anbieter und Geltungsbereich
 
-1.1 Anbieter der StoryMapp-Apps (iOS und Android) und der zugehörigen Website (zusammen die **„Plattform“**) ist die **Location Science GmbH**, Purrbachstr. 7c, 85305 Jetzendorf, Deutschland, eingetragen im Handelsregister des Amtsgerichts Ingolstadt unter HRB 12011, E-Mail: contact@location-science.com, Telefon: 0049 152 04935192 (**„Location Science“**, **„wir“**, **„uns“**).
+1.1 Anbieter der StoryMapp-Apps (iOS und Android) und der zugehörigen Website (zusammen die **„Plattform“**) ist die **Location Science GmbH**, Purrbachstr. 7c, 85305 Jetzendorf, Deutschland, eingetragen im Handelsregister des Amtsgerichts Ingolstadt unter HRB 12011, E-Mail: contact@location-science.com (**„Location Science“**, **„wir“**, **„uns“**).
 
 1.2 Diese AGB gelten für die Nutzung der Plattform durch Endnutzer (**„Sie“**). Für Content-Anbieter, die Inhalte über unser CMS bereitstellen, gilt zusätzlich die StoryMapp Content-Provider-Vereinbarung.
 

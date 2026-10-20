@@ -10,7 +10,7 @@ translation: /widerruf/
 
 # Withdrawal Instruction and Model Withdrawal Form for End Users (Annex D-1)
 
-**Relating to:** StoryMapp — End User Terms and Conditions, version 1.1 dated 4 August 2026
+**Relating to:** StoryMapp — End User Terms and Conditions, version 1.2 dated 20 October 2026
 
 ---
 
@@ -26,7 +26,6 @@ To exercise the right of withdrawal, you must inform us
 
 > **Location Science GmbH**
 > Purrbachstr. 7c, 85305 Jetzendorf, Germany
-> Phone: 0049 152 04935192
 > Email: contact@location-science.com
 
 of your decision to withdraw from this contract by an unequivocal statement (e.g. a letter sent by post or an email). You may use the attached model withdrawal form, but it is not obligatory.

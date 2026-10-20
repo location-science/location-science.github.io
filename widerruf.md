@@ -10,7 +10,7 @@ translation: /en/withdrawal/
 
 # Widerrufsbelehrung und Muster-Widerrufsformular für Endnutzer (Anlage D-1)
 
-**Zugehörig zu:** StoryMapp — Allgemeine Geschäftsbedingungen für Endnutzer, Version 1.1 vom 4. August 2026
+**Zugehörig zu:** StoryMapp — Allgemeine Geschäftsbedingungen für Endnutzer, Version 1.2 vom 20. Oktober 2026
 
 ---
 
@@ -26,7 +26,6 @@ Um Ihr Widerrufsrecht auszuüben, müssen Sie uns
 
 > **Location Science GmbH**
 > Purrbachstr. 7c, 85305 Jetzendorf, Deutschland
-> Telefon: 0049 152 04935192
 > E-Mail: contact@location-science.com
 
 mittels einer eindeutigen Erklärung (z. B. ein mit der Post versandter Brief oder eine E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür das beigefügte Muster-Widerrufsformular verwenden, das jedoch nicht vorgeschrieben ist.

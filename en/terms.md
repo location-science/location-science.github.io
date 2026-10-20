@@ -12,11 +12,11 @@ redirect_from:
 
 # StoryMapp — End User Terms and Conditions (End User Terms)
 
-**Version 1.1 — effective 4 August 2026**
+**Version 1.2 — effective 20 October 2026**
 
 ## 1. Provider and Scope
 
-1.1 The StoryMapp apps (iOS and Android) and the related website (together the **"Platform"**) are provided by **Location Science GmbH**, Purrbachstr. 7c, 85305 Jetzendorf, Germany, registered with the commercial register of the Amtsgericht Ingolstadt under HRB 12011, email: contact@location-science.com, phone: 0049 152 04935192 (**"Location Science"**, **"we"**, **"us"**).
+1.1 The StoryMapp apps (iOS and Android) and the related website (together the **"Platform"**) are provided by **Location Science GmbH**, Purrbachstr. 7c, 85305 Jetzendorf, Germany, registered with the commercial register of the Amtsgericht Ingolstadt under HRB 12011, email: contact@location-science.com (**"Location Science"**, **"we"**, **"us"**).
 
 1.2 These Terms govern the use of the Platform by end users (**"you"**). Content providers who supply content through our CMS are additionally subject to the StoryMapp Content Provider Agreement.
 
