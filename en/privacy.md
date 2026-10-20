@@ -108,9 +108,11 @@ Promenade 18, 91522 Ansbach, Germany
 Email: poststelle@lda.bayern.de  
 Website: [www.lda.bayern.de](https://www.lda.bayern.de)
 
-## 7. Partner organisations and API customers
+## 7. Partner organisations, API customers and clients
 
 Partner organisations that publish tours on StoryMapp, and customers of our content API, do not transfer personal data of their own users to us; we remain the controller for the data of app users described in section 3. The roles are set out in section 8 of our Content Provider Agreement. Where a specific project does require us to process personal data on a partner's behalf, we conclude a data processing agreement under Art. 28 GDPR, or a joint-controller arrangement under Art. 26 GDPR, as an annex to that project's schedule.
+
+For consulting, software-engineering and subcontracting projects in which we process personal data on behalf of our clients, we conclude a data processing agreement based on the European Commission's standard contractual clauses (Implementing Decision (EU) 2021/915). Our template, including the technical and organisational measures and the list of our sub-processors, is available on request from contact@location-science.com.
 
 ## 8. No automated decision-making
 

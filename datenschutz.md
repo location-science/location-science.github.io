@@ -104,9 +104,11 @@ Promenade 18, 91522 Ansbach
 E-Mail: poststelle@lda.bayern.de  
 Website: [www.lda.bayern.de](https://www.lda.bayern.de)
 
-## 7. Partnerorganisationen und API-Kunden
+## 7. Partnerorganisationen, API-Kunden und Auftraggeber
 
 Partnerorganisationen, die Touren auf StoryMapp veröffentlichen, und Kunden unserer Inhalte-Schnittstelle übermitteln uns keine personenbezogenen Daten ihrer eigenen Nutzer; für die Daten der App-Nutzer nach Abschnitt 3 bleiben wir Verantwortliche. Die Rollen sind in Ziffer 8 unserer Content-Provider-Vereinbarung geregelt. Erfordert ein konkretes Projekt, dass wir personenbezogene Daten im Auftrag eines Partners verarbeiten, schließen wir einen Auftragsverarbeitungsvertrag nach Art. 28 DSGVO oder eine Vereinbarung zur gemeinsamen Verantwortlichkeit nach Art. 26 DSGVO als Anlage zum jeweiligen Projektanhang.
+
+Für Beratungs-, Software-Engineering- und Unterauftragsprojekte, in denen wir personenbezogene Daten im Auftrag unserer Kunden verarbeiten, schließen wir einen Auftragsverarbeitungsvertrag auf Grundlage der Standardvertragsklauseln der Europäischen Kommission (Durchführungsbeschluss (EU) 2021/915). Unsere Vorlage einschließlich der technischen und organisatorischen Maßnahmen und der Liste unserer Unterauftragsverarbeiter ist auf Anfrage unter contact@location-science.com erhältlich.
 
 ## 8. Keine automatisierte Entscheidungsfindung
 
