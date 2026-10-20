@@ -1,75 +1,77 @@
 ---
 layout: page
-title: Story Map - Interactive Location-Based Storytelling Platform | StoryMapp
-description: Discover story map technology with StoryMapp. Create and explore interactive story maps with 7.5M+ location-based stories. The premier story map platform for mobile devices.
-keywords: story map, interactive story map, location storytelling, story mapping, place-based stories, mobile story map, geographic storytelling
+title: Story Map – interaktive Plattform für Geschichten vor Ort | StoryMapp
+description: Entdecken Sie Story-Map-Technologie mit StoryMapp. Interaktive Story Maps mit mehr als 7,5 Millionen ortsbezogenen Geschichten, kostenlos für iOS und Android.
+keywords: Story Map, interaktive Story Map, Geschichten vor Ort, Story Mapping, ortsbezogene Geschichten, mobile Story Map, geografisches Storytelling
 permalink: /story-map/
+lang: de
+translation: /en/story-map/
 ---
 
-<div class="hero-section" style="padding: 2rem 0 4rem;">
+<div class="hero-section">
   <div class="hero-content">
-    <img src="/assets/images/storymapp-logo.png" alt="StoryMapp - Story Map Platform Logo" class="storymapp-logo" style="margin: 0 auto;">
-    <h1>Story Map Technology: Explore Interactive Location Storytelling</h1>
-    <p class="hero-subtitle">Experience the power of <strong>story mapping</strong> with StoryMapp. Our interactive <strong>story map platform</strong> connects you to millions of location-based stories worldwide through cutting-edge geographic storytelling technology.</p>
-    <div style="margin-top: 2rem;">
-      <a href="/storymapp/" class="button primary-button">Explore StoryMapp</a>
-      <a href="#download" class="button secondary-button">Download Story Map App</a>
+    <img src="/assets/images/logo_512_transp.png" alt="StoryMapp – Story-Map-Plattform" class="storymapp-logo">
+    <h1>Story-Map-Technologie: interaktives Erzählen vor Ort</h1>
+    <p class="hero-subtitle">Erleben Sie <strong>Story Mapping</strong> mit StoryMapp. Unsere interaktive <strong>Story-Map-Plattform</strong> verbindet Sie mit Millionen ortsbezogener Geschichten weltweit, mit moderner Technologie für geografisches Erzählen.</p>
+    <div>
+      <a href="/storymapp/" class="button primary-button">StoryMapp entdecken</a>
+      <a href="#download" class="button secondary-button">Story-Map-App laden</a>
     </div>
   </div>
 </div>
 
 <div class="content-section">
-  <h2>What is a Story Map? Revolutionary Geographic Storytelling</h2>
-  <p>A <strong>story map</strong> is an interactive digital experience that combines geographic information with narrative content to tell compelling stories about specific places. StoryMapp represents the evolution of <strong>story mapping technology</strong>, offering the world's most comprehensive platform for discovering and experiencing location-based storytelling.</p>
+  <h2>Was ist eine Story Map? Geografisches Erzählen neu gedacht</h2>
+  <p>Eine <strong>Story Map</strong> ist ein interaktives digitales Erlebnis, das geografische Information mit erzählerischen Inhalten verbindet, um fesselnde Geschichten über bestimmte Orte zu erzählen. StoryMapp steht für die Weiterentwicklung der <strong>Story-Mapping-Technologie</strong> und bietet eine der umfassendsten Plattformen, um ortsbezogenes Erzählen zu entdecken und zu erleben.</p>
 
-  <p>Unlike traditional maps or static storytelling platforms, our <strong>story map technology</strong> creates immersive experiences that help you understand the deeper meaning, history, and cultural significance of places around the world.</p>
+  <p>Anders als klassische Karten oder statische Erzählplattformen schafft unsere <strong>Story-Map-Technologie</strong> Erlebnisse, die die tiefere Bedeutung, Geschichte und kulturelle Bedeutung von Orten auf der ganzen Welt verständlich machen.</p>
 
   <div class="features-grid">
     <div class="feature-card">
-      <span class="feature-emoji">🗺️</span>
-      <h3>Interactive Story Map Technology</h3>
-      <p>Our advanced <strong>story mapping platform</strong> seamlessly blends geographic data with rich narrative content to create engaging <strong>story map experiences</strong>.</p>
+      <span class="feature-emoji"></span>
+      <h3>Interaktive Story-Map-Technologie</h3>
+      <p>Unsere <strong>Story-Mapping-Plattform</strong> verbindet Geodaten mit reichen erzählerischen Inhalten zu fesselnden <strong>Story-Map-Erlebnissen</strong>.</p>
     </div>
 
     <div class="feature-card">
-      <span class="feature-emoji">📍</span>
-      <h3>Location-Aware Story Maps</h3>
-      <p>Discover <strong>story maps</strong> that respond to your location, revealing relevant stories and historical context wherever you are in the world.</p>
+      <span class="feature-emoji"></span>
+      <h3>Standortbezogene Story Maps</h3>
+      <p>Entdecken Sie <strong>Story Maps</strong>, die auf Ihren Standort reagieren und überall auf der Welt passende Geschichten und historischen Kontext zeigen.</p>
     </div>
 
     <div class="feature-card">
-      <span class="feature-emoji">📱</span>
-      <h3>Mobile Story Map Experience</h3>
-      <p>Access our comprehensive <strong>story map database</strong> through our intuitive mobile app, designed specifically for on-the-go storytelling exploration.</p>
+      <span class="feature-emoji"></span>
+      <h3>Story Maps auf dem Smartphone</h3>
+      <p>Greifen Sie über unsere intuitive App auf unsere umfangreiche <strong>Story-Map-Datenbank</strong> zu, gebaut für das Erkunden unterwegs.</p>
     </div>
 
     <div class="feature-card">
-      <span class="feature-emoji">🌍</span>
-      <h3>Global Story Map Coverage</h3>
-      <p>Explore over 7.5 million places with stories through our global <strong>story map platform</strong>, the largest collection of location-based narratives available.</p>
+      <span class="feature-emoji"></span>
+      <h3>Weltweite Story-Map-Abdeckung</h3>
+      <p>Erkunden Sie über 7,5 Millionen Orte mit Geschichten auf unserer globalen <strong>Story-Map-Plattform</strong>, einer der größten Sammlungen ortsbezogener Erzählungen.</p>
     </div>
   </div>
 </div>
 
 <div class="content-section">
-  <h2>How Story Maps Work: The Science Behind Location Storytelling</h2>
-  <p>Our <strong>story map technology</strong> represents a breakthrough in how we connect with places and their stories. Here's how our innovative approach to <strong>story mapping</strong> works:</p>
+  <h2>So funktionieren Story Maps: die Technik hinter dem Erzählen vor Ort</h2>
+  <p>Unsere <strong>Story-Map-Technologie</strong> verändert, wie wir uns mit Orten und ihren Geschichten verbinden. So funktioniert unser Ansatz beim <strong>Story Mapping</strong>:</p>
 
-  <div style="margin: 2rem 0;">
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
-      <div style="padding: 2rem; background: var(--background-light); border-radius: 16px; border-left: 4px solid var(--secondary-color);">
-        <h4 style="margin-top: 0; color: var(--primary-color);">🔍 Intelligent Story Map Discovery</h4>
-        <p style="margin-bottom: 0; font-size: 1rem; line-height: 1.6;">Our AI-powered system identifies and curates the most relevant stories for each location, creating comprehensive <strong>story maps</strong> that reveal hidden narratives.</p>
+  <div>
+    <div>
+      <div>
+        <h4>Intelligente Story-Map-Entdeckung</h4>
+        <p>Unser KI-gestütztes System erkennt und kuratiert die relevantesten Geschichten zu jedem Ort und erstellt umfassende <strong>Story Maps</strong>, die verborgene Erzählungen sichtbar machen.</p>
       </div>
-      
-      <div style="padding: 2rem; background: var(--background-light); border-radius: 16px; border-left: 4px solid var(--secondary-color);">
-        <h4 style="margin-top: 0; color: var(--primary-color);">📊 Dynamic Story Map Content</h4>
-        <p style="margin-bottom: 0; font-size: 1rem; line-height: 1.6;">Real-time updates ensure your <strong>story map experience</strong> always includes the latest historical discoveries, cultural insights, and local knowledge.</p>
+
+      <div>
+        <h4>Dynamische Story-Map-Inhalte</h4>
+        <p>Laufende Aktualisierungen sorgen dafür, dass Ihr <strong>Story-Map-Erlebnis</strong> stets die neuesten historischen Erkenntnisse, kulturellen Einblicke und das lokale Wissen enthält.</p>
       </div>
-      
-      <div style="padding: 2rem; background: var(--background-light); border-radius: 16px; border-left: 4px solid var(--secondary-color);">
-        <h4 style="margin-top: 0; color: var(--primary-color);">🎯 Personalized Story Maps</h4>
-        <p style="margin-bottom: 0; font-size: 1rem; line-height: 1.6;">Advanced algorithms customize your <strong>story map exploration</strong> based on your interests, location, and storytelling preferences.</p>
+
+      <div>
+        <h4>Persönliche Story Maps</h4>
+        <p>Algorithmen passen Ihre <strong>Story-Map-Erkundung</strong> an Ihre Interessen, Ihren Standort und Ihre Vorlieben an.</p>
       </div>
     </div>
   </div>
@@ -77,61 +79,57 @@ permalink: /story-map/
 
 <div class="app-download-section" id="download">
   <div class="app-download-header">
-    <h3>Download the Ultimate Story Map App</h3>
-    <p class="app-download-subtitle">Ready to experience the future of <strong>story mapping</strong>? Download StoryMapp and start exploring interactive <strong>story maps</strong> that bring locations to life through compelling narratives.</p>
+    <h3>Die Story-Map-App laden</h3>
+    <p class="app-download-subtitle">Bereit für die Zukunft des <strong>Story Mapping</strong>? Laden Sie StoryMapp und erkunden Sie interaktive <strong>Story Maps</strong>, die Orte durch fesselnde Erzählungen lebendig machen.</p>
   </div>
-  
+
   <div class="download-options">
-    <a href="https://apps.apple.com/de/app/storymapp/id6746046187" target="_blank" rel="noopener" aria-label="Download StoryMapp story map app on the App Store">
-      <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1262304000" 
-           alt="Download StoryMapp story map app on the App Store" 
-           style="border-radius: 13px; width: 200px; height: auto;">
+    <a href="https://apps.apple.com/de/app/storymapp/id6746046187" target="_blank" rel="noopener" aria-label="StoryMapp im App Store laden">
+      <img src="/assets/images/badges/apple-appstore.svg" alt="StoryMapp im App Store laden" width="150" height="44" loading="lazy">
     </a>
-    
-    <a href="https://play.google.com/store/apps/details?id=app.storym" target="_blank" rel="noopener" aria-label="Get StoryMapp story map app on Google Play">
-      <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
-           alt="Get StoryMapp story map app on Google Play" 
-           style="width: 230px; height: auto;">
+
+    <a href="https://play.google.com/store/apps/details?id=app.storym" target="_blank" rel="noopener" aria-label="StoryMapp bei Google Play">
+      <img src="/assets/images/badges/googleplay.svg" alt="StoryMapp bei Google Play" width="150" height="44" loading="lazy">
     </a>
   </div>
 </div>
 
 <div class="content-section">
-  <h2>Story Map Applications: Beyond Traditional Mapping</h2>
-  <p>Our <strong>story mapping platform</strong> serves diverse users and industries, from individual explorers to enterprise applications:</p>
+  <h2>Anwendungen von Story Maps: mehr als klassische Karten</h2>
+  <p>Unsere <strong>Story-Mapping-Plattform</strong> dient unterschiedlichen Nutzern und Branchen, von einzelnen Entdeckern bis zu Unternehmensanwendungen:</p>
 
   <div class="features-grid">
     <div class="feature-card">
-      <span class="feature-emoji">🎒</span>
-      <h3>Travel & Tourism Story Maps</h3>
-      <p>Enhance travel experiences with <strong>story maps</strong> that reveal the cultural significance and historical context of destinations worldwide.</p>
+      <span class="feature-emoji"></span>
+      <h3>Reise und Tourismus</h3>
+      <p>Bereichern Sie Reiseerlebnisse mit <strong>Story Maps</strong>, die die kulturelle Bedeutung und den historischen Kontext von Reisezielen weltweit zeigen.</p>
     </div>
 
     <div class="feature-card">
-      <span class="feature-emoji">🏫</span>
-      <h3>Educational Story Mapping</h3>
-      <p>Transform learning with interactive <strong>story maps</strong> that make history, geography, and culture come alive for students and educators.</p>
+      <span class="feature-emoji"></span>
+      <h3>Bildung</h3>
+      <p>Verändern Sie das Lernen mit interaktiven <strong>Story Maps</strong>, die Geschichte, Geografie und Kultur für Lernende und Lehrende lebendig machen.</p>
     </div>
 
     <div class="feature-card">
-      <span class="feature-emoji">🏛️</span>
-      <h3>Cultural Heritage Story Maps</h3>
-      <p>Preserve and share cultural heritage through immersive <strong>story map experiences</strong> that connect communities with their history.</p>
+      <span class="feature-emoji"></span>
+      <h3>Kulturerbe</h3>
+      <p>Bewahren und teilen Sie kulturelles Erbe mit <strong>Story-Map-Erlebnissen</strong>, die Gemeinschaften mit ihrer Geschichte verbinden.</p>
     </div>
 
     <div class="feature-card">
-      <span class="feature-emoji">💼</span>
-      <h3>Enterprise Story Map Solutions</h3>
-      <p>Integrate our <strong>story mapping technology</strong> into business applications through our comprehensive API services and enterprise solutions.</p>
+      <span class="feature-emoji"></span>
+      <h3>Lösungen für Unternehmen</h3>
+      <p>Binden Sie unsere <strong>Story-Mapping-Technologie</strong> über unsere Schnittstelle in Ihre Geschäftsanwendungen ein.</p>
     </div>
   </div>
 </div>
 
-<div style="background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); color: white; padding: 3rem; border-radius: 16px; margin: 3rem 0; text-align: center;">
-  <h2 style="margin-bottom: 1.5rem; font-size: 2rem;">Ready to Start Your Story Map Journey?</h2>
-  <p style="font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.95;">Join millions of users discovering the world through interactive <strong>story maps</strong>. Experience location-based storytelling like never before with StoryMapp.</p>
-  <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-    <a href="/storymapp/" style="display: inline-block; padding: 1rem 2rem; background: rgba(255, 255, 255, 0.2); color: white; text-decoration: none; border-radius: 12px; font-weight: 500; border: 1px solid rgba(255, 255, 255, 0.3);">Explore Features</a>
-    <a href="mailto:contact@location-science.com" style="display: inline-block; padding: 1rem 2rem; background: rgba(255, 255, 255, 0.2); color: white; text-decoration: none; border-radius: 12px; font-weight: 500; border: 1px solid rgba(255, 255, 255, 0.3);">Contact Story Map Experts</a>
+<div>
+  <h2>Bereit für Ihre Story-Map-Reise?</h2>
+  <p>Werden Sie Teil der Menschen, die die Welt über interaktive <strong>Story Maps</strong> entdecken. Erleben Sie ortsbezogenes Erzählen mit StoryMapp.</p>
+  <div>
+    <a href="/storymapp/">Funktionen entdecken</a>
+    <a href="mailto:contact@location-science.com">Story-Map-Experten kontaktieren</a>
   </div>
-</div> 
+</div>

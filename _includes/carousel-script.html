@@ -1,0 +1,81 @@
+<script>
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.carousel').forEach(function (c) {
+    var track = c.querySelector('.carousel__track');
+    var slides = Array.prototype.slice.call(track.children);
+    var dots = Array.prototype.slice.call(c.querySelectorAll('.carousel__dot'));
+    var pauseBtn = c.querySelector('.carousel__pause');
+    var captionEl = c.querySelector('.carousel__caption');
+    var ICON_PAUSE = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M8 5h3v14H8zM13 5h3v14h-3z" fill="currentColor"/></svg>';
+    var ICON_PLAY = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M8 5l11 7-11 7z" fill="currentColor"/></svg>';
+    var go = function (i) {
+      i = (i + slides.length) % slides.length;
+      track.scrollTo({ left: slides[i].offsetLeft - track.offsetLeft, behavior: reduce ? 'auto' : 'smooth' });
+    };
+    /* the active slide is the one with the largest visible share; at the very end it is always the last one
+       (needed for slides of different widths, where the last slide can never reach the left edge) */
+    var current = function () {
+      var left = track.scrollLeft, right = left + track.clientWidth;
+      if (track.scrollWidth - right <= 2) return slides.length - 1;
+      var best = 0, bestShare = -1;
+      slides.forEach(function (s, i) {
+        var a = s.offsetLeft - track.offsetLeft, b = a + s.offsetWidth;
+        var visible = Math.max(0, Math.min(b, right) - Math.max(a, left));
+        var share = visible / Math.max(1, Math.min(s.offsetWidth, track.clientWidth));
+        if (share > bestShare + 0.001) { bestShare = share; best = i; }
+      });
+      return best;
+    };
+    /* auto-rotation: every 4 s, only while visible, never under reduced motion;
+       pauses on hover and focus, stops for good once the visitor takes over */
+    var timer = null, stopped = reduce, visible = false, hovered = false, focused = false;
+    var setBtn = function () {
+      if (!pauseBtn) return;
+      pauseBtn.innerHTML = stopped ? ICON_PLAY : ICON_PAUSE;
+      pauseBtn.setAttribute('aria-label', stopped ? pauseBtn.getAttribute('data-play-label') : pauseBtn.getAttribute('data-pause-label'));
+      pauseBtn.setAttribute('aria-pressed', stopped ? 'true' : 'false');
+    };
+    var tick = function () { if (!stopped && visible && !hovered && !focused && !document.hidden) go(current() + 1); };
+    var start = function () { if (!timer) timer = setInterval(tick, 4000); };
+    var stop = function () { stopped = true; if (timer) { clearInterval(timer); timer = null; } setBtn(); };
+    var resume = function () { stopped = false; start(); setBtn(); };
+    /* pause while the pointer rests on the controls or a control has keyboard focus; the image itself does not pause */
+    var nav = c.querySelector('.carousel__nav');
+    if (nav) {
+      nav.addEventListener('mouseenter', function () { hovered = true; });
+      nav.addEventListener('mouseleave', function () { hovered = false; });
+    }
+    /* keyboard focus pauses; focus that merely lands on the image after a mouse click (or after the lightbox closes) does not */
+    var isKeyboardFocus = function (el) { try { return el.matches(':focus-visible'); } catch (e) { return true; } };
+    c.addEventListener('focusin', function (e) { focused = isKeyboardFocus(e.target); });
+    c.addEventListener('focusout', function () { focused = false; });
+    var userTook = function () { if (!stopped) stop(); };
+    var px = null;
+    track.addEventListener('pointerdown', function (e) { px = e.clientX; });
+    track.addEventListener('pointermove', function (e) { if (px !== null && Math.abs(e.clientX - px) > 8) { userTook(); px = null; } });
+    track.addEventListener('pointerup', function () { px = null; });
+    track.addEventListener('wheel', function (e) { if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) userTook(); }, { passive: true });
+    track.addEventListener('keydown', userTook);
+    c.querySelectorAll('.carousel__btn:not(.carousel__pause)').forEach(function (b) {
+      b.addEventListener('click', function () { userTook(); go(current() + Number(b.getAttribute('data-dir'))); });
+    });
+    dots.forEach(function (dot, i) { dot.addEventListener('click', function () { userTook(); go(i); }); });
+    if (pauseBtn) {
+      pauseBtn.addEventListener('click', function () { if (stopped) { resume(); } else { stop(); } });
+      if (reduce) pauseBtn.hidden = true;
+    }
+    new IntersectionObserver(function (entries) { visible = entries[0].isIntersecting; }, { threshold: 0.25 }).observe(c);
+    /* active dot and caption follow the real scroll position (works for slides of different widths) */
+    var sync = function () {
+      var i = current();
+      dots.forEach(function (dot, j) { if (j === i) dot.setAttribute('aria-current', 'true'); else dot.removeAttribute('aria-current'); });
+      if (captionEl) captionEl.textContent = slides[i].getAttribute('data-caption') || '';
+    };
+    var raf = null;
+    track.addEventListener('scroll', function () { if (!raf) raf = requestAnimationFrame(function () { raf = null; sync(); }); }, { passive: true });
+    window.addEventListener('resize', sync);
+    sync(); setBtn(); if (!reduce) start();
+  });
+})();
+</script>

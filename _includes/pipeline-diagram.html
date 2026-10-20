@@ -1,0 +1,42 @@
+<svg class="pipe" viewBox="0 0 266 352" role="img" aria-label="{% if page.lang == 'en' %}Diagram of a data pipeline: OpenStreetMap, Wikidata, Wikipedia and further internet sources are read in parallel, loaded into PostGIS, matched and scored, exported as tables and tiles, and delivered to app and API clients through our cloud infrastructure.{% else %}Diagramm einer Datenpipeline: OpenStreetMap, Wikidata, Wikipedia und weitere Internetquellen werden parallel eingelesen, in PostGIS geladen, verknüpft und bewertet, als Tabellen und Kacheln exportiert und über unsere Cloud-Infrastruktur an App- und API-Clients ausgeliefert.{% endif %}">
+  <defs>
+    <path id="pipe-a" d="M34 34 C34 66 133 56 133 90"/>
+    <path id="pipe-b" d="M100 34 C100 66 133 56 133 90"/>
+    <path id="pipe-c" d="M166 34 C166 66 133 56 133 90"/>
+    <path id="pipe-h" d="M232 34 C232 66 133 56 133 90"/>
+    <path id="pipe-d" d="M133 112 L133 136"/>
+    <path id="pipe-e" d="M133 158 L133 182"/>
+    <path id="pipe-f" d="M133 204 L133 228"/>
+    <path id="pipe-i" d="M133 250 L133 274"/>
+    <path id="pipe-j" d="M133 296 C133 316 66 310 66 322"/>
+    <path id="pipe-k" d="M133 296 C133 316 200 310 200 322"/>
+  </defs>
+  <g class="pipe__edges">
+    <use href="#pipe-a"/><use href="#pipe-b"/><use href="#pipe-c"/><use href="#pipe-h"/><use href="#pipe-d"/><use href="#pipe-e"/><use href="#pipe-f"/><use href="#pipe-i"/><use href="#pipe-j"/><use href="#pipe-k"/>
+  </g>
+  <g class="pipe__nodes">
+    <g transform="translate(34 22)"><rect x="-31" y="-11" width="62" height="22" rx="6"/><text y="4">OSM</text></g>
+    <g transform="translate(100 22)"><rect x="-31" y="-11" width="62" height="22" rx="6"/><text y="4">Wikidata</text></g>
+    <g transform="translate(166 22)"><rect x="-31" y="-11" width="62" height="22" rx="6"/><text y="4">Wikipedia</text></g>
+    <g transform="translate(232 22)"><rect x="-31" y="-11" width="62" height="22" rx="6"/><text y="4">Internet</text></g>
+    <g transform="translate(133 101)"><rect x="-52" y="-11" width="104" height="22" rx="6"/><text y="4">Parser ×N</text></g>
+    <g class="pipe__node--db" transform="translate(133 147)"><rect x="-52" y="-11" width="104" height="22" rx="6"/><text y="4">PostGIS</text></g>
+    <g transform="translate(133 193)"><rect x="-62" y="-11" width="124" height="22" rx="6"/><text y="4">Matching · Scoring</text></g>
+    <g transform="translate(133 239)"><rect x="-52" y="-11" width="104" height="22" rx="6"/><text y="4">Export · Tiles</text></g>
+    <g class="pipe__node--cloud" transform="translate(133 285)"><rect x="-62" y="-11" width="124" height="22" rx="6"/><text y="4">Cloud · CDN · Auth</text></g>
+    <g transform="translate(66 333)"><rect x="-44" y="-11" width="88" height="22" rx="6"/><text y="4">App</text></g>
+    <g transform="translate(200 333)"><rect x="-44" y="-11" width="88" height="22" rx="6"/><text y="4">API · Web</text></g>
+  </g>
+  <g class="pipe__packets" aria-hidden="true">
+    <circle r="3" class="pipe__packet" style="offset-path: path('M34 34 C34 66 133 56 133 90'); animation-delay: 0s"/>
+    <circle r="3" class="pipe__packet" style="offset-path: path('M100 34 C100 66 133 56 133 90'); animation-delay: -1.3s"/>
+    <circle r="3" class="pipe__packet" style="offset-path: path('M166 34 C166 66 133 56 133 90'); animation-delay: -0.6s"/>
+    <circle r="3" class="pipe__packet" style="offset-path: path('M232 34 C232 66 133 56 133 90'); animation-delay: -1.9s"/>
+    <circle r="3" class="pipe__packet" style="offset-path: path('M133 112 L133 136'); animation-delay: -0.9s"/>
+    <circle r="3" class="pipe__packet" style="offset-path: path('M133 158 L133 182'); animation-delay: -1.7s"/>
+    <circle r="3" class="pipe__packet" style="offset-path: path('M133 204 L133 228'); animation-delay: -0.4s"/>
+    <circle r="3" class="pipe__packet" style="offset-path: path('M133 250 L133 274'); animation-delay: -2.2s"/>
+    <circle r="3" class="pipe__packet" style="offset-path: path('M133 296 C133 316 66 310 66 322'); animation-delay: -0.3s"/>
+    <circle r="3" class="pipe__packet" style="offset-path: path('M133 296 C133 316 200 310 200 322'); animation-delay: -1.1s"/>
+  </g>
+</svg>

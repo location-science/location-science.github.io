@@ -1,22 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
+<html lang="{{ page.lang | default: "de" }}">
   {%- include head.html -%}
-
   <body>
-
+    {%- assign lang = page.lang | default: "de" -%}
+    <a class="skip" href="#main">{{ site.data.i18n[lang].skip }}</a>
+    {%- include lang-hint.html -%}
     {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    <main id="main">
+      {{ content }}
     </main>
-
     {%- include footer.html -%}
     {%- include cookie-banner.html -%}
-
-    <link rel="stylesheet" href="/assets/css/cookie-banner.css">
+    {%- include phone-script.html -%}
+    {%- include lightbox.html -%}
   </body>
-
-</html> 
+</html>

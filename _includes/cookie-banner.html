@@ -1,29 +1,31 @@
-<div id="cookie-banner">
+{%- assign lang = page.lang | default: "de" -%}
+{%- assign t = site.data.i18n[lang] -%}
+<div id="cookie-banner" role="region" aria-label="Cookies">
     <div class="cookie-content">
-        <p>We use cookies to enhance your experience on our website. Some cookies are necessary for the website to function, while others help us understand how you interact with our site. <a href="/cookies/">Learn more about our cookie policy</a>.</p>
+        <p>{{ t.cookie.text }} <a href="{{ t.cookie.learn_url | relative_url }}">{{ t.cookie.learn }}</a>.</p>
         <div class="cookie-buttons">
-            <button id="accept-all" class="cookie-button">Accept All</button>
-            <button id="accept-necessary" class="cookie-button">Accept Necessary Only</button>
-            <button id="show-details" class="cookie-button">Show Details</button>
+            <button id="accept-all" class="cookie-button">{{ t.cookie.accept_all }}</button>
+            <button id="accept-necessary" class="cookie-button">{{ t.cookie.necessary }}</button>
+            <button id="show-details" class="cookie-button">{{ t.cookie.details }}</button>
         </div>
         <div class="cookie-details" style="display: none;">
             <div class="cookie-option">
                 <label>
-                    <input type="checkbox" id="analytics" checked>
-                    Analytics Cookies
+                    <input type="checkbox" id="analytics">
+                    {{ t.cookie.analytics }}
                 </label>
-                <p>Help us understand how visitors interact with our website by collecting and reporting information anonymously.</p>
+                <p>{{ t.cookie.analytics_desc }}</p>
             </div>
             <div class="cookie-option">
                 <label>
-                    <input type="checkbox" id="preferences" checked>
-                    Preference Cookies
+                    <input type="checkbox" id="preferences">
+                    {{ t.cookie.preferences }}
                 </label>
-                <p>Remember your preferences and settings to enhance your browsing experience.</p>
+                <p>{{ t.cookie.preferences_desc }}</p>
             </div>
-            <button id="save-preferences" class="cookie-button">Save Preferences</button>
+            <button id="save-preferences" class="cookie-button">{{ t.cookie.save }}</button>
         </div>
     </div>
 </div>
 
-<script src="/assets/js/cookie-banner.js"></script> 
+<script src="{{ "/assets/js/cookie-banner.js" | relative_url }}"></script>

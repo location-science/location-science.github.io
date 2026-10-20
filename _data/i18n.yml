@@ -1,0 +1,112 @@
+de:
+  code: de
+  locale: de_DE
+  home: /
+  home_alt: /en/
+  switch: English
+  switch_code: EN
+  skip: Zum Inhalt springen
+  menu: Menü
+  nav:
+    storymapp: StoryMapp
+    public: Behörden
+    companies: Unternehmen
+    about: Über uns
+    contact: Kontakt
+  nav_urls:
+    storymapp: /storymapp/
+    public: /behoerden/
+    companies: /unternehmen/
+    about: /ueber-uns/
+    contact: /kontakt/
+  cta: Schreiben Sie uns
+  phone_show: Telefonnummer anzeigen
+  zoom_close: Schließen
+  zoom_hint: Bild vergrößern
+  phone_hint: Die Nummer erscheint erst nach dem Klick, damit sie nicht automatisch abgegriffen wird.
+  vat: USt-IdNr.
+  rights: Alle Rechte vorbehalten.
+  legal:
+    - { label: Impressum, url: /impressum/ }
+    - { label: Datenschutz, url: /datenschutz/ }
+    - { label: Nutzungsbedingungen, url: /nutzungsbedingungen/ }
+    - { label: Widerruf, url: /widerruf/ }
+    - { label: Cookies, url: /cookie-richtlinie/ }
+    - { label: Aufbewahrung, url: /datenaufbewahrung/ }
+    - { label: Betroffenenrechte, url: /betroffenenrechte/ }
+    - { label: Barrierefreiheit, url: /barrierefreiheit/ }
+    - { label: Quellen und Lizenzen, url: /quellen/ }
+    - { label: Streitbeilegung, url: /streitbeilegung/ }
+  cookie:
+    text: Diese Website speichert Ihre Auswahl im Browser. Optionale Cookies setzen wir nur, wenn Sie zustimmen.
+    learn: Mehr in der Cookie-Richtlinie
+    learn_url: /cookie-richtlinie/
+    accept_all: Alle akzeptieren
+    necessary: Nur notwendige
+    details: Details anzeigen
+    analytics: Analyse-Cookies
+    analytics_desc: Helfen uns zu verstehen, wie die Website genutzt wird. Derzeit ist kein Analysewerkzeug eingebunden.
+    preferences: Präferenz-Cookies
+    preferences_desc: Merken sich Einstellungen wie eine bevorzugte Sprache. Derzeit werden keine gesetzt.
+    save: Auswahl speichern
+  hint:
+    text: This page is also available in English.
+    switch: Switch to English
+    dismiss: Stay in German
+  binding: Maßgeblich ist diese deutsche Fassung.
+en:
+  code: en
+  locale: en_GB
+  home: /en/
+  home_alt: /
+  switch: Deutsch
+  switch_code: DE
+  skip: Skip to content
+  menu: Menu
+  nav:
+    storymapp: StoryMapp
+    public: Public sector
+    companies: Companies
+    about: About
+    contact: Contact
+  nav_urls:
+    storymapp: /en/storymapp/
+    public: /en/public-sector/
+    companies: /en/companies/
+    about: /en/about/
+    contact: /en/contact/
+  cta: Write to us
+  phone_show: Show phone number
+  zoom_close: Close
+  zoom_hint: Enlarge image
+  phone_hint: The number appears only after the click, so it cannot be harvested automatically.
+  vat: VAT
+  rights: All rights reserved.
+  legal:
+    - { label: Imprint, url: /en/imprint/ }
+    - { label: Privacy policy, url: /en/privacy/ }
+    - { label: Terms of use, url: /en/terms/ }
+    - { label: Withdrawal, url: /en/withdrawal/ }
+    - { label: Cookies, url: /en/cookies/ }
+    - { label: Data retention, url: /en/retention/ }
+    - { label: Subject rights, url: /en/dsar/ }
+    - { label: Accessibility, url: /en/accessibility/ }
+    - { label: Sources and licences, url: /en/attribution/ }
+    - { label: Dispute resolution, url: /en/dispute/ }
+  cookie:
+    text: This website stores your choice in your browser. Optional cookies are only set if you allow them.
+    learn: More in the cookie policy
+    learn_url: /en/cookies/
+    accept_all: Accept all
+    necessary: Necessary only
+    details: Show details
+    analytics: Analytics cookies
+    analytics_desc: Help us understand how the website is used. At present no analytics tool is loaded.
+    preferences: Preference cookies
+    preferences_desc: Remember settings such as a preferred language. At present none are set.
+    save: Save choice
+  hint:
+    text: Diese Seite gibt es auch auf Deutsch.
+    switch: Zur deutschen Fassung
+    dismiss: Stay in English
+  courtesy: This is a courtesy translation. The German version is binding.
