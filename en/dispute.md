@@ -1,10 +1,16 @@
 ---
 layout: page
 title: Dispute Resolution
-permalink: /dispute/
+permalink: /en/dispute/
+lang: en
+translation: /streitbeilegung/
+redirect_from:
+  - /dispute/
 ---
 
 # Dispute Resolution
+
+<p class="note">This is a courtesy translation. The German version is binding: <a href="/streitbeilegung/">Streitbeilegung</a>.</p>
 
 ## 1. Complaints
 

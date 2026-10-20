@@ -1,10 +1,16 @@
 ---
 layout: page
 title: Attribution
-permalink: /attribution/
+permalink: /en/attribution/
+lang: en
+translation: /quellen/
+redirect_from:
+  - /attribution/
 ---
 
 # Data and Tool Attribution
+
+<p class="note">This is a courtesy translation. The German version is binding: <a href="/quellen/">Quellen und Lizenzen</a>.</p>
 
 This page lists the sources of data and tools used in our product, along with their respective licenses and attribution requirements.
 
@@ -57,6 +63,6 @@ This website uses the typefaces Space Grotesk (Florian Karsten), Geist (Vercel) 
 - We maintain records of data sources and their usage to ensure compliance with licensing requirements
 - If you have any questions about our use of these data sources, please contact us
 
-For more information about our data usage and privacy practices, please see our [Data Privacy Policy](/privacy/) and [Terms of Usage](/terms/).
+For more information about our data usage and privacy practices, please see our [Data Privacy Policy](/en/privacy/) and [Terms of Usage](/terms/).
 
 **Last updated: 19 October 2026**

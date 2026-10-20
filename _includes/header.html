@@ -1,19 +1,24 @@
+{%- assign lang = page.lang | default: "de" -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign alt = page.translation | default: t.home_alt -%}
 <header class="bar" role="banner">
   <div class="wrap bar__inner">
-    <a class="bar__brand" rel="home" href="{{ "/" | relative_url }}">
+    <a class="bar__brand" rel="home" href="{{ t.home | relative_url }}">
       <img src="{{ "/assets/images/logo_512_transp.png" | relative_url }}" alt="" width="30" height="30">
       <span>{{ site.title | escape }}</span>
     </a>
-    <input type="checkbox" id="bar-toggle" class="bar__toggle" aria-label="Open the menu">
-    <label for="bar-toggle" class="bar__label">Menu</label>
+    <input type="checkbox" id="bar-toggle" class="bar__toggle" aria-label="{{ t.menu }}">
+    <label for="bar-toggle" class="bar__label">{{ t.menu }}</label>
     <nav class="bar__nav" aria-label="Primary">
       <ul>
-        <li><a href="{{ "/storymapp/" | relative_url }}"{% if page.url == "/storymapp/" %} aria-current="page"{% endif %}>StoryMapp</a></li>
-        <li><a href="{{ "/storymapp/#share" | relative_url }}">For partners</a></li>
-        <li><a href="{{ "/about/" | relative_url }}"{% if page.url == "/about/" %} aria-current="page"{% endif %}>About</a></li>
-        <li><a href="mailto:{{ site.email }}">Contact</a></li>
+        <li><a href="{{ t.nav_urls.storymapp | relative_url }}"{% if page.url == t.nav_urls.storymapp %} aria-current="page"{% endif %}>{{ t.nav.storymapp }}</a></li>
+        <li><a href="{{ t.nav_urls.public | relative_url }}"{% if page.url == t.nav_urls.public %} aria-current="page"{% endif %}>{{ t.nav.public }}</a></li>
+        <li><a href="{{ t.nav_urls.companies | relative_url }}"{% if page.url == t.nav_urls.companies %} aria-current="page"{% endif %}>{{ t.nav.companies }}</a></li>
+        <li><a href="{{ t.nav_urls.about | relative_url }}"{% if page.url == t.nav_urls.about %} aria-current="page"{% endif %}>{{ t.nav.about }}</a></li>
+        <li><a href="mailto:{{ site.email }}">{{ t.nav.contact }}</a></li>
+        <li><a class="bar__switch" href="{{ alt | relative_url }}" lang="{{ t.switch_code | downcase }}" hreflang="{{ t.switch_code | downcase }}" data-lang-switch="{{ t.switch_code | downcase }}" aria-label="{{ t.switch }}">{{ t.switch_code }}</a></li>
       </ul>
     </nav>
-    <a class="btn btn--primary bar__cta" href="mailto:{{ site.email }}">Write to us</a>
+    <a class="btn btn--primary bar__cta" href="mailto:{{ site.email }}">{{ t.cta }}</a>
   </div>
 </header>

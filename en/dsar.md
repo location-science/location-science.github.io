@@ -1,10 +1,16 @@
 ---
 layout: page
 title: Data Subject Access Requests
-permalink: /dsar/
+permalink: /en/dsar/
+lang: en
+translation: /betroffenenrechte/
+redirect_from:
+  - /dsar/
 ---
 
 # Data Subject Access Requests (DSAR)
+
+<p class="note">This is a courtesy translation. The German version is binding: <a href="/betroffenenrechte/">Betroffenenrechte</a>.</p>
 
 ## 1. Your Rights Under GDPR
 
@@ -84,6 +90,6 @@ We may refuse your request if:
 
 If you are dissatisfied with our response:
 1. Write to us again and tell us what is missing
-2. If unresolved, you may lodge a complaint with the supervisory authority named in our [privacy policy](/privacy/)
+2. If unresolved, you may lodge a complaint with the supervisory authority named in our [privacy policy](/en/privacy/)
 
 **Last updated: 19 October 2026** 

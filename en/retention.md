@@ -1,10 +1,16 @@
 ---
 layout: page
 title: Data Retention Policy
-permalink: /retention/
+permalink: /en/retention/
+lang: en
+translation: /datenaufbewahrung/
+redirect_from:
+  - /retention/
 ---
 
 # Data Retention Policy
+
+<p class="note">This is a courtesy translation. The German version is binding: <a href="/datenaufbewahrung/">Aufbewahrungsrichtlinie</a>.</p>
 
 ## 1. Purpose
 
@@ -20,7 +26,7 @@ This Data Retention Policy outlines how Location Science GmbH retains and dispos
 ### 2.2 Usage Statistics and Crash Reports (app, Firebase)
 - **Retention Period**: Usage statistics 26 months; crash reports 90 days
 - **Data Type**: Pseudonymous usage statistics (Google Analytics for Firebase) and crash reports (Firebase Crashlytics), not linked to an account
-- **Basis**: Consent for usage statistics (Art. 6 (1) (a) GDPR); legitimate interest for crash reports (Art. 6 (1) (f) GDPR); see section 3.6 of the [privacy policy](/privacy/)
+- **Basis**: Consent for usage statistics (Art. 6 (1) (a) GDPR); legitimate interest for crash reports (Art. 6 (1) (f) GDPR); see section 3.6 of the [privacy policy](/en/privacy/)
 
 ### 2.3 Location Data
 - **Retention Period**: Not stored by us; processed on the device only and cleared when the app is closed
@@ -73,6 +79,6 @@ This policy is reviewed annually and updated as necessary to ensure compliance w
 
 ## 7. Contact Information
 
-For questions about this policy, please refer to our [Imprint](/imprint/).
+For questions about this policy, please refer to our [Imprint](/en/imprint/).
 
 **Last updated: 19 October 2026**

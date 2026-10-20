@@ -1,10 +1,16 @@
 ---
 layout: page
 title: Accessibility
-permalink: /accessibility/
+permalink: /en/accessibility/
+lang: en
+translation: /barrierefreiheit/
+redirect_from:
+  - /accessibility/
 ---
 
 # Accessibility Statement
+
+<p class="note">This is a courtesy translation. The German version is binding: <a href="/barrierefreiheit/">Erklärung zur Barrierefreiheit</a>.</p>
 
 Location Science GmbH wants this website to be usable by everyone, including people who use assistive technology. This statement applies to the website location-science.com.
 
@@ -16,7 +22,7 @@ We aim to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 at leve
 
 - The four older landing pages about story maps have not yet been fully re-tested after the redesign; heading structure and link text there may be less clear.
 - Links to the Apple App Store and Google Play lead to third-party sites whose accessibility we do not control.
-- The consent banner is operated with the keyboard and screen readers, but it cannot yet be reopened from the page once a choice has been made; see the [cookie policy](/cookies/) for how to reset it.
+- The consent banner is operated with the keyboard and screen readers, but it cannot yet be reopened from the page once a choice has been made; see the [cookie policy](/en/cookies/) for how to reset it.
 
 ## How the website is built
 

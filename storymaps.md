@@ -1,125 +1,123 @@
 ---
 layout: page
-title: Storymaps - StoryMapp's Complete Interactive Location Story Collection
-description: Explore thousands of storymaps with StoryMapp. Our comprehensive storymaps collection features 7.5M+ interactive location stories covering history, culture, and travel worldwide.
-keywords: storymaps, StoryMapp storymaps, location story collection, interactive storymaps, mobile storymaps, geographic storymaps, travel storymaps
+title: Storymaps – die Sammlung interaktiver Geschichten vor Ort von StoryMapp
+description: Entdecken Sie tausende Storymaps mit StoryMapp. Unsere Sammlung umfasst mehr als 7,5 Millionen interaktive ortsbezogene Geschichten zu Geschichte, Kultur und Reisen weltweit.
+keywords: Storymaps, StoryMapp Storymaps, Sammlung ortsbezogener Geschichten, interaktive Storymaps, mobile Storymaps, geografische Storymaps, Reise-Storymaps
 permalink: /storymaps/
+lang: de
+translation: /en/storymaps/
 ---
 
 <div class="hero-section">
   <div class="hero-content">
-    <img src="/assets/images/logo_512_transp.png" alt="StoryMapp - Complete Storymaps Collection" class="storymapp-logo">
-    <h1>Storymaps: The World's Largest Collection of Interactive Location Stories</h1>
-    <p class="hero-subtitle">Discover thousands of immersive <strong>storymaps</strong> with StoryMapp. Our comprehensive <strong>storymaps collection</strong> spans every continent, featuring the most diverse range of location-based storytelling experiences available anywhere.</p>
+    <img src="/assets/images/logo_512_transp.png" alt="StoryMapp – Storymaps-Sammlung" class="storymapp-logo">
+    <h1>Storymaps: eine der größten Sammlungen interaktiver Geschichten vor Ort</h1>
+    <p class="hero-subtitle">Entdecken Sie tausende <strong>Storymaps</strong> mit StoryMapp. Unsere <strong>Storymaps-Sammlung</strong> erstreckt sich über alle Kontinente und bietet eine große Vielfalt an ortsbezogenen Erzählerlebnissen.</p>
     <div>
-      <a href="/storymapp/" class="button primary-button">Browse All Storymaps</a>
-      <a href="#categories" class="button secondary-button">Explore Storymap Categories</a>
+      <a href="/storymapp/" class="button primary-button">Alle Storymaps entdecken</a>
+      <a href="#categories" class="button secondary-button">Storymap-Kategorien ansehen</a>
     </div>
   </div>
 </div>
 
 <div class="content-section">
-  <h2>Thousands of Storymaps at Your Fingertips</h2>
-  <p>StoryMapp hosts the world's most extensive collection of <strong>storymaps</strong>, featuring over 7.5 million locations with rich, interactive storytelling experiences. Our diverse <strong>storymaps</strong> cover every type of location story imaginable—from ancient historical sites to modern cultural landmarks.</p>
+  <h2>Tausende Storymaps in Ihrer Hand</h2>
+  <p>StoryMapp beherbergt eine der umfangreichsten Sammlungen von <strong>Storymaps</strong>, mit über 7,5 Millionen Orten und reichen, interaktiven Erzählerlebnissen. Unsere <strong>Storymaps</strong> decken jede Art von ortsbezogener Geschichte ab, von antiken Stätten bis zu modernen Wahrzeichen.</p>
 
-  <p>Unlike other platforms with limited <strong>storymaps</strong>, StoryMapp provides continuously updated, AI-curated content that ensures every <strong>storymap</strong> experience is fresh, accurate, and deeply engaging.</p>
+  <p>Anders als Plattformen mit wenigen <strong>Storymaps</strong> bietet StoryMapp laufend aktualisierte, KI-kuratierte Inhalte, damit jedes <strong>Storymap</strong>-Erlebnis frisch, verlässlich und fesselnd ist.</p>
 
   <div>
     <div>
       <div>
-        
-        <h4>Historical Storymaps</h4>
-        <p>Journey through time with <strong>storymaps</strong> that bring historical events, figures, and civilizations to life at their exact locations.</p>
+        <h4>Historische Storymaps</h4>
+        <p>Reisen Sie durch die Zeit mit <strong>Storymaps</strong>, die historische Ereignisse, Persönlichkeiten und Kulturen genau dort lebendig machen, wo sie stattfanden.</p>
       </div>
-      
+
       <div>
-        
-        <h4>Cultural Storymaps</h4>
-        <p>Immerse yourself in diverse cultures through <strong>storymaps</strong> that celebrate traditions, customs, and local knowledge worldwide.</p>
+        <h4>Kulturelle Storymaps</h4>
+        <p>Tauchen Sie ein in andere Kulturen mit <strong>Storymaps</strong>, die Traditionen, Bräuche und lokales Wissen weltweit würdigen.</p>
       </div>
-      
+
       <div>
-        
-        <h4>Travel Storymaps</h4>
-        <p>Enhance your travel experiences with <strong>storymaps</strong> that reveal hidden gems, local insights, and destination highlights.</p>
+        <h4>Reise-Storymaps</h4>
+        <p>Bereichern Sie Ihre Reisen mit <strong>Storymaps</strong>, die verborgene Orte, lokale Einblicke und Höhepunkte von Reisezielen zeigen.</p>
       </div>
-      
+
       <div>
-        
-        <h4>Nature Storymaps</h4>
-        <p>Connect with the natural world through <strong>storymaps</strong> about national parks, wildlife, and environmental stories.</p>
+        <h4>Natur-Storymaps</h4>
+        <p>Verbinden Sie sich mit der Natur durch <strong>Storymaps</strong> über Nationalparks, Tierwelt und Umweltgeschichten.</p>
       </div>
     </div>
   </div>
 </div>
 
 <div class="content-section" id="categories">
-  <h2>Browse Storymaps by Interest</h2>
-  <p>Our vast collection of <strong>storymaps</strong> is thoughtfully organized into categories, making it easy to find exactly the type of location-based storytelling that interests you most.</p>
+  <h2>Storymaps nach Interesse</h2>
+  <p>Unsere große Sammlung von <strong>Storymaps</strong> ist in Kategorien geordnet, damit Sie genau die Art von ortsbezogenem Erzählen finden, die Sie interessiert.</p>
 
   <div class="features-grid">
     <div class="feature-card">
       <span class="feature-emoji"></span>
-      <h3>Heritage & Monument Storymaps</h3>
-      <p>Explore <strong>storymaps</strong> of world heritage sites, historic monuments, and architectural marvels that tell the story of human achievement.</p>
+      <h3>Kulturerbe und Denkmäler</h3>
+      <p>Erkunden Sie <strong>Storymaps</strong> zu Welterbestätten, historischen Denkmälern und architektonischen Meisterwerken.</p>
     </div>
 
     <div class="feature-card">
       <span class="feature-emoji"></span>
-      <h3>Urban & City Storymaps</h3>
-      <p>Discover city <strong>storymaps</strong> that reveal the hidden stories of neighborhoods, urban development, and metropolitan culture.</p>
+      <h3>Städte und Quartiere</h3>
+      <p>Entdecken Sie Stadt-<strong>Storymaps</strong>, die die verborgenen Geschichten von Vierteln, Stadtentwicklung und urbaner Kultur zeigen.</p>
     </div>
 
     <div class="feature-card">
       <span class="feature-emoji"></span>
-      <h3>Arts & Creative Storymaps</h3>
-      <p>Experience creativity through <strong>storymaps</strong> featuring art installations, museums, galleries, and cultural movements.</p>
+      <h3>Kunst und Kreatives</h3>
+      <p>Erleben Sie Kreativität mit <strong>Storymaps</strong> zu Kunstinstallationen, Museen, Galerien und kulturellen Bewegungen.</p>
     </div>
 
     <div class="feature-card">
       <span class="feature-emoji"></span>
-      <h3>Culinary & Food Storymaps</h3>
-      <p>Taste the world through <strong>storymaps</strong> that explore culinary traditions, local specialties, and food culture.</p>
+      <h3>Kulinarik</h3>
+      <p>Schmecken Sie die Welt mit <strong>Storymaps</strong> zu kulinarischen Traditionen, regionalen Spezialitäten und Esskultur.</p>
     </div>
 
     <div class="feature-card">
       <span class="feature-emoji"></span>
-      <h3>Military & Conflict Storymaps</h3>
-      <p>Learn from history through <strong>storymaps</strong> that document battles, military history, and sites of historical conflict.</p>
+      <h3>Militär und Konflikte</h3>
+      <p>Lernen Sie aus der Geschichte mit <strong>Storymaps</strong>, die Schlachten, Militärgeschichte und Orte historischer Konflikte dokumentieren.</p>
     </div>
 
     <div class="feature-card">
       <span class="feature-emoji"></span>
-      <h3>Entertainment & Events Storymaps</h3>
-      <p>Relive memorable moments through <strong>storymaps</strong> about concerts, festivals, sports venues, and entertainment history.</p>
+      <h3>Unterhaltung und Ereignisse</h3>
+      <p>Erleben Sie besondere Momente neu mit <strong>Storymaps</strong> zu Konzerten, Festivals, Sportstätten und Unterhaltungsgeschichte.</p>
     </div>
   </div>
 </div>
 
 <div class="content-section">
-  <h2>What Makes Our Storymaps Special?</h2>
-  <p>StoryMapp's <strong>storymaps</strong> stand out from other location-based storytelling platforms through our commitment to quality, accuracy, and continuous innovation.</p>
+  <h2>Was unsere Storymaps besonders macht</h2>
+  <p>Die <strong>Storymaps</strong> von StoryMapp heben sich durch Qualität, Verlässlichkeit und laufende Weiterentwicklung von anderen Plattformen für ortsbezogenes Erzählen ab.</p>
 
   <div>
     <div>
       <div>
-        <h4>Automatically Updated Storymaps</h4>
-        <p>Our advanced pipeline ensures all <strong>storymaps</strong> stay current with new historical discoveries, cultural insights, and location updates.</p>
+        <h4>Automatisch aktualisierte Storymaps</h4>
+        <p>Unsere Pipeline hält alle <strong>Storymaps</strong> auf dem Stand neuer historischer Erkenntnisse, kultureller Einblicke und Ortsänderungen.</p>
       </div>
-      
+
       <div>
-        <h4>Accurate & Verified Storymaps</h4>
-        <p>Advanced AI and careful curation minimize errors, delivering the most reliable <strong>storymaps</strong> content available anywhere.</p>
+        <h4>Verlässliche und geprüfte Storymaps</h4>
+        <p>KI und sorgfältige Kuratierung minimieren Fehler und liefern verlässliche <strong>Storymaps</strong>-Inhalte.</p>
       </div>
-      
+
       <div>
-        <h4>Mobile-Optimized Storymaps</h4>
-        <p>Access <strong>storymaps</strong> seamlessly on any device with offline capabilities and GPS integration for location-aware storytelling.</p>
+        <h4>Storymaps für unterwegs</h4>
+        <p>Nutzen Sie <strong>Storymaps</strong> auf jedem Gerät, mit Offline-Funktionen und GPS-Integration für ortsbezogenes Erzählen.</p>
       </div>
-      
+
       <div>
-        <h4>Privacy-Protected Storymaps</h4>
-        <p>Explore <strong>storymaps</strong> with complete privacy protection through our GDPR-compliant platform design.</p>
+        <h4>Datenschutz inklusive</h4>
+        <p>Erkunden Sie <strong>Storymaps</strong> mit vollem Schutz Ihrer Privatsphäre durch unser DSGVO-konformes Plattformdesign.</p>
       </div>
     </div>
   </div>
@@ -127,67 +125,60 @@ permalink: /storymaps/
 
 <div class="app-download-section">
   <div class="app-download-header">
-    <h3>Access All Storymaps on Mobile</h3>
-    <p class="app-download-subtitle">Download StoryMapp to access our complete collection of <strong>storymaps</strong> on your mobile device. Explore thousands of location stories wherever you go with offline access and GPS-powered discovery.</p>
+    <h3>Alle Storymaps auf dem Smartphone</h3>
+    <p class="app-download-subtitle">Laden Sie StoryMapp und greifen Sie unterwegs auf unsere vollständige Sammlung von <strong>Storymaps</strong> zu, mit Offline-Zugriff und GPS-gestützter Entdeckung.</p>
   </div>
-  
+
   <div class="download-options">
-    <a href="https://apps.apple.com/de/app/storymapp/id6746046187" target="_blank" rel="noopener" aria-label="Download StoryMapp with all storymaps on the App Store">
-      <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1262304000" 
-           alt="Download StoryMapp storymaps app on the App Store" 
-          >
+    <a href="https://apps.apple.com/de/app/storymapp/id6746046187" target="_blank" rel="noopener" aria-label="StoryMapp im App Store laden">
+      <img src="/assets/images/badges/apple-appstore.svg" alt="StoryMapp im App Store laden" width="150" height="44" loading="lazy">
     </a>
-    
-    <a href="https://play.google.com/store/apps/details?id=app.storym" target="_blank" rel="noopener" aria-label="Get StoryMapp with all storymaps on Google Play">
-      <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
-           alt="Get StoryMapp storymaps app on Google Play" 
-          >
+
+    <a href="https://play.google.com/store/apps/details?id=app.storym" target="_blank" rel="noopener" aria-label="StoryMapp bei Google Play">
+      <img src="/assets/images/badges/googleplay.svg" alt="StoryMapp bei Google Play" width="150" height="44" loading="lazy">
     </a>
   </div>
 </div>
 
 <div class="content-section">
-  <h2>Create Your Own Storymaps Experience</h2>
-  <p>While exploring our existing <strong>storymaps</strong> is fascinating, StoryMapp also enables personalized discovery experiences that adapt to your interests and exploration patterns.</p>
+  <h2>Ihr persönliches Storymaps-Erlebnis</h2>
+  <p>Neben dem Erkunden vorhandener <strong>Storymaps</strong> bietet StoryMapp eine persönliche Entdeckung, die sich an Ihre Interessen und Ihre Art zu erkunden anpasst.</p>
 
   <div>
-    <h3>Personalized Storymap Discovery</h3>
+    <h3>Persönliche Storymap-Entdeckung</h3>
     <div>
       <div>
-        
-        <h4>Interest-Based Storymaps</h4>
-        <p>Discover <strong>storymaps</strong> tailored to your specific interests and hobbies.</p>
+        <h4>Storymaps nach Interessen</h4>
+        <p>Entdecken Sie <strong>Storymaps</strong>, die zu Ihren Interessen und Hobbys passen.</p>
       </div>
       <div>
-        
-        <h4>Location-Aware Storymaps</h4>
-        <p>Find relevant <strong>storymaps</strong> based on your current location and travel plans.</p>
+        <h4>Standortbezogene Storymaps</h4>
+        <p>Finden Sie passende <strong>Storymaps</strong> anhand Ihres aktuellen Standorts und Ihrer Reisepläne.</p>
       </div>
       <div>
-        
-        <h4>Smart Storymap Recommendations</h4>
-        <p>Get intelligent suggestions for <strong>storymaps</strong> you'll love based on your exploration history.</p>
+        <h4>Kluge Storymap-Empfehlungen</h4>
+        <p>Erhalten Sie Vorschläge für <strong>Storymaps</strong>, die Ihnen gefallen werden, auf Basis Ihrer bisherigen Erkundungen.</p>
       </div>
     </div>
   </div>
 </div>
 
 <div class="content-section">
-  <h2>Enterprise Storymaps Solutions</h2>
-  <p>Integrate our comprehensive library of <strong>storymaps</strong> into your business applications, tourism platforms, or educational tools through our enterprise API services.</p>
+  <h2>Storymaps-Lösungen für Unternehmen</h2>
+  <p>Binden Sie unsere umfangreiche Bibliothek von <strong>Storymaps</strong> über unsere Schnittstelle in Ihre Geschäftsanwendungen, Tourismusplattformen oder Bildungsangebote ein.</p>
 
   <div>
-    <h3>Partner with Storymaps Leaders</h3>
-    <p>Access our complete library of <strong>storymaps</strong> through powerful APIs designed for enterprise applications and seamless integration.</p>
-    <a href="mailto:contact@location-science.com">Contact Storymaps Experts</a>
+    <h3>Partner der Storymaps-Experten werden</h3>
+    <p>Greifen Sie auf unsere vollständige Bibliothek von <strong>Storymaps</strong> über eine Schnittstelle zu, die für Unternehmensanwendungen und einfache Integration gebaut ist.</p>
+    <a href="mailto:contact@location-science.com">Storymaps-Experten kontaktieren</a>
   </div>
 </div>
 
 <div>
-  <h2>Start Exploring Storymaps Today</h2>
-  <p>With millions of <strong>storymaps</strong> and location-based stories waiting to be discovered, your next great storytelling adventure is just a tap away. Begin exploring now.</p>
+  <h2>Storymaps jetzt entdecken</h2>
+  <p>Mit Millionen von <strong>Storymaps</strong> und ortsbezogenen Geschichten wartet Ihr nächstes Erzählabenteuer nur einen Fingertipp entfernt. Fangen Sie jetzt an.</p>
   <div>
-    <a href="/storymapp/">Explore StoryMapp</a>
-    <a href="/story-maps/">Learn About Story Maps</a>
+    <a href="/storymapp/">StoryMapp entdecken</a>
+    <a href="/story-maps/">Mehr über Story Maps</a>
   </div>
-</div> 
+</div>

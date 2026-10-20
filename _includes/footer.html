@@ -1,10 +1,15 @@
+{%- assign lang = page.lang | default: "de" -%}
+{%- assign t = site.data.i18n[lang] -%}
 <footer class="foot">
   <div class="wrap">
     <p>
-      &copy; {{ site.time | date: "%Y" }} {{ site.company_name }} <span class="foot__sep">&middot;</span> {{ site.company_address }} <span class="foot__sep">&middot;</span> <a href="mailto:{{ site.email }}">{{ site.email }}</a> <span class="foot__sep">&middot;</span> {{ site.company_registration }} <span class="foot__sep">&middot;</span> VAT {{ site.company_vat }} <span class="foot__sep">&middot;</span> <a href="https://github.com/{{ site.github_username }}" rel="me">GitHub</a>
+      &copy; {{ site.time | date: "%Y" }} {{ site.company_name }} <span class="foot__sep">&middot;</span> {{ site.company_address }} <span class="foot__sep">&middot;</span> <a href="mailto:{{ site.email }}">{{ site.email }}</a> <span class="foot__sep">&middot;</span> {{ site.company_registration }} <span class="foot__sep">&middot;</span> {{ t.vat }} {{ site.company_vat }} <span class="foot__sep">&middot;</span> <a href="https://github.com/{{ site.github_username }}" rel="me">GitHub</a> <span class="foot__sep">&middot;</span> {{ t.rights }}
     </p>
     <p>
-      <a href="{{ "/imprint/" | relative_url }}">Imprint</a> <span class="foot__sep">&middot;</span> <a href="{{ "/privacy/" | relative_url }}">Privacy policy</a> <span class="foot__sep">&middot;</span> <a href="{{ "/terms/" | relative_url }}">Terms of use</a> <span class="foot__sep">&middot;</span> <a href="{{ "/cookies/" | relative_url }}">Cookie policy</a> <span class="foot__sep">&middot;</span> <a href="{{ "/retention/" | relative_url }}">Data retention</a> <span class="foot__sep">&middot;</span> <a href="{{ "/dsar/" | relative_url }}">Subject rights</a> <span class="foot__sep">&middot;</span> <a href="{{ "/accessibility/" | relative_url }}">Accessibility</a> <span class="foot__sep">&middot;</span> <a href="{{ "/attribution/" | relative_url }}">Attribution</a> <span class="foot__sep">&middot;</span> <a href="{{ "/dispute/" | relative_url }}">Dispute resolution</a>
+      {%- for l in t.legal -%}
+      {%- unless forloop.first %} <span class="foot__sep">&middot;</span> {% endunless -%}
+      <a href="{{ l.url | relative_url }}">{{ l.label }}</a>
+      {%- endfor %}
     </p>
   </div>
 </footer>

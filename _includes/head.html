@@ -7,7 +7,18 @@
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}, {% endif %}{{ site.keywords }}">
     <meta name="author" content="{{ site.company_name }}">
     <meta name="robots" content="index, follow">
+    {%- assign lang = page.lang | default: "de" %}
+    {%- if page.translation %}
+    {%- if lang == "de" %}
+    <link rel="alternate" hreflang="de" href="{{ page.url | absolute_url }}">
+    <link rel="alternate" hreflang="en" href="{{ page.translation | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">
+    {%- else %}
     <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
+    <link rel="alternate" hreflang="de" href="{{ page.translation | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ page.translation | absolute_url }}">
+    {%- endif %}
+    {%- endif %}
 
     {%- if page.app_schema %}
     <!-- Smart App Banner and app schema: StoryMapp page only -->
@@ -27,7 +38,7 @@
       "logo": "{{ site.logo | absolute_url }}",
       "description": "{{ site.description | strip_newlines | strip | escape }}",
       "email": "{{ site.email }}",
-      "foundingDate": "2023",
+      "foundingDate": "2024",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Purrbachstr. 7c",
@@ -64,7 +75,7 @@
     {%- feed_meta -%}
 
     <!-- EU/German compliance -->
-    <meta name="dc.language" content="en">
+    <meta name="dc.language" content="{{ page.lang | default: "de" }}">
     <meta name="dc.creator" content="{{ site.company_name }}">
     <meta name="dc.publisher" content="{{ site.company_name }}">
     <meta name="dc.rights" content="© {{ 'now' | date: '%Y' }} {{ site.company_name }}. All rights reserved.">

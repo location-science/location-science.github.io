@@ -22,9 +22,25 @@ is a third offer. StoryMapp is the proof point and lives on its own secondary pa
                                   band (founders), a two-column offers section.
 - Product pages (StoryMapp):      Narrative Workflow — numbered stages 1.0 → 4.0 (mono numerals),
                                   F4 step sequence, numeral stacked above the heading.
+- Service pages (Behörden /
+  Unternehmen, both languages):   two-column hero (title left, lede + actions right), `.pillars`
+                                  (hairline-top items, 3-up), `.facts` (term/description rows),
+                                  the graphite band for the one list of promises, a 4-step
+                                  `.facts` process, one primary CTA.
 - Content pages (about, legal,
   the four SEO landing pages):    Long Document — single column, 65ch measure, left-aligned to
                                   the same gutter as the bar. Nothing on the site is centred.
+
+## Languages
+German is the default and lives at the root with German slugs (/behoerden/, /ueber-uns/,
+/datenschutz/ …). English lives under /en/ with English slugs; the old English URLs redirect
+there (jekyll-redirect-from). Every page carries `lang:` and `translation:` in its front
+matter; head.html emits hreflang (x-default = German), header.html the EN/DE switch, and
+lang-hint.html a dismissible bar when the browser language differs from the page language.
+There is no automatic redirect by browser language: search engines crawl with an English
+locale and would be bounced off the German pages. Chrome strings live in _data/i18n.yml.
+German legal pages are binding; English ones carry a courtesy note. The terms of use and the
+withdrawal instruction are copied verbatim from the legal_docs repository (end_user_terms).
 
 ## Theme (custom · vibe: "engineered, cool, precise, fresh")
 - `--color-paper`          oklch(98.5% 0.004 250)  — cool engineered near-white

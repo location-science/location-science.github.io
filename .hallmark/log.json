@@ -2,6 +2,18 @@
   {
     "date": "2026-10-19",
     "scope": "app",
+    "macrostructure": "Bento Grid (home) · service pages (two-column hero + pillars + facts + band) · Narrative Workflow (product) · Long Document (content, legal, SEO)",
+    "theme": "custom",
+    "theme_axes": "light / grotesk-sans / chromatic-teal ~195°",
+    "vibe": "engineered, cool, precise, fresh",
+    "nav": "N1b bordered bar, left-grouped, with EN/DE switch",
+    "footer": "Ft2 inline single line (per language)",
+    "enrichment": "tier-A inline SVG node diagram in one tile",
+    "brief": "Location Science · third pass: German default site at root, English under /en/, two new audience pages per language (public sector, companies), legal pages rebuilt"
+  },
+  {
+    "date": "2026-10-19",
+    "scope": "app",
     "macrostructure": "Bento Grid (home) · Narrative Workflow (product) · Long Document (content, legal, SEO)",
     "theme": "custom",
     "theme_axes": "light / grotesk-sans / chromatic-teal ~195°",

@@ -1,10 +1,16 @@
 ---
 layout: page
 title: Data Privacy
-permalink: /privacy/
+permalink: /en/privacy/
+lang: en
+translation: /datenschutz/
+redirect_from:
+  - /privacy/
 ---
 
 # Data Privacy Policy
+
+<p class="note">This is a courtesy translation. The German version is binding: <a href="/datenschutz/">Datenschutzerklärung</a>.</p>
 
 This policy explains how Location Science GmbH processes personal data on this website and in the StoryMapp app, in accordance with the General Data Protection Regulation (GDPR), the German Federal Data Protection Act (BDSG) and the German Telecommunications-Digital-Services Data Protection Act (TDDDG).
 
@@ -29,9 +35,9 @@ Legal basis: Art. 6 (1) (f) GDPR, our legitimate interest in operating a secure 
 
 The fonts used on this website are stored on our own hosting. No request is made to third-party font servers.
 
-### 2.3 Consent banner
+### 2.3 Consent banner and language hint
 
-When you first visit, a banner asks whether you allow optional cookies. Your choice is stored in your browser's local storage so that the banner does not reappear. This storage is strictly necessary to honour your choice (§ 25 (2) no. 2 TDDDG). It contains no personal data beyond the choice itself. To change your choice, delete this site's data in your browser settings; the banner will then appear again.
+When you first visit, a banner asks whether you allow optional cookies. Your choice is stored in your browser's local storage so that the banner does not reappear. In the same way we store which language version you chose when you answer the language hint or switch languages. Both are strictly necessary to honour your decision (§ 25 (2) no. 2 TDDDG) and contain no personal data beyond the choice itself. To change your choice, delete this site's data in your browser settings; the banner will then appear again.
 
 ### 2.4 Web analytics
 
@@ -43,7 +49,7 @@ This website links to the Apple App Store, Google Play and GitHub. Data is only 
 
 ### 2.6 Contact by email
 
-If you write to us, we process your email address, the content of your message and any data you provide in order to answer you. Legal basis: Art. 6 (1) (b) GDPR where the message concerns a contract or a request for one, otherwise Art. 6 (1) (f) GDPR, our legitimate interest in answering enquiries. Correspondence is kept in line with our [data retention policy](/retention/).
+If you write to us, we process your email address, the content of your message and any data you provide in order to answer you. Legal basis: Art. 6 (1) (b) GDPR where the message concerns a contract or a request for one, otherwise Art. 6 (1) (f) GDPR, our legitimate interest in answering enquiries. Correspondence is kept in line with our [data retention policy](/en/retention/).
 
 ## 3. The StoryMapp app
 
@@ -89,11 +95,11 @@ We pass personal data to third parties only where this policy says so: our hosti
 
 ## 5. Retention
 
-We keep personal data only as long as needed for the purposes described here or as required by law. The specific periods are set out in our [data retention policy](/retention/).
+We keep personal data only as long as needed for the purposes described here or as required by law. The specific periods are set out in our [data retention policy](/en/retention/).
 
 ## 6. Your rights
 
-Under the GDPR you have the right to access your personal data (Art. 15), to rectification (Art. 16), to erasure (Art. 17), to restriction of processing (Art. 18), to data portability (Art. 20), to object to processing based on legitimate interests (Art. 21), and to withdraw consent at any time with effect for the future (Art. 7 (3)). To exercise these rights, write to [contact@location-science.com](mailto:contact@location-science.com). Our [data subject requests page](/dsar/) explains how we handle requests.
+Under the GDPR you have the right to access your personal data (Art. 15), to rectification (Art. 16), to erasure (Art. 17), to restriction of processing (Art. 18), to data portability (Art. 20), to object to processing based on legitimate interests (Art. 21), and to withdraw consent at any time with effect for the future (Art. 7 (3)). To exercise these rights, write to [contact@location-science.com](mailto:contact@location-science.com). Our [data subject requests page](/en/dsar/) explains how we handle requests.
 
 You also have the right to lodge a complaint with a supervisory authority. The authority responsible for us is:
 
@@ -104,7 +110,7 @@ Website: [www.lda.bayern.de](https://www.lda.bayern.de)
 
 ## 7. Partner organisations and API customers
 
-Where we process personal data on behalf of a partner organisation publishing tours on StoryMapp, or on behalf of a customer of our content API, we do so as a processor under a data processing agreement in accordance with Art. 28 GDPR. The agreement, including the list of sub-processors, is available on request from [contact@location-science.com](mailto:contact@location-science.com).
+Partner organisations that publish tours on StoryMapp, and customers of our content API, do not transfer personal data of their own users to us; we remain the controller for the data of app users described in section 3. The roles are set out in section 8 of our Content Provider Agreement. Where a specific project does require us to process personal data on a partner's behalf, we conclude a data processing agreement under Art. 28 GDPR, or a joint-controller arrangement under Art. 26 GDPR, as an annex to that project's schedule.
 
 ## 8. No automated decision-making
 

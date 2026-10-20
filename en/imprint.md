@@ -1,10 +1,16 @@
 ---
 layout: page
 title: Imprint
-permalink: /imprint/
+permalink: /en/imprint/
+lang: en
+translation: /impressum/
+redirect_from:
+  - /imprint/
 ---
 
 # Imprint (Impressum)
+
+<p class="note">This is a courtesy translation. The German version is binding: <a href="/impressum/">Impressum</a>.</p>
 
 Information in accordance with § 5 DDG (Digitale-Dienste-Gesetz).
 
@@ -48,6 +54,6 @@ This website contains links to external websites operated by third parties, over
 
 ## Copyright
 
-Content and works created by the site operator on these pages are subject to German copyright law. Duplication, processing, distribution or any form of commercialisation beyond the scope of copyright law requires the prior written consent of the respective author. Third-party content and its licences are listed on our [attribution page](/attribution/).
+Content and works created by the site operator on these pages are subject to German copyright law. Duplication, processing, distribution or any form of commercialisation beyond the scope of copyright law requires the prior written consent of the respective author. Third-party content and its licences are listed on our [attribution page](/en/attribution/).
 
 **Last updated: 19 October 2026**

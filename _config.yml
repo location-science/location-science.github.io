@@ -1,10 +1,10 @@
 title: Location Science
 email: contact@location-science.com
 description: >-
-  Location Science GmbH is a software and data company in Upper Bavaria: application development,
-  software engineering, database engineering and data pipelines, GeoAI, data science, spatial intelligence,
-  mobile engineering and navigation. Consulting on digitalisation, AI adoption and spatial data
-  management. Makers of StoryMapp.
+  Location Science GmbH ist ein Software- und Datenunternehmen aus Oberbayern: Anwendungsentwicklung,
+  Software-Engineering, Datenbank-Engineering und Datenpipelines, GeoAI, Data Science, Spatial Intelligence,
+  Mobile Engineering und Navigation. Beratung zu Digitalisierung, KI-Einführung und Geodatenmanagement.
+  Hersteller von StoryMapp.
 baseurl: ""
 url: "https://location-science.com"
 
@@ -15,8 +15,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 
-lang: en_US
+lang: de
 timezone: Europe/Berlin
 
 # Social

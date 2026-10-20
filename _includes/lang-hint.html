@@ -1,0 +1,31 @@
+{%- assign lang = page.lang | default: "de" -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- if page.translation -%}
+<div class="lang-hint" id="lang-hint" hidden data-lang="{{ lang }}" lang="{{ t.switch_code | downcase }}">
+  <div class="wrap lang-hint__inner">
+    <p>{{ t.hint.text }}</p>
+    <a class="btn btn--outline" href="{{ page.translation | relative_url }}" data-lang-switch="{{ t.switch_code | downcase }}">{{ t.hint.switch }}</a>
+    <button type="button" class="btn btn--outline" id="lang-hint-dismiss" data-lang="{{ lang }}">{{ t.hint.dismiss }}</button>
+  </div>
+</div>
+<script>
+(function () {
+  var hint = document.getElementById('lang-hint');
+  if (!hint) return;
+  var store = function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} };
+  var read = function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } };
+  var page = hint.getAttribute('data-lang');
+  var pref = read('lang');
+  if (!pref) {
+    var langs = navigator.languages || [navigator.language || ''];
+    var wants = (langs[0] || '').slice(0, 2).toLowerCase();
+    if (wants && wants !== page && (wants === 'de' || wants === 'en')) hint.hidden = false;
+  }
+  document.querySelectorAll('[data-lang-switch]').forEach(function (a) {
+    a.addEventListener('click', function () { store('lang', a.getAttribute('data-lang-switch')); });
+  });
+  var d = document.getElementById('lang-hint-dismiss');
+  if (d) d.addEventListener('click', function () { store('lang', d.getAttribute('data-lang')); hint.hidden = true; });
+})();
+</script>
+{%- endif -%}
