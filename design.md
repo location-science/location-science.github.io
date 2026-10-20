@@ -125,7 +125,7 @@ ruler: 6px on controls, 10px on tiles, nothing else rounded.
 ## Honest copy
 No invented metrics. Numbers on the site come from existing company claims:
 7.5 million+ places, six languages (EN, DE, FR, ES, PT, ZH), founding 2023, the register
-and VAT numbers. The founders' backgrounds (geoinformatics, cartography, signal processing; no degrees named, no names) and work domains were supplied by the user. The former schema.org
+and VAT numbers. The founders' backgrounds (geoinformatics, cartography, information and communication technology; no degrees named, no names) and work domains were supplied by the user. The former schema.org
 aggregateRating (4.8 / 1,500) was removed as unverifiable.
 
 ## Files
