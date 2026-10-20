@@ -1,0 +1,28 @@
+{%- assign lang = page.lang | default: "de" -%}
+{%- assign t = site.data.i18n[lang] -%}
+<dialog class="lightbox" id="lightbox" aria-label="{{ t.zoom_hint }}">
+  <button type="button" class="lightbox__close" id="lightbox-close" aria-label="{{ t.zoom_close }}">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </button>
+  <img class="lightbox__img" alt="">
+</dialog>
+<script>
+(function () {
+  var dlg = document.getElementById('lightbox'); if (!dlg || !dlg.showModal) return;
+  var img = dlg.querySelector('.lightbox__img'), closeBtn = document.getElementById('lightbox-close');
+  var downAt = null;
+  document.addEventListener('pointerdown', function (e) { var a = e.target.closest('a.zoom'); downAt = a ? [e.clientX, e.clientY] : null; });
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('a.zoom'); if (!a) return;
+    /* a swipe inside the carousel must not open the image */
+    if (downAt && Math.hypot(e.clientX - downAt[0], e.clientY - downAt[1]) > 8) { e.preventDefault(); return; }
+    e.preventDefault();
+    var small = a.querySelector('img');
+    img.src = a.getAttribute('href'); img.alt = small ? small.alt : '';
+    dlg.showModal(); closeBtn.focus();
+  });
+  closeBtn.addEventListener('click', function () { dlg.close(); });
+  dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+  dlg.addEventListener('close', function () { img.removeAttribute('src'); });
+})();
+</script>

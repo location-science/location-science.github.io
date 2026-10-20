@@ -21,6 +21,8 @@ de:
     contact: /kontakt/
   cta: Schreiben Sie uns
   phone_show: Telefonnummer anzeigen
+  zoom_close: Schließen
+  zoom_hint: Bild vergrößern
   phone_hint: Die Nummer erscheint erst nach dem Klick, damit sie nicht automatisch abgegriffen wird.
   vat: USt-IdNr.
   rights: Alle Rechte vorbehalten.
@@ -75,6 +77,8 @@ en:
     contact: /en/contact/
   cta: Write to us
   phone_show: Show phone number
+  zoom_close: Close
+  zoom_hint: Enlarge image
   phone_hint: The number appears only after the click, so it cannot be harvested automatically.
   vat: VAT
   rights: All rights reserved.

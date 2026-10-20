@@ -623,3 +623,74 @@ small { font-size: var(--text-sm); }
   .carousel__btn[data-dir] { opacity: 0; }
   .carousel:hover .carousel__btn[data-dir], .carousel:focus-within .carousel__btn[data-dir] { opacity: 1; }
 }
+
+/* ---------- work samples (real screenshots, no captions) ---------- */
+.samples { list-style: none; margin: var(--space-md) 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-md); align-items: start; }
+.samples li { margin: 0; }
+.samples__wide { grid-column: 1 / -1; }
+.samples img { display: block; width: 100%; height: auto; border: var(--rule-hair) solid var(--color-rule); border-radius: var(--radius-card); background: var(--color-paper-2); }
+@media (min-width: 60rem) {
+  .samples { grid-template-columns: minmax(0, 7fr) minmax(0, 2.2fr) minmax(0, 2.2fr); gap: var(--space-lg); }
+  .samples__wide { grid-column: auto; }
+}
+.cell__media { display: block; margin-top: var(--space-sm); }
+.cell__media img { display: block; width: 100%; height: auto; border: var(--rule-hair) solid var(--color-rule); border-radius: var(--radius-input); }
+
+/* ---------- pipeline diagram (tier-B SVG, packets travel along the edges) ---------- */
+.pipe { display: block; width: 100%; max-width: 16rem; height: auto; margin-top: var(--space-sm); }
+.pipe__edges use { stroke: var(--color-rule); stroke-width: 1.4; fill: none; }
+.pipe__nodes rect { fill: var(--color-paper); stroke: var(--color-neutral); stroke-width: 1; }
+.pipe__nodes text { font-family: var(--font-mono); font-size: 9.5px; letter-spacing: 0.04em; fill: var(--color-ink); text-anchor: middle; }
+.pipe__node--db rect { fill: var(--color-accent-soft); stroke: var(--color-accent); }
+.pipe__packet { fill: var(--color-accent); offset-rotate: 0deg; animation: pipe-travel 2.6s linear infinite; }
+@keyframes pipe-travel { from { offset-distance: 0%; opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } to { offset-distance: 100%; opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .pipe__packet { animation: none; offset-distance: 50%; } }
+
+/* ---------- lightbox (native dialog) ---------- */
+a.zoom { display: block; cursor: zoom-in; border-radius: var(--radius-card); }
+a.zoom:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 4px; }
+.lightbox { border: 0; padding: 0; background: transparent; max-width: min(96vw, 1400px); max-height: 96vh; overflow: visible; }
+.lightbox::backdrop { background: oklch(21% 0.016 260 / 0.88); }
+.lightbox__img { display: block; max-width: min(96vw, 1400px); max-height: 92vh; width: auto; height: auto; border-radius: var(--radius-card); background: var(--color-paper); }
+.lightbox__close {
+  position: fixed; top: 14px; right: 14px;
+  width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center;
+  padding: 0; border: var(--rule-hair) solid var(--color-rule); border-radius: 50%;
+  background: var(--color-paper); color: var(--color-ink); cursor: pointer;
+}
+.lightbox__close:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; }
+
+/* ---------- samples carousel: same height, natural widths ---------- */
+.carousel--samples { width: 100%; margin: var(--space-md) 0 0; }
+.carousel--samples .carousel__track { gap: var(--space-md); scroll-padding-inline: 0; }
+.carousel--samples .carousel__slide { flex: 0 0 auto; height: clamp(16rem, 42vw, 30rem); scroll-snap-align: start; }
+.carousel--samples a.zoom, .carousel--samples picture { display: block; height: 100%; }
+.carousel--samples .carousel__slide img { height: 100%; width: auto; max-width: none; }
+.carousel--samples .carousel__btn[data-dir] { opacity: 1; }
+
+/* ---------- page background: Bavarian lozenge cloth, fixed behind the content, veiled for contrast ---------- */
+body { position: relative; }
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(oklch(98.5% 0.004 250 / 0.72), oklch(98.5% 0.004 250 / 0.72)),
+    url("/assets/images/background_bavarian-1600.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (min-resolution: 1.5dppx), (min-width: 1700px) {
+  body::before { background-image: linear-gradient(oklch(98.5% 0.004 250 / 0.72), oklch(98.5% 0.004 250 / 0.72)), url("/assets/images/background_bavarian-2560.webp"); }
+}
+@media print { body::before { display: none; } }
+/* surfaces that must stay opaque on the cloth */
+.bar, .foot, #cookie-banner, .lang-hint { background-color: var(--color-paper); }
+.foot { background-color: var(--color-paper); }
+body { background: transparent; }
+/* samples carousel: one slide per view so the dots mean something; the image keeps its height and sits centred */
+.carousel--samples .carousel__slide { flex: 0 0 100%; display: flex; justify-content: center; align-items: center; scroll-snap-align: center; }
+.carousel--samples .carousel__slide img { max-width: 100%; height: 100%; width: auto; object-fit: contain; }

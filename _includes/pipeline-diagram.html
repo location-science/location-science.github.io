@@ -1,0 +1,33 @@
+<svg class="pipe" viewBox="0 0 260 300" role="img" aria-label="{% if page.lang == 'en' %}Diagram of a data pipeline: OpenStreetMap, Wikidata and Wikipedia are read in parallel, loaded into PostGIS, matched and scored, exported as API tables and tiles, and served to app and API.{% else %}Diagramm einer Datenpipeline: OpenStreetMap, Wikidata und Wikipedia werden parallel eingelesen, in PostGIS geladen, verknüpft und bewertet, als API-Tabellen und Kacheln exportiert und an App und API ausgeliefert.{% endif %}">
+  <defs>
+    <path id="pipe-a" d="M40 34 C40 70 130 60 130 96"/>
+    <path id="pipe-b" d="M130 34 L130 96"/>
+    <path id="pipe-c" d="M220 34 C220 70 130 60 130 96"/>
+    <path id="pipe-d" d="M130 118 L130 150"/>
+    <path id="pipe-e" d="M130 172 L130 204"/>
+    <path id="pipe-f" d="M130 226 C130 250 66 240 66 268"/>
+    <path id="pipe-g" d="M130 226 C130 250 194 240 194 268"/>
+  </defs>
+  <g class="pipe__edges">
+    <use href="#pipe-a"/><use href="#pipe-b"/><use href="#pipe-c"/><use href="#pipe-d"/><use href="#pipe-e"/><use href="#pipe-f"/><use href="#pipe-g"/>
+  </g>
+  <g class="pipe__nodes">
+    <g transform="translate(40 22)"><rect x="-34" y="-11" width="68" height="22" rx="6"/><text y="4">OSM</text></g>
+    <g transform="translate(130 22)"><rect x="-34" y="-11" width="68" height="22" rx="6"/><text y="4">Wikidata</text></g>
+    <g transform="translate(220 22)"><rect x="-34" y="-11" width="68" height="22" rx="6"/><text y="4">Wikipedia</text></g>
+    <g transform="translate(130 107)"><rect x="-52" y="-11" width="104" height="22" rx="6"/><text y="4">Parser ×N</text></g>
+    <g class="pipe__node--db" transform="translate(130 161)"><rect x="-52" y="-11" width="104" height="22" rx="6"/><text y="4">PostGIS</text></g>
+    <g transform="translate(130 215)"><rect x="-62" y="-11" width="124" height="22" rx="6"/><text y="4">Matching · Scoring</text></g>
+    <g transform="translate(66 280)"><rect x="-50" y="-11" width="100" height="22" rx="6"/><text y="4">Export · Tiles</text></g>
+    <g transform="translate(194 280)"><rect x="-44" y="-11" width="88" height="22" rx="6"/><text y="4">App · API</text></g>
+  </g>
+  <g class="pipe__packets" aria-hidden="true">
+    <circle r="3" class="pipe__packet" style="offset-path: path('M40 34 C40 70 130 60 130 96'); animation-delay: 0s"/>
+    <circle r="3" class="pipe__packet" style="offset-path: path('M130 34 L130 96'); animation-delay: -1.3s"/>
+    <circle r="3" class="pipe__packet" style="offset-path: path('M220 34 C220 70 130 60 130 96'); animation-delay: -0.6s"/>
+    <circle r="3" class="pipe__packet" style="offset-path: path('M130 118 L130 150'); animation-delay: -0.9s"/>
+    <circle r="3" class="pipe__packet" style="offset-path: path('M130 172 L130 204'); animation-delay: -1.7s"/>
+    <circle r="3" class="pipe__packet" style="offset-path: path('M130 226 C130 250 66 240 66 268'); animation-delay: -0.3s"/>
+    <circle r="3" class="pipe__packet" style="offset-path: path('M130 226 C130 250 194 240 194 268'); animation-delay: -1.1s"/>
+  </g>
+</svg>

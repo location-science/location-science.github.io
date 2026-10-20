@@ -13,9 +13,18 @@
       i = (i + slides.length) % slides.length;
       track.scrollTo({ left: slides[i].offsetLeft - track.offsetLeft, behavior: reduce ? 'auto' : 'smooth' });
     };
+    /* the active slide is the one with the largest visible share; at the very end it is always the last one
+       (needed for slides of different widths, where the last slide can never reach the left edge) */
     var current = function () {
-      var x = track.scrollLeft, best = 0, d = Infinity;
-      slides.forEach(function (s, i) { var dd = Math.abs(s.offsetLeft - track.offsetLeft - x); if (dd < d) { d = dd; best = i; } });
+      var left = track.scrollLeft, right = left + track.clientWidth;
+      if (track.scrollWidth - right <= 2) return slides.length - 1;
+      var best = 0, bestShare = -1;
+      slides.forEach(function (s, i) {
+        var a = s.offsetLeft - track.offsetLeft, b = a + s.offsetWidth;
+        var visible = Math.max(0, Math.min(b, right) - Math.max(a, left));
+        var share = visible / Math.max(1, Math.min(s.offsetWidth, track.clientWidth));
+        if (share > bestShare + 0.001) { bestShare = share; best = i; }
+      });
       return best;
     };
     /* auto-rotation: every 4 s, only while visible, never under reduced motion;
@@ -48,18 +57,16 @@
       if (reduce) pauseBtn.hidden = true;
     }
     new IntersectionObserver(function (entries) { visible = entries[0].isIntersecting; }, { threshold: 0.5 }).observe(c);
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (e) {
-        if (e.intersectionRatio >= 0.6) {
-          var i = slides.indexOf(e.target);
-          dots.forEach(function (dot, j) { if (j === i) dot.setAttribute('aria-current', 'true'); else dot.removeAttribute('aria-current'); });
-          if (captionEl) captionEl.textContent = e.target.getAttribute('data-caption') || '';
-        }
-      });
-    }, { root: track, threshold: 0.6 });
-    slides.forEach(function (s) { io.observe(s); });
-    if (captionEl) captionEl.textContent = slides[0].getAttribute('data-caption') || '';
-    setBtn(); if (!reduce) start();
+    /* active dot and caption follow the real scroll position (works for slides of different widths) */
+    var sync = function () {
+      var i = current();
+      dots.forEach(function (dot, j) { if (j === i) dot.setAttribute('aria-current', 'true'); else dot.removeAttribute('aria-current'); });
+      if (captionEl) captionEl.textContent = slides[i].getAttribute('data-caption') || '';
+    };
+    var raf = null;
+    track.addEventListener('scroll', function () { if (!raf) raf = requestAnimationFrame(function () { raf = null; sync(); }); }, { passive: true });
+    window.addEventListener('resize', sync);
+    sync(); setBtn(); if (!reduce) start();
   });
 })();
 </script>

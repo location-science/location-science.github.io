@@ -22,7 +22,7 @@ translation: /
       <p>We build web and mobile applications and accompany them from the first conversation into operation.</p>
       <p>Paper, email and spreadsheets become software and services that carry your processes reliably.</p>
     </li>
-    <li class="cell span-1x2 cell--tint">
+    <li class="cell span-2x1 cell--tint">
       <h3>Introducing AI</h3>
       <p>We bring AI into your organisation, with a clear benefit, checked sources and firm rules for data protection.</p>
       <p>First we check whether AI is the right solution for your task at all. If yes, we build it in and measure the result. If no, we tell you so plainly.</p>
@@ -31,9 +31,10 @@ translation: /
       <h3>Software engineering</h3>
       <p>Clean code, tests and documentation are part of the work, so the software can still be maintained in five years.</p>
     </li>
-    <li class="cell span-2x1">
+    <li class="cell span-1x2">
       <h3>Databases and data pipelines</h3>
       <p>We build databases and automated data flows that run without manual work. That is how the pipeline behind StoryMapp keeps more than 7.5 million places current.</p>
+      {% include pipeline-diagram.html %}
     </li>
     <li class="cell">
       <h3>Data science</h3>
@@ -42,27 +43,12 @@ translation: /
     <li class="cell span-2x1">
       <h3>Geodata and spatial intelligence</h3>
       <p>Places are our strength. We turn coordinates into context and answer the questions that matter: what is here, what is nearby, and what is important to the person on site right now?</p>
-      <svg class="nodes" viewBox="0 0 320 110" role="img" aria-label="Diagram: a highlighted point linked to nearby places, which link on to context.">
-        <line x1="40" y1="60" x2="120" y2="30"/>
-        <line x1="40" y1="60" x2="130" y2="80"/>
-        <line x1="40" y1="60" x2="110" y2="55" class="is-live"/>
-        <line x1="120" y1="30" x2="210" y2="22"/>
-        <line x1="110" y1="55" x2="220" y2="58" class="is-live"/>
-        <line x1="130" y1="80" x2="215" y2="92"/>
-        <line x1="210" y1="22" x2="280" y2="40"/>
-        <line x1="220" y1="58" x2="280" y2="40" class="is-live"/>
-        <circle cx="40" cy="60" r="6" class="is-here"/>
-        <circle cx="120" cy="30" r="4"/>
-        <circle cx="110" cy="55" r="4"/>
-        <circle cx="130" cy="80" r="4"/>
-        <circle cx="210" cy="22" r="4"/>
-        <circle cx="220" cy="58" r="4"/>
-        <circle cx="215" cy="92" r="4"/>
-        <circle cx="280" cy="40" r="5"/>
-        <text x="20" y="84">here</text>
-        <text x="100" y="104">nearby</text>
-        <text x="256" y="66">context</text>
-      </svg>
+      <a class="zoom" href="{{ "/assets/images/sportsmap-1600.jpg" | relative_url }}">
+      <picture class="cell__media">
+        <source type="image/webp" srcset="{{ "/assets/images/sportsmap-tile-800.webp" | relative_url }} 800w, {{ "/assets/images/sportsmap-tile-1600.webp" | relative_url }} 1600w" sizes="(min-width: 60rem) 560px, 90vw">
+        <img src="{{ "/assets/images/sportsmap-tile-800.jpg" | relative_url }}" srcset="{{ "/assets/images/sportsmap-tile-800.jpg" | relative_url }} 800w, {{ "/assets/images/sportsmap-tile-1600.jpg" | relative_url }} 1600w" sizes="(min-width: 60rem) 560px, 90vw" width="800" height="364" loading="lazy" alt="3D terrain map with a marked tour route over mountains and through a town, rendered by us from OpenStreetMap data.">
+      </picture>
+      </a>
     </li>
     <li class="cell">
       <h3>Mobile engineering</h3>
