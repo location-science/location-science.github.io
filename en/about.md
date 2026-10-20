@@ -21,7 +21,7 @@ We believe technology should help people rather than distract them. So we prefer
 
 Three founders, engineers first. Our fields:
 
-- Geoinformatics.
+- Geography and geoinformatics.
 - Cartography.
 - Information and communication technology.
 

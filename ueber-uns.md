@@ -19,7 +19,7 @@ Wir glauben, dass Technik Menschen helfen soll, statt sie abzulenken. Deshalb ba
 
 Drei Gründer, zuerst Ingenieure. Unsere Fachrichtungen:
 
-- Geoinformatik.
+- Geographie und Geoinformatik.
 - Kartographie.
 - Informations- und Kommunikationstechnik.
 
