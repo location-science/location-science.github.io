@@ -37,7 +37,8 @@
       pauseBtn.setAttribute('aria-pressed', stopped ? 'true' : 'false');
     };
     var tick = function () { if (!stopped && visible && !hovered && !focused && !document.hidden) go(current() + 1); };
-    var start = function () { if (!timer) timer = setInterval(tick, 4000); };
+    var interval = Number(c.getAttribute('data-interval')) || 4000;
+    var start = function () { if (!timer) timer = setInterval(tick, interval); };
     var stop = function () { stopped = true; if (timer) { clearInterval(timer); timer = null; } setBtn(); };
     var resume = function () { stopped = false; start(); setBtn(); };
     /* pause while the pointer rests on the controls or a control has keyboard focus; the image itself does not pause */
