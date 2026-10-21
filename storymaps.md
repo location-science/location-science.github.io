@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Storymaps – die Sammlung interaktiver Geschichten vor Ort von StoryMapp
-description: Entdecken Sie tausende Storymaps mit StoryMapp. Unsere Sammlung umfasst mehr als 7,5 Millionen interaktive ortsbezogene Geschichten zu Geschichte, Kultur und Reisen weltweit.
+description: Entdecken Sie tausende Storymaps mit StoryMapp. Unsere Sammlung umfasst mehr als 8 Millionen interaktive ortsbezogene Geschichten zu Geschichte, Kultur und Reisen weltweit.
 keywords: Storymaps, StoryMapp Storymaps, Sammlung ortsbezogener Geschichten, interaktive Storymaps, mobile Storymaps, geografische Storymaps, Reise-Storymaps
 permalink: /storymaps/
 lang: de
@@ -22,7 +22,7 @@ translation: /en/storymaps/
 
 <div class="content-section">
   <h2>Tausende Storymaps in Ihrer Hand</h2>
-  <p>StoryMapp beherbergt eine der umfangreichsten Sammlungen von <strong>Storymaps</strong>, mit über 7,5 Millionen Orten und reichen, interaktiven Erzählerlebnissen. Unsere <strong>Storymaps</strong> decken jede Art von ortsbezogener Geschichte ab, von antiken Stätten bis zu modernen Wahrzeichen.</p>
+  <p>StoryMapp beherbergt eine der umfangreichsten Sammlungen von <strong>Storymaps</strong>, mit über 8 Millionen Orten und reichen, interaktiven Erzählerlebnissen. Unsere <strong>Storymaps</strong> decken jede Art von ortsbezogener Geschichte ab, von antiken Stätten bis zu modernen Wahrzeichen.</p>
 
   <p>Anders als Plattformen mit wenigen <strong>Storymaps</strong> bietet StoryMapp laufend aktualisierte, KI-kuratierte Inhalte, damit jedes <strong>Storymap</strong>-Erlebnis frisch, verlässlich und fesselnd ist.</p>
 

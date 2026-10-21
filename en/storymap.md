@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Storymap - Download StoryMapp Location Storytelling App | Location Science
-description: Get the Storymap experience with StoryMapp - a storymap application for location-based storytelling. Download our storymap app to explore 7.5M+ interactive location stories.
+description: Get the Storymap experience with StoryMapp - a storymap application for location-based storytelling. Download our storymap app to explore 8M+ interactive location stories.
 keywords: storymap, StoryMapp, location storytelling app, storymap application, mobile storymap, interactive storymap, geographic storytelling
 permalink: /en/storymap/
 lang: en
@@ -22,7 +22,7 @@ translation: /storymap/
 
 <div class="content-section">
   <h2>What Makes StoryMapp a Strong Storymap Application?</h2>
-  <p>StoryMapp redefines what a <strong>storymap</strong> can be. Our innovative <strong>storymap application</strong> goes beyond traditional location-based storytelling, offering a comprehensive and interactive <strong>storymap experience</strong> with over 7.5 million stories worldwide.</p>
+  <p>StoryMapp redefines what a <strong>storymap</strong> can be. Our innovative <strong>storymap application</strong> goes beyond traditional location-based storytelling, offering a comprehensive and interactive <strong>storymap experience</strong> with over 8 million stories worldwide.</p>
 
   <p>Unlike basic <strong>storymap</strong> tools, StoryMapp provides a complete <strong>storymap ecosystem</strong> that combines cutting-edge AI, real-time updates, and immersive storytelling to create a rich location-based narrative experience.</p>
 

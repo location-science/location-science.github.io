@@ -22,7 +22,7 @@ translation: /en/story-maps/
 
 <div class="content-section">
   <h2>Tausende Story Maps in Ihrer Hand</h2>
-  <p>StoryMapp beherbergt eine der umfassendsten Sammlungen von <strong>Story Maps</strong>, mit über 7,5 Millionen Orten und reichen, interaktiven Erzählerlebnissen. Unsere <strong>Story Maps</strong> decken alle Kontinente und unzählige Themen ab, von alter Geschichte bis zu moderner Kultur.</p>
+  <p>StoryMapp beherbergt eine der umfassendsten Sammlungen von <strong>Story Maps</strong>, mit über 8 Millionen Orten und reichen, interaktiven Erzählerlebnissen. Unsere <strong>Story Maps</strong> decken alle Kontinente und unzählige Themen ab, von alter Geschichte bis zu moderner Kultur.</p>
 
   <p>Anders als Plattformen mit wenigen <strong>Story-Map</strong>-Sammlungen bietet StoryMapp laufend aktualisierte, KI-kuratierte <strong>Story Maps</strong> mit frischen, verlässlichen und fesselnden Inhalten zu jedem Ort.</p>
 

@@ -17,9 +17,14 @@ Consulting (digitalisation, software engineering, AI services adoption, spatial 
 is a third offer. StoryMapp is the proof point and lives on its own secondary page.
 
 ## Macrostructure family
-- Marketing pages (home):         Bento Grid — two-column hero (title left, lede + actions right),
-                                  F1 bento of 10 hairline tiles in irregular spans, one graphite
-                                  band (founders), a two-column offers section.
+- Marketing pages (home):         problem-first narrative — two-column hero (title left, lede right),
+                                  "Kommt Ihnen das bekannt vor?" list, three focus areas on heavy
+                                  rules + one-line essentials, a full-width highlight image with a
+                                  display line, four case studies (status · title · problem · result ·
+                                  real screenshot), the graphite founders band with the managing
+                                  director's portrait, offers with published rates. The earlier
+                                  bento of 12 tiles lives on as "Was wir für Sie tun" pillars on the
+                                  service pages only.
 - Product pages (StoryMapp):      Narrative Workflow — numbered stages 1.0 → 4.0 (mono numerals),
                                   F4 step sequence, numeral stacked above the heading.
 - Service pages (Behörden /
@@ -122,9 +127,19 @@ ruler: 6px on controls, 10px on tiles, nothing else rounded.
 - Macrostructure within the page-type family.
 - Tile spans and the tint on at most two tiles.
 
+## Case studies and rates (2026-10-21)
+Four cases on home and both service pages via `_includes/cases.{de,en}.html`: tour planner
+(in development), SkiApp (in development), StoryMapp (in operation: >8 million stories,
+six languages, users in 58 countries, partner Art Hop Silver Lake, Los Angeles), emergency
+map for disaster response (in development, no image yet). Status is always labelled.
+Published rate: 850 € net per day for development and consulting, fixed price for specified
+work, first conversation free. Portrait: only the managing director, Tobias Neumann, with
+degrees and career stations as supplied by him; the other founders stay unnamed. The photo
+slot (`.portrait__photo`) shows initials until a photo is delivered.
+
 ## Honest copy
 No invented metrics. Numbers on the site come from existing company claims:
-7.5 million+ places, six languages (EN, DE, FR, ES, PT, ZH), founding 2023, the register
+8 million+ places, six languages (EN, DE, FR, ES, PT, ZH), founding 2023, the register
 and VAT numbers. The founders' backgrounds (geography and geoinformatics, cartography, information and communication technology; no degrees named, no names) and work domains were supplied by the user. The former schema.org
 aggregateRating (4.8 / 1,500) was removed as unverifiable.
 

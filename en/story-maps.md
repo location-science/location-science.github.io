@@ -22,7 +22,7 @@ translation: /story-maps/
 
 <div class="content-section">
   <h2>Thousands of Story Maps at Your Fingertips</h2>
-  <p>StoryMapp hosts one of the most comprehensive collections of <strong>story maps</strong>, with over 7.5 million locations featuring rich, interactive storytelling experiences. Our diverse range of <strong>story maps</strong> covers every continent and countless topics, from ancient history to modern culture.</p>
+  <p>StoryMapp hosts one of the most comprehensive collections of <strong>story maps</strong>, with over 8 million locations featuring rich, interactive storytelling experiences. Our diverse range of <strong>story maps</strong> covers every continent and countless topics, from ancient history to modern culture.</p>
 
   <p>Unlike other platforms that offer limited <strong>story map</strong> collections, StoryMapp provides continuously updated, AI-curated <strong>story maps</strong> that ensure fresh, accurate, and engaging content for every location.</p>
 

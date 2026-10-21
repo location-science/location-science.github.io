@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Digitalisation, software, data and AI from Bavaria
-description: Location Science GmbH digitalises processes, builds software and introduces AI. Speciality software, artificial intelligence and geodata. For public authorities and companies. Makers of StoryMapp.
+description: Location Science GmbH digitalises processes, builds software and introduces AI. Speciality places and geodata. For public authorities and companies. Makers of StoryMapp.
 permalink: /en/
 lang: en
 translation: /
@@ -10,116 +10,78 @@ translation: /
 <section class="wrap hero2">
   <h1>Software, data and AI that work every day.</h1>
   <div class="hero2__side">
-    <p class="lede">Location Science is a software and data company from Upper Bavaria. We digitalise processes, build applications and introduce AI where it brings a real benefit. Our speciality is software, artificial intelligence and geodata. We work for public authorities and companies, and with StoryMapp we have a product of our own that shows how we work.</p>
+    <p class="lede">Location Science is a software and data company from Upper Bavaria. We digitalise processes, introduce AI and make geodata usable, for public authorities and for companies. With StoryMapp we have a product of our own that shows how we work.</p>
   </div>
 </section>
 
-<section class="wrap" aria-labelledby="competencies">
-  <h2 id="competencies" class="visually-hidden">Competencies</h2>
-  <ul class="bento">
-    <li class="cell span-2x1">
-      <h3>Digitalisation and application development</h3>
-      <p>We build web and mobile applications and accompany them from the first conversation into operation.</p>
-      <p>Paper, email and spreadsheets become software and services that carry your processes reliably.</p>
+<section class="wrap problem" aria-labelledby="problem-h">
+  <h2 id="problem-h">Does this sound familiar?</h2>
+  <ul class="problem__list">
+    <li>Data sits in many systems, does not fit together and has to be normalised first.</li>
+    <li>Management wants AI. Nobody knows where it adds value and what is already possible today.</li>
+    <li>Geodata exists, but nobody brings it into an app. Important projects stay on the shelf.</li>
+    <li>Processes cost time because data is entered and checked by hand.</li>
+    <li>The tools you bought do not fit your own problems.</li>
+  </ul>
+  <p class="problem__turn">That is exactly where we start: with interfaces, automation and software that fits your task.</p>
+</section>
+
+<section class="wrap focus" aria-labelledby="focus-h">
+  <h2 id="focus-h" class="visually-hidden">Focus areas</h2>
+  <ul class="focus__list">
+    <li>
+      <h3>Digitalise processes</h3>
+      <p>Paper, email and spreadsheets become an application connected to your existing systems. Interfaces and automation replace manual work and error checking.</p>
     </li>
-    <li class="cell span-2x1 cell--tint">
-      <h3>Introducing AI</h3>
-      <p>We bring AI into your organisation, with a clear benefit, checked sources and firm rules for data protection.</p>
-      <p>First we check whether AI is the right solution for your task at all. If yes, we build it in and measure the result. If no, we tell you so plainly.</p>
+    <li>
+      <h3>Introduce AI</h3>
+      <p>We check where AI already adds value in your organisation, build it in there and measure the result. Where it does not fit, we say so.</p>
     </li>
-    <li class="cell">
-      <h3>Software engineering</h3>
-      <p>Clean code, tests and documentation are part of the work, so the software can still be maintained in five years.</p>
+    <li>
+      <h3>Make geodata usable</h3>
+      <p>Data becomes maps, apps and services. Spatial databases, normalisation, OGC interfaces, offline on the device or public in the app.</p>
     </li>
-    <li class="cell span-1x2">
-      <h3>Databases and data pipelines</h3>
-      <p>We build databases and automated data flows that run without manual work. That is how the pipeline behind StoryMapp keeps more than 7.5 million places current.</p>
-      {% include pipeline-diagram.html %}
-    </li>
-    <li class="cell">
-      <h3>Data science</h3>
-      <p>Analysis and machine learning on your data: we find patterns, assess data quality and measure what a change achieves.</p>
-    </li>
-    <li class="cell span-2x1">
-      <h3>Geodata and spatial intelligence</h3>
-      <p>Places are our strength. We turn coordinates into context and answer the questions that matter: what is here, what is nearby, and what is important to the person on site right now?</p>
-      <a class="zoom" href="{{ "/assets/images/sportsmap-1600.jpg" | relative_url }}">
-      <picture class="cell__media">
-        <source type="image/webp" srcset="{{ "/assets/images/sportsmap-tile-800.webp" | relative_url }} 800w, {{ "/assets/images/sportsmap-tile-1600.webp" | relative_url }} 1600w" sizes="(min-width: 60rem) 560px, 90vw">
-        <img src="{{ "/assets/images/sportsmap-tile-800.jpg" | relative_url }}" srcset="{{ "/assets/images/sportsmap-tile-800.jpg" | relative_url }} 800w, {{ "/assets/images/sportsmap-tile-1600.jpg" | relative_url }} 1600w" sizes="(min-width: 60rem) 560px, 90vw" width="800" height="364" loading="lazy" alt="3D terrain map with a marked tour route over mountains and through a town, rendered by us from OpenStreetMap data.">
-      </picture>
-      </a>
-    </li>
-    <li class="cell">
-      <h3>Mobile engineering</h3>
-      <p>Native apps for iOS and Android that also work without a network. Location stays on the device.</p>
-    </li>
-    <li class="cell">
-      <h3>Navigation</h3>
-      <p>Positioning, routing and guidance, from car navigation, over trail hiking, to city walking tours. The computation runs on the device, not on a server.</p>
-    </li>
-    <li class="cell span-2x1 cell--proof">
-      <img class="proof__logo" src="{{ "/assets/images/logo_512_transp.png" | relative_url }}" alt="StoryMapp" width="72" height="72" loading="lazy">
-      <div>
-        <h3>StoryMapp, our own product</h3>
-        <p>Free on iOS and Android, with more than 7.5 million places and their stories in six languages. <a class="link" href="/en/storymapp/">About StoryMapp →</a></p>
-        <ul class="badges">
-          <li><a href="{{ site.app_store_url }}" rel="noopener" target="_blank"><img src="{{ "/assets/images/badges/apple-appstore.svg" | relative_url }}" alt="Download StoryMapp on the App Store" width="150" height="44" loading="lazy"></a></li>
-          <li><a href="{{ site.google_play_url }}" rel="noopener" target="_blank"><img src="{{ "/assets/images/badges/googleplay.svg" | relative_url }}" alt="Get StoryMapp on Google Play" width="150" height="44" loading="lazy"></a></li>
-        </ul>
-      </div>
-    </li>
-    <li class="cell span-2x1">
-      <h3>Consulting</h3>
-      <p>What to build, what to buy, how to run it? We advise on digitalisation, software engineering, AI adoption and spatial data management, honestly and without slide decks.</p>
-    </li>
+  </ul>
+  <ul class="essentials" aria-label="Part of every project">
+    <li><b>Operations.</b> We operate what we build: deployment, monitoring, DevOps.</li>
+    <li><b>Open data.</b> We build on open data and contribute to OpenStreetMap.</li>
+    <li><b>Privacy by design.</b> GDPR from day one, developed and operated in Germany.</li>
+    <li><b>Three founders.</b> No intermediaries. You talk to the people who write the code.</li>
   </ul>
 </section>
 
-<section class="wrap strip-section" aria-labelledby="more">
-  <h2 id="more">And also</h2>
-  <p>Four things that come with every project.</p>
-  <div class="strip__nav" hidden>
-    <button type="button" class="btn btn--outline strip__btn" data-dir="-1" aria-label="Previous">←</button>
-    <button type="button" class="btn btn--outline strip__btn" data-dir="1" aria-label="Next">→</button>
-  </div>
-  <ul class="strip">
-    <li class="strip__card">
-      <h3>Operations</h3>
-      <p>We operate what we build: deployment, monitoring and DevOps from one source.</p>
-    </li>
-    <li class="strip__card">
-      <h3>Open data</h3>
-      <p>We have contributed to OpenStreetMap for many years. We build on open data and give back what we learn along the way.</p>
-      <p class="strip__foot"><a class="link" href="/en/attribution/">Sources and licences →</a></p>
-    </li>
-    <li class="strip__card">
-      <h3>Privacy by design</h3>
-      <p>GDPR from day one, developed and operated in Germany.</p>
-      <p class="strip__foot"><a class="link" href="/en/privacy/">Privacy policy →</a></p>
-    </li>
-    <li class="strip__card">
-      <h3>Story content by API</h3>
-      <p>Location-based stories for your own product, for example in tourism, travel and maps.</p>
-      <p class="strip__foot"><a class="link" href="mailto:{{ site.email }}?subject=API">Ask about the API →</a></p>
-    </li>
-  </ul>
+<section class="wrap highlight" aria-label="Terrain map">
+  <p class="highlight__line">Open data shows the ways. Context decides which one is right.</p>
+  <figure>
+    <a class="zoom" href="{{ "/assets/images/sportsmap-1600.jpg" | relative_url }}">
+    <picture>
+      <source type="image/webp" srcset="{{ "/assets/images/sportsmap-800.webp" | relative_url }} 800w, {{ "/assets/images/sportsmap-1600.webp" | relative_url }} 1600w" sizes="(min-width: 74rem) 1120px, 92vw">
+      <img src="{{ "/assets/images/sportsmap-800.jpg" | relative_url }}" srcset="{{ "/assets/images/sportsmap-800.jpg" | relative_url }} 800w, {{ "/assets/images/sportsmap-1600.jpg" | relative_url }} 1600w" sizes="(min-width: 74rem) 1120px, 92vw" width="1600" height="951" alt="3D terrain map with a marked tour route over mountains and through a town, rendered by us from open data." fetchpriority="high">
+    </picture>
+    </a>
+    <figcaption>Rendered by us from open data: terrain model, trails and places from OpenStreetMap, the route from our tour planner.</figcaption>
+  </figure>
 </section>
+
+{% include cases.en.html %}
 
 <section class="band" aria-labelledby="founders">
-  <div class="wrap band__grid">
-    <div>
-      <h2 id="founders">Three founders. Engineers first.</h2>
-      <p>We come from geography and geoinformatics, cartography and information and communication technology. We have worked in start-ups as well as in large companies, often on systems where mistakes are expensive.</p>
+  <div class="wrap">
+    <div class="band__grid">
+      <div>
+        <h2 id="founders">Three founders. Engineers first.</h2>
+        <p>We come from geography and geoinformatics, cartography and information and communication technology. We have worked in start-ups as well as in large companies, often on systems where mistakes are expensive.</p>
+      </div>
+      <div>
+        <ul class="founders">
+          <li><b>Geography and geoinformatics</b></li>
+          <li><b>Cartography</b></li>
+          <li><b>Information and communication technology</b></li>
+        </ul>
+        <p class="band__exp">Working experience: public-safety organisations (BOS), defence engineering, global car navigation, DevOps.</p>
+      </div>
     </div>
-    <div>
-      <ul class="founders">
-        <li><b>Geography and geoinformatics</b></li>
-        <li><b>Cartography</b></li>
-        <li><b>Information and communication technology</b></li>
-      </ul>
-      <p class="band__exp">Working experience: public-safety organisations (BOS), defence engineering, global car navigation, DevOps.</p>
-    </div>
+    {% include portrait.en.html %}
   </div>
 </section>
 
@@ -127,10 +89,15 @@ translation: /
   <div>
     <h2 id="work">Working with us</h2>
     <p>Three ways to work with us. Each begins with an email, and one of the founders always answers.</p>
+    <ul class="rates">
+      <li><b>Daily rate €850</b> net, for development and consulting alike.</li>
+      <li><b>Fixed price</b> for clearly specified projects under a works contract, based on a jointly written specification.</li>
+      <li><b>First conversation free of charge</b>, remote or at your office.</li>
+    </ul>
   </div>
   <ul class="offers">
     <li>
-      <h3>Software, data and AI, built for you</h3>
+      <h3>Software, maps and data, built for you</h3>
       <p>We develop your application, your data pipeline or your AI solution, from the idea to operation. For the <a href="/en/public-sector/">public sector</a> and <a href="/en/companies/">companies</a>.</p>
       <a class="btn btn--outline" href="mailto:{{ site.email }}?subject=Project%20enquiry">Start a conversation</a>
     </li>

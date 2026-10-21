@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Story Map - Interactive Location-Based Storytelling Platform | StoryMapp
-description: Discover story map technology with StoryMapp. Create and explore interactive story maps with 7.5M+ location-based stories. A story map platform for mobile devices.
+description: Discover story map technology with StoryMapp. Create and explore interactive story maps with 8M+ location-based stories. A story map platform for mobile devices.
 keywords: story map, interactive story map, location storytelling, story mapping, place-based stories, mobile story map, geographic storytelling
 permalink: /en/story-map/
 lang: en
@@ -48,7 +48,7 @@ translation: /story-map/
     <div class="feature-card">
       <span class="feature-emoji"></span>
       <h3>Global Story Map Coverage</h3>
-      <p>Explore over 7.5 million places with stories through our global <strong>story map platform</strong>, one of the largest collections of location-based narratives.</p>
+      <p>Explore over 8 million places with stories through our global <strong>story map platform</strong>, one of the largest collections of location-based narratives.</p>
     </div>
   </div>
 </div>

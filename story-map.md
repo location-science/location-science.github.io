@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Story Map – interaktive Plattform für Geschichten vor Ort | StoryMapp
-description: Entdecken Sie Story-Map-Technologie mit StoryMapp. Interaktive Story Maps mit mehr als 7,5 Millionen ortsbezogenen Geschichten, kostenlos für iOS und Android.
+description: Entdecken Sie Story-Map-Technologie mit StoryMapp. Interaktive Story Maps mit mehr als 8 Millionen ortsbezogenen Geschichten, kostenlos für iOS und Android.
 keywords: Story Map, interaktive Story Map, Geschichten vor Ort, Story Mapping, ortsbezogene Geschichten, mobile Story Map, geografisches Storytelling
 permalink: /story-map/
 lang: de
@@ -48,7 +48,7 @@ translation: /en/story-map/
     <div class="feature-card">
       <span class="feature-emoji"></span>
       <h3>Weltweite Story-Map-Abdeckung</h3>
-      <p>Erkunden Sie über 7,5 Millionen Orte mit Geschichten auf unserer globalen <strong>Story-Map-Plattform</strong>, einer der größten Sammlungen ortsbezogener Erzählungen.</p>
+      <p>Erkunden Sie über 8 Millionen Orte mit Geschichten auf unserer globalen <strong>Story-Map-Plattform</strong>, einer der größten Sammlungen ortsbezogener Erzählungen.</p>
     </div>
   </div>
 </div>

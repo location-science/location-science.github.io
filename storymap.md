@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Storymap – StoryMapp, die App für Geschichten vor Ort
-description: Erleben Sie Storymaps mit StoryMapp, der App für ortsbezogene Geschichten. Mehr als 7,5 Millionen Orte mit Geschichten, kostenlos für iOS und Android.
+description: Erleben Sie Storymaps mit StoryMapp, der App für ortsbezogene Geschichten. Mehr als 8 Millionen Orte mit Geschichten, kostenlos für iOS und Android.
 keywords: Storymap, StoryMapp, Geschichten vor Ort, Storymap App, interaktive Storymap, geografisches Storytelling, Audioguide
 permalink: /storymap/
 lang: de
@@ -22,7 +22,7 @@ translation: /en/storymap/
 
 <div class="content-section">
   <h2>Was StoryMapp zu einer starken Storymap-App macht</h2>
-  <p>StoryMapp definiert neu, was eine <strong>Storymap</strong> sein kann. Unsere <strong>Storymap-Anwendung</strong> geht über klassisches ortsbezogenes Storytelling hinaus und bietet mit über 7,5 Millionen Geschichten weltweit ein umfassendes, interaktives <strong>Storymap-Erlebnis</strong>.</p>
+  <p>StoryMapp definiert neu, was eine <strong>Storymap</strong> sein kann. Unsere <strong>Storymap-Anwendung</strong> geht über klassisches ortsbezogenes Storytelling hinaus und bietet mit über 8 Millionen Geschichten weltweit ein umfassendes, interaktives <strong>Storymap-Erlebnis</strong>.</p>
 
   <p>Anders als einfache <strong>Storymap</strong>-Werkzeuge bietet StoryMapp ein vollständiges <strong>Storymap-Ökosystem</strong>, das moderne KI, laufende Aktualisierung und fesselndes Erzählen zu einem ortsbezogenen Erlebnis verbindet.</p>
 

@@ -3,13 +3,19 @@
 <footer class="foot">
   <div class="wrap">
     <p>
-      &copy; {{ site.time | date: "%Y" }} {{ site.company_name }} <span class="foot__sep">&middot;</span> {{ site.company_address }} <span class="foot__sep">&middot;</span> <a href="mailto:{{ site.email }}">{{ site.email }}</a> <span class="foot__sep">&middot;</span> {{ site.company_registration }} <span class="foot__sep">&middot;</span> {{ t.vat }} {{ site.company_vat }} <span class="foot__sep">&middot;</span> <a href="https://github.com/{{ site.github_username }}" rel="me">GitHub</a> <span class="foot__sep">&middot;</span> {{ t.rights }}
+      &copy; {{ site.time | date: "%Y" }} {{ site.company_name }} <span class="foot__sep">&middot;</span> {{ site.company_address }} <span class="foot__sep">&middot;</span> <a href="mailto:{{ site.email }}">{{ site.email }}</a> <span class="foot__sep">&middot;</span> {{ site.company_registration }} <span class="foot__sep">&middot;</span> {{ t.vat }} {{ site.company_vat }} <span class="foot__sep">&middot;</span> <a href="https://github.com/{{ site.github_username }}" rel="me">GitHub</a>
     </p>
     <p>
-      {%- for l in t.legal -%}
-      {%- unless forloop.first %} <span class="foot__sep">&middot;</span> {% endunless -%}
-      <a href="{{ l.url | relative_url }}">{{ l.label }}</a>
-      {%- endfor %}
+      <a href="{{ t.legal[0].url | relative_url }}">{{ t.legal[0].label }}</a> <span class="foot__sep">&middot;</span> <a href="{{ t.legal[1].url | relative_url }}">{{ t.legal[1].label }}</a>
     </p>
+    <details class="foot__legal">
+      <summary>{{ t.legal_more }}</summary>
+      <p>
+        {%- for l in t.legal offset:2 -%}
+        {%- unless forloop.first %} <span class="foot__sep">&middot;</span> {% endunless -%}
+        <a href="{{ l.url | relative_url }}">{{ l.label }}</a>
+        {%- endfor %}
+      </p>
+    </details>
   </div>
 </footer>

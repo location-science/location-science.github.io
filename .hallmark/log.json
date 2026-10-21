@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-10-21",
+    "scope": "app",
+    "macrostructure": "problem-first narrative (home) · pillars + cases (service pages) · Long Document (content)",
+    "theme": "custom",
+    "theme_axes": "light / grotesk-sans / chromatic-teal ~195°",
+    "vibe": "engineered, cool, precise, fresh",
+    "nav": "N1b bordered bar",
+    "footer": "Ft2 inline, legal links behind a details disclosure",
+    "enrichment": "real screenshots only (highlight image + case studies); pipeline diagram retired from home",
+    "brief": "Issue #18: people, case studies and dramaturgy after 'boring, unfinished' feedback"
+  },
+  {
     "date": "2026-10-19",
     "scope": "app",
     "macrostructure": "Bento Grid (home) · service pages (two-column hero + pillars + facts + band) · Narrative Workflow (product) · Long Document (content, legal, SEO)",

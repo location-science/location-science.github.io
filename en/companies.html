@@ -31,55 +31,13 @@ translation: /unternehmen/
   </ul>
 </section>
 
-<section class="wrap section" aria-label="Work samples">
-  <h2>Work samples</h2>
-  <figure class="carousel carousel--samples" aria-roledescription="carousel" aria-label="Work samples">
-    <div class="carousel__viewport">
-    <ul class="carousel__track" tabindex="0" aria-label="Work samples">
-    <li class="carousel__slide" aria-roledescription="slide" aria-label="1 of 3">
-      <a class="zoom" href="{{ "/assets/images/sportsmap-1600.jpg" | relative_url }}">
-      <picture>
-        <source type="image/webp" srcset="{{ "/assets/images/sportsmap-800.webp" | relative_url }} 800w, {{ "/assets/images/sportsmap-1600.webp" | relative_url }} 1600w" sizes="(min-width: 60rem) 760px, 90vw">
-        <img src="{{ "/assets/images/sportsmap-800.jpg" | relative_url }}" srcset="{{ "/assets/images/sportsmap-800.jpg" | relative_url }} 800w, {{ "/assets/images/sportsmap-1600.jpg" | relative_url }} 1600w" sizes="(min-width: 60rem) 760px, 90vw" width="800" height="476" alt="3D terrain map with a marked tour route, rendered by us from OpenStreetMap data.">
-      </picture>
-      </a>
-    </li>
-    <li class="carousel__slide" aria-roledescription="slide" aria-label="2 of 3">
-      <a class="zoom" href="{{ "/assets/images/skimap-780.jpg" | relative_url }}">
-      <picture>
-        <source type="image/webp" srcset="{{ "/assets/images/skimap-390.webp" | relative_url }} 390w, {{ "/assets/images/skimap-780.webp" | relative_url }} 780w" sizes="(min-width: 60rem) 760px, 90vw">
-        <img src="{{ "/assets/images/skimap-390.jpg" | relative_url }}" srcset="{{ "/assets/images/skimap-390.jpg" | relative_url }} 390w, {{ "/assets/images/skimap-780.jpg" | relative_url }} 780w" sizes="(min-width: 60rem) 760px, 90vw" width="390" height="823" alt="Mobile 3D ski-area map with pistes, lifts and video points along the run." loading="lazy">
-      </picture>
-      </a>
-    </li>
-    <li class="carousel__slide" aria-roledescription="slide" aria-label="3 of 3">
-      <a class="zoom" href="{{ "/assets/images/ski_resort-780.jpg" | relative_url }}">
-      <picture>
-        <source type="image/webp" srcset="{{ "/assets/images/ski_resort-390.webp" | relative_url }} 390w, {{ "/assets/images/ski_resort-780.webp" | relative_url }} 780w" sizes="(min-width: 60rem) 760px, 90vw">
-        <img src="{{ "/assets/images/ski_resort-390.jpg" | relative_url }}" srcset="{{ "/assets/images/ski_resort-390.jpg" | relative_url }} 390w, {{ "/assets/images/ski_resort-780.jpg" | relative_url }} 780w" sizes="(min-width: 60rem) 760px, 90vw" width="390" height="823" alt="Mobile ski-area information page with map, kilometres of pistes, current snow report and weather forecast." loading="lazy">
-      </picture>
-      </a>
-    </li>
-    </ul>
-    <div class="carousel__nav">
-      <button type="button" class="carousel__btn" data-dir="-1" aria-label="Previous image"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-      <div class="carousel__dots" role="group" aria-label="Work samples">
-      <button type="button" class="carousel__dot" data-to="0" aria-label="Image 1" aria-current="true"></button>
-      <button type="button" class="carousel__dot" data-to="1" aria-label="Image 2"></button>
-      <button type="button" class="carousel__dot" data-to="2" aria-label="Image 3"></button>
-      </div>
-      <button type="button" class="carousel__btn carousel__pause" data-pause-label="Pause automatic rotation" data-play-label="Start automatic rotation" aria-label="Pause automatic rotation" aria-pressed="false"></button>
-      <button type="button" class="carousel__btn" data-dir="1" aria-label="Next image"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-    </div>
-    </div>
-  </figure>
-</section>
+{% include cases.en.html %}
 
 <section class="wrap section" id="models" aria-labelledby="models-h">
   <h2 id="models-h">Engagement models</h2>
   <p>We adapt to your procurement, not the other way round.</p>
   <dl class="facts">
-    <div><dt>Time and material</dt><dd>Daily rates for development and consulting, invoiced monthly against timesheets. Rates on request.</dd></div>
+    <div><dt>Time and material</dt><dd>One daily rate for development and consulting: €850 net, invoiced monthly against timesheets.</dd></div>
     <div><dt>Fixed-price works contract</dt><dd>For clearly specifiable work packages with acceptance. We work out the specification and milestones together with you.</dd></div>
     <div><dt>Framework agreement</dt><dd>Call-off quotas for ongoing development, maintenance or consulting.</dd></div>
     <div><dt>Subcontracting</dt><dd>We work under your contract with the end customer, without external attribution if you prefer. Confidentiality under NDA goes without saying.</dd></div>
@@ -119,4 +77,3 @@ translation: /unternehmen/
   <p class="hero2__actions"><a class="btn btn--primary" href="mailto:{{ site.email }}?subject=Company%20enquiry">Send an enquiry</a> <a class="link" href="mailto:{{ site.email }}">{{ site.email }}</a> {% include phone-reveal.html %}</p>
 </section>
 
-{% include carousel-script.html %}

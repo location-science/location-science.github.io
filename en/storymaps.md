@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Storymaps - StoryMapp's Interactive Location Story Collection
-description: Explore thousands of storymaps with StoryMapp. Our comprehensive storymaps collection features 7.5M+ interactive location stories covering history, culture, and travel worldwide.
+description: Explore thousands of storymaps with StoryMapp. Our comprehensive storymaps collection features 8M+ interactive location stories covering history, culture, and travel worldwide.
 keywords: storymaps, StoryMapp storymaps, location story collection, interactive storymaps, mobile storymaps, geographic storymaps, travel storymaps
 permalink: /en/storymaps/
 lang: en
@@ -22,7 +22,7 @@ translation: /storymaps/
 
 <div class="content-section">
   <h2>Thousands of Storymaps at Your Fingertips</h2>
-  <p>StoryMapp hosts one of the most extensive collections of <strong>storymaps</strong>, featuring over 7.5 million locations with rich, interactive storytelling experiences. Our diverse <strong>storymaps</strong> cover every type of location story imaginable—from ancient historical sites to modern cultural landmarks.</p>
+  <p>StoryMapp hosts one of the most extensive collections of <strong>storymaps</strong>, featuring over 8 million locations with rich, interactive storytelling experiences. Our diverse <strong>storymaps</strong> cover every type of location story imaginable—from ancient historical sites to modern cultural landmarks.</p>
 
   <p>Unlike other platforms with limited <strong>storymaps</strong>, StoryMapp provides continuously updated, AI-curated content that ensures every <strong>storymap</strong> experience is fresh, accurate, and deeply engaging.</p>
 
