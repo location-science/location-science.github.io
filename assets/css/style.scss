@@ -30,7 +30,13 @@ body {
   color: var(--color-ink-2);
   background: var(--color-paper);
   -webkit-font-smoothing: antialiased;
+  /* sticky footer: short pages must not leave cloth below the footer on tall viewports */
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
 }
+main { flex: 1 0 auto; }
 
 img, svg { max-width: 100%; height: auto; }
 img { display: block; }
