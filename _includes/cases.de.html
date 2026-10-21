@@ -1,9 +1,11 @@
 <section class="wrap cases" aria-labelledby="cases-h">
   <h2 id="cases-h">Woran wir arbeiten</h2>
   <p>Vier Projekte, die zeigen, wie wir Daten, Software und KI zusammenbringen. Zwei davon sind noch in Entwicklung, das sagen wir dazu.</p>
-  <ul class="case-list">
-    <li class="case">
-      <figure class="case__media">
+  <figure class="carousel carousel--cases" aria-roledescription="Karussell" aria-label="Woran wir arbeiten">
+    <div class="carousel__viewport">
+    <ul class="carousel__track" tabindex="0" aria-label="Woran wir arbeiten">
+    <li class="carousel__slide" aria-roledescription="Folie" aria-label="1 von 4">
+      <figure class="case__media case__media--wide">
         <a class="zoom" href="{{ "/assets/images/sportsmap-1600.jpg" | relative_url }}">
         <picture>
           <source type="image/webp" srcset="{{ "/assets/images/sportsmap-800.webp" | relative_url }} 800w, {{ "/assets/images/sportsmap-1600.webp" | relative_url }} 1600w" sizes="(min-width: 60rem) 480px, 90vw">
@@ -18,7 +20,7 @@
         <p>Das Ergebnis ist eine Route, die passt, statt einer Liste zum Durchsuchen.</p>
       </div>
     </li>
-    <li class="case case--portrait">
+    <li class="carousel__slide" aria-roledescription="Folie" aria-label="2 von 4">
       <figure class="case__media">
         <a class="zoom" href="{{ "/assets/images/skimap-780.jpg" | relative_url }}">
         <picture>
@@ -34,7 +36,7 @@
         <p>Dahinter stehen Geländemodell, Pistendaten, Positionierung auf dem Gerät und ein Schnee- und Wetterbericht aus mehreren Quellen.</p>
       </div>
     </li>
-    <li class="case case--portrait">
+    <li class="carousel__slide" aria-roledescription="Folie" aria-label="3 von 4">
       <figure class="case__media">
         <a class="zoom" href="{{ "/assets/images/screenshot_storymapp-780.jpg" | relative_url }}">
         <picture>
@@ -50,12 +52,25 @@
         <p>Die Datenpipeline dahinter läuft ohne Handarbeit, und der Standort der Nutzer verlässt nie das Gerät. <a class="link" href="{{ "/storymapp/" | relative_url }}">Über StoryMapp →</a></p>
       </div>
     </li>
-    <li class="case case--text">
+    <li class="carousel__slide" aria-roledescription="Folie" aria-label="4 von 4">
       <div class="case__body">
         <span class="case__status">In Entwicklung</span>
         <h3>Einsatzkarte für den Katastrophenfall</h3>
         <p>Eine Karte, die ohne Netz und ohne Strom funktioniert und trotzdem aktuell ist. Sie gibt Rettungsorganisationen bei einem großflächigen Stromausfall Orientierung und eine Grundlage für die Einsatzplanung, auf dem Gerät, aus aktuellen offenen Daten.</p>
       </div>
     </li>
-  </ul>
+    </ul>
+    </div>
+    <div class="carousel__nav">
+      <button type="button" class="carousel__btn" data-dir="-1" aria-label="Vorheriges Projekt"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <div class="carousel__dots" role="group" aria-label="Woran wir arbeiten">
+      <button type="button" class="carousel__dot" data-to="0" aria-label="Projekt 1" aria-current="true"></button>
+      <button type="button" class="carousel__dot" data-to="1" aria-label="Projekt 2"></button>
+      <button type="button" class="carousel__dot" data-to="2" aria-label="Projekt 3"></button>
+      <button type="button" class="carousel__dot" data-to="3" aria-label="Projekt 4"></button>
+      </div>
+      <button type="button" class="carousel__btn carousel__pause" data-pause-label="Automatisches Blättern anhalten" data-play-label="Automatisches Blättern starten" aria-label="Automatisches Blättern anhalten" aria-pressed="false"></button>
+      <button type="button" class="carousel__btn" data-dir="1" aria-label="Nächstes Projekt"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+  </figure>
 </section>
