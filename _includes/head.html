@@ -58,10 +58,11 @@
     </script>
 
     <!-- Type: self-hosted Space Grotesk, Geist, JetBrains Mono (no third-party font servers) -->
-    <link rel="stylesheet" href="{{ "/assets/css/fonts.css" | relative_url }}">
+    {%- assign asset_v = site.time | date: "%Y%m%d%H%M" %}
+    <link rel="stylesheet" href="{{ "/assets/css/fonts.css" | relative_url }}?v={{ asset_v }}">
 
-    <link rel="stylesheet" href="{{ "/assets/css/tokens.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/tokens.css" | relative_url }}?v={{ asset_v }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}?v={{ asset_v }}">
 
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="{{ "/assets/favicon/favicon.ico" | relative_url }}">
