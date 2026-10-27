@@ -26,6 +26,7 @@ Drei Gründer, zuerst Ingenieure. Unsere Fachrichtungen:
 Gearbeitet haben wir in Start-ups und in Konzernen, für Behörden und Organisationen mit Sicherheitsaufgaben (BOS), in der Wehrtechnik, in der globalen Fahrzeugnavigation und im DevOps. Bei uns sitzen die Gründer selbst am Tisch, vom ersten Gespräch bis zur Übergabe.
 
 {% include portrait.de.html %}
+{% include portrait-kangle-li.de.html %}
 
 ## Was wir tun
 

@@ -28,6 +28,7 @@ Three founders, engineers first. Our fields:
 We have worked in start-ups and in large companies, for public-safety organisations, in defence engineering, in global car navigation and in DevOps. The founders themselves sit at the table, from the first conversation to the handover.
 
 {% include portrait.en.html %}
+{% include portrait-kangle-li.en.html %}
 
 ## What we do
 
