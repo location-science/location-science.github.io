@@ -132,7 +132,7 @@ Four cases on home and both service pages via `_includes/cases.{de,en}.html`: to
 (in development), SkiApp (in development), StoryMapp (in operation: >8 million stories,
 six languages, users in 58 countries, partner Art Hop Silver Lake, Los Angeles), emergency
 map for disaster response (in development, no image yet). Status is always labelled.
-Published rate: 850 € net per day for development and consulting, fixed price for specified
+Published rate: 900 € net per day for development and consulting, fixed price for specified
 work, first conversation free. Portrait: only the managing director, Tobias Neumann, with
 degrees and career stations as supplied by him; the other founders stay unnamed. The photo
 slot (`.portrait__photo`) shows initials until a photo is delivered.

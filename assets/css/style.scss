@@ -773,7 +773,9 @@ body { background: transparent; }
 .foot__legal[open] summary::after { content: "–"; }
 .foot__legal p { margin-top: var(--space-xs); }
 .band .wrap > .band__grid { padding-block: var(--space-2xl) 0; }
-.band .wrap > .portrait { margin-bottom: var(--space-3xl); }
+.band .wrap > .portrait:last-child { margin-bottom: var(--space-3xl); }
+.portrait + .portrait { margin-top: var(--space-xl); }
+.portrait__photo picture { display: contents; }
 
 /* ---------- case carousel: same overlay controls as the StoryMapp carousel; image beside text ---------- */
 .carousel--cases { width: 100%; margin: var(--space-md) 0 0; }
